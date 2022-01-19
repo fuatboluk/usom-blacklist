@@ -6,7 +6,7 @@
 [fuat@fortress usom-blacklist]$ ./check-usom-list 
 
 Start time      : 01:47:48
-Description     : Identifying accessible addresses in the USOM malicious ip addresses and domains list!
+Description     : Accessible addresses in the USOM malicious ip addresses and domains list!
 Original url    : https://www.usom.gov.tr/url-list.txt
 
 
