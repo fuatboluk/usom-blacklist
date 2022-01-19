@@ -5,7 +5,7 @@ start=$(date "+%H:%M:%S")
 
 echo
 echo "Start time      : $start"
-echo "Description     : Accessible addresses in the USOM malicious ip addresses and domains list!"
+echo "Description     : USOM malicious ip addresses and domains blacklist!"
 echo "Original url    : https://www.usom.gov.tr/url-list.txt"
 echo
 echo
@@ -72,25 +72,32 @@ echo "## USOM malicious ip addresses and domains blacklist!" > /tmp/etc-hosts.tx
 echo "## Original url : https://www.usom.gov.tr/url-list.txt" >> /tmp/etc-hosts.txt
 echo "" >> /tmp/etc-hosts.txt
 
-echo "## USOM malicious ip addresses and domains blacklist!" > /tmp/unbound-conf.txt
-echo "## Original url : https://www.usom.gov.tr/url-list.txt" >> /tmp/unbound-conf.txt
-echo "" >> /tmp/unbound-conf.txt
-
 while read -r host
 do
     if [ ! -z "$host" ]
     then
         echo -e "255.255.255.255\t\t$host" >> /tmp/etc-hosts.txt
-        echo "local-zone: \"$host\" redirect" >> /tmp/unbound-conf.txt
-        echo "local-data: \"$host A 255.255.255.255\"" >> /tmp/unbound-conf.txt
     fi
 done <<< $(cat /tmp/all-ip-blacklist.txt /tmp/all-domain-blacklist.txt)
+
+echo "## USOM malicious ip addresses and domains blacklist!" > /tmp/unbound-conf.txt
+echo "## Original url : https://www.usom.gov.tr/url-list.txt" >> /tmp/unbound-conf.txt
+echo "" >> /tmp/unbound-conf.txt
+
+while read -r unbound
+do
+    if [ ! -z "$unbound" ]
+    then
+        echo "local-zone: \"$unbound\" redirect" >> /tmp/unbound-conf.txt
+        echo "local-data: \"$unbound A 255.255.255.255\"" >> /tmp/unbound-conf.txt
+    fi
+done <<< $(cat /tmp/all-domain-blacklist.txt)
 
 cat /tmp/etc-hosts.txt | tr "[A-Z]" "[a-z]" | sort | uniq > $(pwd)/etc-hosts.txt
 cat /tmp/unbound-conf.txt | tr "[A-Z]" "[a-z]" | sort | uniq > $(pwd)/unbound-conf.txt
 
 echo
-echo "## Local blacklist created!"
+echo "## Local blacklists created!"
 echo
 echo "  $(pwd)/etc-hosts.txt"
 echo "  $(pwd)/unbound-conf.txt"
@@ -102,7 +109,10 @@ end=$(date "+%H:%M:%S")
 elapsed=$(($(date -d "$end" +%s)-$(date -d "$start" +%s)))
 
 echo
-echo "Task completed! - Elapsed time : $(date -d @$elapsed -u +%H:%M:%S)"
+echo "End time        : $end"
+echo "Elapsed time    : $(date -d @$elapsed -u +%H:%M:%S)"
+echo
+echo "Completed!"
 echo
 
 # End
