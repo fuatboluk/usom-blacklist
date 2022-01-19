@@ -68,10 +68,6 @@ echo "  $(pwd)/ip-blacklist.txt"
 echo "  $(pwd)/domain-blacklist.txt"
 echo
 
-echo "## USOM malicious ip addresses and domains blacklist!" > /tmp/etc-hosts.txt
-echo "## Original url : https://www.usom.gov.tr/url-list.txt" >> /tmp/etc-hosts.txt
-echo "" >> /tmp/etc-hosts.txt
-
 while read -r host
 do
     if [ ! -z "$host" ]
@@ -80,9 +76,11 @@ do
     fi
 done <<< $(cat /tmp/all-ip-blacklist.txt /tmp/all-domain-blacklist.txt)
 
-echo "## USOM malicious ip addresses and domains blacklist!" > /tmp/unbound-conf.txt
-echo "## Original url : https://www.usom.gov.tr/url-list.txt" >> /tmp/unbound-conf.txt
-echo "" >> /tmp/unbound-conf.txt
+echo "## USOM malicious ip addresses and domains blacklist!" > $(pwd)/etc-hosts.txt
+echo "## Original url : https://www.usom.gov.tr/url-list.txt" >> $(pwd)/etc-hosts.txt
+echo "" >> $(pwd)/etc-hosts.txt
+
+cat /tmp/etc-hosts.txt | tr "[A-Z]" "[a-z]" | sort | uniq >> $(pwd)/etc-hosts.txt
 
 while read -r unbound
 do
@@ -93,8 +91,11 @@ do
     fi
 done <<< $(cat /tmp/all-domain-blacklist.txt)
 
-cat /tmp/etc-hosts.txt | tr "[A-Z]" "[a-z]" | sort | uniq > $(pwd)/etc-hosts.txt
-cat /tmp/unbound-conf.txt | tr "[A-Z]" "[a-z]" | sort | uniq > $(pwd)/unbound-conf.txt
+echo "## USOM malicious ip addresses and domains blacklist!" > $(pwd)/unbound-conf.txt
+echo "## Original url : https://www.usom.gov.tr/url-list.txt" >> $(pwd)/unbound-conf.txt
+echo "" >> $(pwd)/unbound-conf.txt
+
+cat /tmp/unbound-conf.txt | tr "[A-Z]" "[a-z]" | sort | uniq >> $(pwd)/unbound-conf.txt
 
 echo
 echo "## Local blacklists created!"
