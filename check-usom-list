@@ -5,7 +5,7 @@ start=$(date "+%H:%M:%S")
 
 echo
 echo "Start time      : $start"
-echo "Description     : Identifying accessible addresses in the USOM malicious ip addresses and domains list!"
+echo "Description     : Accessible addresses in the USOM malicious ip addresses and domains list!"
 echo "Original url    : https://www.usom.gov.tr/url-list.txt"
 echo
 echo
