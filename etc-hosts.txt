@@ -1,5 +1,5 @@
-## USOM malicious ip addresses and domains blacklist!
-## Original url : https://www.usom.gov.tr/url-list.txt
+## original url : https://www.usom.gov.tr/url-list.txt
+## usom malicious ip addresses and domains blacklist!
 
 255.255.255.255		103.255.250.133
 255.255.255.255		104.152.168.37
@@ -179,8 +179,9 @@
 255.255.255.255		aairveerz.com
 255.255.255.255		aalanguageservices.eu
 255.255.255.255		aalens.net
-255.255.255.255		aalotv.com
 255.255.255.255		aamirgroup.com.pk
+255.255.255.255		aandacompany.com
+255.255.255.255		aapetstore.com
 255.255.255.255		aarchimylove.com
 255.255.255.255		aarchtech.com
 255.255.255.255		aatravelexperts.com
@@ -209,6 +210,7 @@
 255.255.255.255		academicwritingbrokers.com
 255.255.255.255		academy-khi.com
 255.255.255.255		accc.planso.de
+255.255.255.255		accidentatworkcompensationsolicitors.co.uk
 255.255.255.255		accountingbookshub.com
 255.255.255.255		accountingformanagement.org
 255.255.255.255		accuratescaleplus.com
@@ -227,6 +229,7 @@
 255.255.255.255		actingtheparty.co.uk
 255.255.255.255		actionloaded.com
 255.255.255.255		activistasconstructivos.org
+255.255.255.255		acu.city
 255.255.255.255		acucon.net
 255.255.255.255		acupuncturestaffs.com
 255.255.255.255		acupunturanatural.com
@@ -280,6 +283,7 @@
 255.255.255.255		affordablehomecare.org
 255.255.255.255		affordable-movers.net
 255.255.255.255		affordablesandiegomovers.com
+255.255.255.255		afiyahealth.com
 255.255.255.255		afjdqhrj.wcnv20.cn
 255.255.255.255		afmedan.org
 255.255.255.255		afosystec.com
@@ -312,6 +316,7 @@
 255.255.255.255		ahmadhassan.net
 255.255.255.255		ahsanfarooqui.xyz
 255.255.255.255		ahsfoundation.co.uk
+255.255.255.255		ahsonqazi.com
 255.255.255.255		ahworld.com.pk
 255.255.255.255		aianalytics.ie
 255.255.255.255		aibdqlscbs.wcnv20.cn
@@ -326,12 +331,12 @@
 255.255.255.255		aioucheats.com
 255.255.255.255		airfanhydro.net
 255.255.255.255		airgenx.com
-255.255.255.255		airjoy.top
 255.255.255.255		air-mag.ro
 255.255.255.255		airnetinfotech.com
 255.255.255.255		airplussa.co.za
 255.255.255.255		airportenclave.com.pk
 255.255.255.255		airporttaxi-uk.co.uk
+255.255.255.255		airsoftpoligon.com.tr
 255.255.255.255		airtravels.us
 255.255.255.255		airtronuae.com
 255.255.255.255		airwhite.net
@@ -388,7 +393,6 @@
 255.255.255.255		alexandrasternin.com
 255.255.255.255		alexjeffersonconsulting.com
 255.255.255.255		alexponcet.com
-255.255.255.255		alexrocchi.com
 255.255.255.255		alfatek-intelligence.com
 255.255.255.255		alfransia.com
 255.255.255.255		algarvesup.com
@@ -402,7 +406,6 @@
 255.255.255.255		aljaadi.com
 255.255.255.255		aljasar.com
 255.255.255.255		alkousy.com
-255.255.255.255		allaboutblockchain.net
 255.255.255.255		allamwith.com
 255.255.255.255		allbuyer.co.uk
 255.255.255.255		allcopytoners.com
@@ -413,8 +416,6 @@
 255.255.255.255		allisonplumbing.com
 255.255.255.255		allkidsworld.com
 255.255.255.255		all-reseller.com
-255.255.255.255		allsporthealthandfitness.com
-255.255.255.255		alluhaybi.com.sa
 255.255.255.255		allusdoctors.com
 255.255.255.255		allwestdental.com
 255.255.255.255		almahaconsultants.com
@@ -438,7 +439,6 @@
 255.255.255.255		alterwebhost.com
 255.255.255.255		althurayaa.com
 255.255.255.255		altinfiyatlari.org
-255.255.255.255		altingunes.com
 255.255.255.255		altosdefontana.com
 255.255.255.255		alvarezarquitectos.com
 255.255.255.255		alvesajewellery.com
@@ -467,6 +467,7 @@
 255.255.255.255		amgtymjgwamb.wcnv20.cn
 255.255.255.255		amiehepperlin.com
 255.255.255.255		amighini.it
+255.255.255.255		amika.hr
 255.255.255.255		amishcountryfurnishings.com
 255.255.255.255		ammannati.it
 255.255.255.255		amofoundation.org
@@ -494,8 +495,6 @@
 255.255.255.255		and4.junglebeariwtc1.com
 255.255.255.255		and4.junglebeariwtc2.com
 255.255.255.255		and9.themainnotmainstreet2.com
-255.255.255.255		andihaas.at
-255.255.255.255		ando.co.kr
 255.255.255.255		andrasadam.com
 255.255.255.255		andreabelfi.com
 255.255.255.255		andrebruton.com
@@ -515,7 +514,6 @@
 255.255.255.255		ankaraikincielesyalar.com
 255.255.255.255		ankarakiralikvinc.web.tr
 255.255.255.255		ankaramehteri.com
-255.255.255.255		ankaratemizliksirketleri.web.tr
 255.255.255.255		ankaratemizlik.web.tr
 255.255.255.255		annabelle.nl
 255.255.255.255		anngrigphoto.com
@@ -553,6 +551,7 @@
 255.255.255.255		aquabsafe.com
 255.255.255.255		aqualogicwc.co.uk
 255.255.255.255		aquo.in
+255.255.255.255		arabaoyunlari.org
 255.255.255.255		arabelaholdings.com
 255.255.255.255		arabellajo.com
 255.255.255.255		arabiccasinochoice.com
@@ -568,7 +567,6 @@
 255.255.255.255		ardatur.com
 255.255.255.255		ardvessels.com
 255.255.255.255		aresebetseng.co.za
-255.255.255.255		arestihome.com
 255.255.255.255		arhiepiscopiabucurestilor.ro
 255.255.255.255		ariehandomri.com
 255.255.255.255		arkamp.ir
@@ -590,6 +588,7 @@
 255.255.255.255		ashapeforlife.com
 255.255.255.255		asjjvlimuud.wcnv20.cn
 255.255.255.255		askarisecurities.com.pk
+255.255.255.255		aslimaj.com
 255.255.255.255		asnsport-bg.com
 255.255.255.255		assemblee-nationale.cg
 255.255.255.255		asseqvsbsleh.wcnv20.cn
@@ -607,8 +606,8 @@
 255.255.255.255		atkiatkisiimalat.com
 255.255.255.255		attilabalogh.com
 255.255.255.255		atxvfhoklmo.wcnv20.cn
-255.255.255.255		auctionify.com.ng
 255.255.255.255		audio-pa-service.de
+255.255.255.255		auditlater.top
 255.255.255.255		aujmgfpl.wcnv20.cn
 255.255.255.255		auraco.ca
 255.255.255.255		ausfinex.com
@@ -654,7 +653,6 @@
 255.255.255.255		bankerbus.com
 255.255.255.255		bansko-furniture.co.uk
 255.255.255.255		baossdigital.com
-255.255.255.255		baresiconstrucoes.com
 255.255.255.255		basarteks.com
 255.255.255.255		bashancorp.co.za
 255.255.255.255		bashirbrothers.com
@@ -667,6 +665,7 @@
 255.255.255.255		batthiqbal.com
 255.255.255.255		batuhandugunsalonu.com
 255.255.255.255		bayenat.pk
+255.255.255.255		bayimpex.be
 255.255.255.255		baynetins.com
 255.255.255.255		bazinga-shop.eu
 255.255.255.255		bazookagames.net
@@ -677,6 +676,7 @@
 255.255.255.255		bdholdings.com
 255.255.255.255		b-dvs.com
 255.255.255.255		beaconlocation.com
+255.255.255.255		beaconwelfare.com
 255.255.255.255		beamfight.com
 255.255.255.255		beansviolins.com
 255.255.255.255		beardempire.pk
@@ -684,6 +684,7 @@
 255.255.255.255		bedarimillat.com
 255.255.255.255		beddysstudio.com
 255.255.255.255		beeground.com
+255.255.255.255		be-indigene.be
 255.255.255.255		bek.ae
 255.255.255.255		belfortsecurity.com
 255.255.255.255		bentivegna.es
@@ -723,10 +724,12 @@
 255.255.255.255		bigfans.ae
 255.255.255.255		biglickentertainment.com
 255.255.255.255		bilenbizibilir.com
+255.255.255.255		bilikit.com
 255.255.255.255		biljum.com
 255.255.255.255		billielaw.com
 255.255.255.255		binabidconsulting.com
 255.255.255.255		binaries.site
+255.255.255.255		bingleybuilder.co.uk
 255.255.255.255		binham.com
 255.255.255.255		binhamgroup.com
 255.255.255.255		binitelecom.com
@@ -750,7 +753,6 @@
 255.255.255.255		bkconsultants.com.pk
 255.255.255.255		bkembroidery.com
 255.255.255.255		bkmzvkaoi.wcnv20.cn
-255.255.255.255		blaahblaah.com
 255.255.255.255		blackgirlswhocraft.com
 255.255.255.255		blackgoldoilserv.com
 255.255.255.255		blackrabbitthailand.com
@@ -769,7 +771,6 @@
 255.255.255.255		blog.openthefar.com
 255.255.255.255		blog.sefaireaider.com
 255.255.255.255		bloomfieldhall.edu.pk
-255.255.255.255		bloorco.com
 255.255.255.255		blubaytrading.com
 255.255.255.255		bluebayauto.com
 255.255.255.255		bluecrome.com
@@ -788,6 +789,7 @@
 255.255.255.255		bntlaminates.com
 255.255.255.255		boardaffairs.com
 255.255.255.255		boardexeter.co.uk
+255.255.255.255		boatwif.co.uk
 255.255.255.255		bocekilaclama.gen.tr
 255.255.255.255		bocekilaclamahizmeti.com
 255.255.255.255		boetsebiltong.co.za
@@ -806,6 +808,7 @@
 255.255.255.255		booksmart.pk
 255.255.255.255		boringinternet.com
 255.255.255.255		bornear.com
+255.255.255.255		bor.uz
 255.255.255.255		bosacik.sk
 255.255.255.255		botmanhosting.com
 255.255.255.255		boudua.com
@@ -817,7 +820,6 @@
 255.255.255.255		bradleybakerrmusic.com
 255.255.255.255		bradleysherrer.com
 255.255.255.255		brainlight.me
-255.255.255.255		bramloosveld.be
 255.255.255.255		brandcaresolutions.co
 255.255.255.255		brand-key.com
 255.255.255.255		brandosol.com
@@ -857,12 +859,12 @@
 255.255.255.255		burhanitradinglimited.co.uk
 255.255.255.255		burkertparts.com
 255.255.255.255		burlesonlelas.com
-255.255.255.255		burnout.com.pk
 255.255.255.255		bursabitkisel.com
 255.255.255.255		bursatemamutfak.com
 255.255.255.255		busad.com
 255.255.255.255		butikiletisim.com
 255.255.255.255		buydocumentonline.com
+255.255.255.255		buynow.com.pk
 255.255.255.255		bvzfrjmghu.wcnv20.cn
 255.255.255.255		bzwslxbo.wcnv20.cn
 255.255.255.255		c3pconsulting.com
@@ -878,17 +880,21 @@
 255.255.255.255		camkutezyinat.com
 255.255.255.255		camlikkamping.com
 255.255.255.255		canadianvc.com
+255.255.255.255		canaldeal.top
 255.255.255.255		candidsourcing.com
 255.255.255.255		capecrystal.co.za
 255.255.255.255		capetownway.co.za
 255.255.255.255		capitalexchange.ae
 255.255.255.255		caregroup.co.za
+255.255.255.255		carlagrobler.co.za
 255.255.255.255		carrentbodrum.com
 255.255.255.255		car.ru
 255.255.255.255		cartridgecave.co.za
 255.255.255.255		castaldiart.com
+255.255.255.255		cautioncook.top
 255.255.255.255		cazochem.co.za
 255.255.255.255		cc.com.pk
+255.255.255.255		cchsahardware.com
 255.255.255.255		cdn.discordapp.com
 255.255.255.255		cdn.funckgroup-server.com
 255.255.255.255		cds.org.pk
@@ -908,6 +914,7 @@
 255.255.255.255		chitchatdosti.com
 255.255.255.255		chrisdejager-attorneys.co.za
 255.255.255.255		chrishanicdc.org
+255.255.255.255		chudresex.at
 255.255.255.255		chudresex.cc
 255.255.255.255		ciftlikonuasm.gov.tr
 255.255.255.255		cigercihamza.com
@@ -944,7 +951,6 @@
 255.255.255.255		coolplusmedical.com
 255.255.255.255		copansrl.it
 255.255.255.255		core-techworld.com
-255.255.255.255		cortaestanciapolanco.com
 255.255.255.255		cosmeticsurgeryisb.pk
 255.255.255.255		coverpixs.com
 255.255.255.255		cowp.or.kr
@@ -977,6 +983,7 @@
 255.255.255.255		datenhaus.info
 255.255.255.255		dbhcjzrclv.wcnv20.cn
 255.255.255.255		dcpieters.co.za
+255.255.255.255		ddjm.co.kr
 255.255.255.255		ddyatirim.com
 255.255.255.255		dealmaterial.top
 255.255.255.255		debnoch.com
@@ -1072,7 +1079,6 @@
 255.255.255.255		envi-herzog.de
 255.255.255.255		envirotambang.com
 255.255.255.255		envoysoft.net
-255.255.255.255		epcb.it
 255.255.255.255		epss.ae
 255.255.255.255		equilibriumm.com
 255.255.255.255		erickeleo.com.br
@@ -1203,7 +1209,6 @@
 255.255.255.255		hfvpylrssnbg.wcnv20.cn
 255.255.255.255		hhrgdsmylyp.wcnv20.cn
 255.255.255.255		highschoolsuperstar.co.za
-255.255.255.255		hisabati.com
 255.255.255.255		hisandherskennels.co.za
 255.255.255.255		hitec-sa.com
 255.255.255.255		hjb-racing.co.za
@@ -1268,6 +1273,7 @@
 255.255.255.255		iqtxbqzrczt.wcnv20.cn
 255.255.255.255		ircshyzltf.wcnv20.cn
 255.255.255.255		irfanandirfan.com
+255.255.255.255		iscm.edu.ar
 255.255.255.255		isgs.com.pk
 255.255.255.255		isibaniedu.co.za
 255.255.255.255		islemn.com
@@ -1279,6 +1285,7 @@
 255.255.255.255		iwqclywyrpv.wcnv20.cn
 255.255.255.255		jakuboweb.com
 255.255.255.255		jamia-asria.org
+255.255.255.255		jannahqu.org
 255.255.255.255		jannatkhah.ir
 255.255.255.255		jaysonmorrison.com
 255.255.255.255		jdcorporate.co.za
@@ -1310,14 +1317,12 @@
 255.255.255.255		kjdnc.gp114.net
 255.255.255.255		kkattorneys.com.pk
 255.255.255.255		kkindonesia.com
-255.255.255.255		k-kiosk.com
 255.255.255.255		klix.cc
 255.255.255.255		kne.co.kr
 255.255.255.255		komatireddy.net
 255.255.255.255		kooshesh-co.com
 255.255.255.255		kopfkorea.com
 255.255.255.255		kopilka.io
-255.255.255.255		kopkarla.co.id
 255.255.255.255		korajans.com
 255.255.255.255		korhanplastik.com.tr
 255.255.255.255		kosel.com.tr
@@ -1379,6 +1384,7 @@
 255.255.255.255		m2.tc
 255.255.255.255		m-3.co.za
 255.255.255.255		macleodphotography.com
+255.255.255.255		mail.estudiorrbp.com.uy
 255.255.255.255		mailingservers.net
 255.255.255.255		mail.sisnet.co.kr
 255.255.255.255		malboer.co.za
@@ -1386,15 +1392,14 @@
 255.255.255.255		maps-covid.com
 255.255.255.255		matern-eger.de
 255.255.255.255		maymaychihai.com
-255.255.255.255		mayoorschoolabudhabi.com
 255.255.255.255		mbrainingevents.com
-255.255.255.255		mcwhorterdesign.com
 255.255.255.255		mediatrendsistem.com
 255.255.255.255		medicalfarmitalia.it
 255.255.255.255		memosigla.su
 255.255.255.255		mepetresources.com
 255.255.255.255		mepure.com
 255.255.255.255		mercurysound.es
+255.255.255.255		mexicanagm.mx
 255.255.255.255		mf-staging-html-01.sfo2.digitaloceanspaces.com
 255.255.255.255		mgamule.co.za
 255.255.255.255		microdots.in
@@ -1451,6 +1456,7 @@
 255.255.255.255		obaidsaqerbusit.com
 255.255.255.255		odcpkintranet.org
 255.255.255.255		odehnallzev.wcnv20.cn
+255.255.255.255		odjhnbvb.wcnv20.cn
 255.255.255.255		office365onlinehome.com
 255.255.255.255		officialdivinea.com
 255.255.255.255		oftheearthphotography.com
@@ -1479,11 +1485,11 @@
 255.255.255.255		paksteel.com
 255.255.255.255		paktechinfo.com
 255.255.255.255		pamforprogress.com
+255.255.255.255		pamudzi.co.za
 255.255.255.255		paste.ee
 255.255.255.255		patioheater.ae
 255.255.255.255		patrickreeves.com
 255.255.255.255		pazazta.com
-255.255.255.255		pbcenter.home.pl
 255.255.255.255		pcdesk.co.kr
 255.255.255.255		pegas56.ru
 255.255.255.255		pelinfidancilik.com
@@ -1493,6 +1499,7 @@
 255.255.255.255		perfectlabels.net
 255.255.255.255		permanite.co.za
 255.255.255.255		perryroadrecords.co.uk
+255.255.255.255		petromenllc.com
 255.255.255.255		pgkhi.com
 255.255.255.255		phmetreci.com
 255.255.255.255		phoenix.zar.cc
@@ -1513,12 +1520,13 @@
 255.255.255.255		popfilms.co.za
 255.255.255.255		ppe4u.co.za
 255.255.255.255		pragatihr.in
-255.255.255.255		praisethey.top
 255.255.255.255		prestbusiness.co.za
 255.255.255.255		privategallerie.info
+255.255.255.255		procarsrl.com.ar
 255.255.255.255		produkktc.com
 255.255.255.255		proeventsports.co.za
 255.255.255.255		project1114457.turbo.site
+255.255.255.255		projectartdivvy.com
 255.255.255.255		projekthd.com
 255.255.255.255		promapharita.com
 255.255.255.255		promechtransport.co.za
@@ -1597,6 +1605,7 @@
 255.255.255.255		sancorbr.com.br
 255.255.255.255		sandalci.com.tr
 255.255.255.255		sanko1.co.jp
+255.255.255.255		sarahtame.at
 255.255.255.255		sarilartarim.com
 255.255.255.255		saritohum.com
 255.255.255.255		satcomputers.co.za
@@ -1622,9 +1631,10 @@
 255.255.255.255		short-url.net
 255.255.255.255		shortygram.com
 255.255.255.255		shreeconstructions.co.in
+255.255.255.255		shurabura.org
 255.255.255.255		shurt.pw
 255.255.255.255		sicakgelismeler.com
-255.255.255.255		signo-comunicacion.com.ar
+255.255.255.255		sightselect.top
 255.255.255.255		sikanderajam.com
 255.255.255.255		simpexbpo.com
 255.255.255.255		simpleks.co.za
@@ -1633,6 +1643,7 @@
 255.255.255.255		sirinadas.com
 255.255.255.255		sirketcv.com
 255.255.255.255		sisco-ent.com
+255.255.255.255		sishubamedia.co.za
 255.255.255.255		sistemal.net.tr
 255.255.255.255		sitasbeton.com.tr
 255.255.255.255		site.inquima.com.br
@@ -1647,10 +1658,10 @@
 255.255.255.255		smarterbaby.com
 255.255.255.255		smart-sense.co.il
 255.255.255.255		snackattack.co.za
-255.255.255.255		snip.ly
 255.255.255.255		snum.or.kr
 255.255.255.255		soccerkidsdubai.com
 255.255.255.255		sofa.rs
+255.255.255.255		softwarehub.co.za
 255.255.255.255		solartree.pk
 255.255.255.255		sonafoundation.org.pk
 255.255.255.255		sonneteck.com
@@ -1659,6 +1670,7 @@
 255.255.255.255		sorumvar.net
 255.255.255.255		sowetojive.co.za
 255.255.255.255		speranza2000.com
+255.255.255.255		spoyfydyq.wcnv20.cn
 255.255.255.255		srngroup.com.tr
 255.255.255.255		srppmqyqhv.wcnv20.cn
 255.255.255.255		ssonweb.com
@@ -1676,6 +1688,7 @@
 255.255.255.255		sunchipaint.com.vn
 255.255.255.255		sunnyinteractive.com.au
 255.255.255.255		sunnypalour.com
+255.255.255.255		superlead.org
 255.255.255.255		supersavari.com
 255.255.255.255		support-ip.com
 255.255.255.255		susinternational.com
@@ -1687,6 +1700,7 @@
 255.255.255.255		taloodd.ru
 255.255.255.255		tamer.info
 255.255.255.255		tanati.co.za
+255.255.255.255		tandemtraining.co.za
 255.255.255.255		ta-pu.ir
 255.255.255.255		tasmeemgroup.com
 255.255.255.255		tbhwrm1.org
@@ -1703,8 +1717,12 @@
 255.255.255.255		tepsecurity.co.za
 255.255.255.255		terapine.com
 255.255.255.255		thanlwintimes.com
+255.255.255.255		thealtarofworship.co.za
+255.255.255.255		thedailymusicshow.com
+255.255.255.255		theguitarstudio.co.za
 255.255.255.255		theharith.com
 255.255.255.255		thelightcleaning.co.za
+255.255.255.255		themusicstudio.co.za
 255.255.255.255		thepandoinitiative.org
 255.255.255.255		thepianostudio.co.za
 255.255.255.255		thietkewebantuong.com
@@ -1715,12 +1733,16 @@
 255.255.255.255		tiendatresort.com.vn
 255.255.255.255		tiny.cc
 255.255.255.255		tinycc.com
+255.255.255.255		tiny.ie
 255.255.255.255		tinyurl.com
 255.255.255.255		tippinggate.co.za
 255.255.255.255		tiramisu.it
 255.255.255.255		tljpofsq.wcnv20.cn
 255.255.255.255		tngjihyzcqs.wcnv20.cn
+255.255.255.255		tntfire.co.za
+255.255.255.255		tombstonedesigns.co.za
 255.255.255.255		tonaro.co.za
+255.255.255.255		tootco.ir
 255.255.255.255		tophillsports.com
 255.255.255.255		toramanlar.com.tr
 255.255.255.255		totallyfreepeoplesearch.org
@@ -1752,9 +1774,9 @@
 255.255.255.255		utka.su
 255.255.255.255		uuwgcsedmih.wcnv20.cn
 255.255.255.255		uvkkthfalc.wcnv20.cn
+255.255.255.255		uxzxyheama.wcnv20.cn
 255.255.255.255		uybgklxze.wcnv20.cn
 255.255.255.255		uyvpnljii.wcnv20.cn
-255.255.255.255		vaner.com.sg
 255.255.255.255		vantuwer.sakura.ne.jp
 255.255.255.255		vatmiddleeast.com
 255.255.255.255		ventronics.co.za
@@ -1770,6 +1792,7 @@
 255.255.255.255		viewphotos.co.za
 255.255.255.255		visionclinic.co.ls
 255.255.255.255		visit.news
+255.255.255.255		vital.com.pk
 255.255.255.255		vitaliberatatraining.com
 255.255.255.255		vkmodule.com.ua
 255.255.255.255		vlgstal.ru
@@ -1782,12 +1805,14 @@
 255.255.255.255		vytmrwglkink.wcnv20.cn
 255.255.255.255		w33588.com
 255.255.255.255		waohost.com
+255.255.255.255		wavecafe.co.za
 255.255.255.255		wbdrivingschool.com
 255.255.255.255		wdsc.co.za
 255.255.255.255		webfuari.com
 255.255.255.255		webzadminverify.czweb.org
 255.255.255.255		wegallop.com
 255.255.255.255		weinvest.co.za
+255.255.255.255		welcomecaters.com
 255.255.255.255		weserve.world
 255.255.255.255		wexznnplhyu.wcnv20.cn
 255.255.255.255		w.gdown.baidu.com
@@ -1809,6 +1834,7 @@
 255.255.255.255		womanblues.su
 255.255.255.255		worldfoodstory.co.uk
 255.255.255.255		world-tour2000.com
+255.255.255.255		worshipaltar.co.za
 255.255.255.255		wowpress.co.kr
 255.255.255.255		wwhvcyhro.wcnv20.cn
 255.255.255.255		xbxxsqmy.wcnv20.cn
@@ -1852,5 +1878,6 @@
 255.255.255.255		zpkeclnpguog.wcnv20.cn
 255.255.255.255		zrxuxbzxr.wcnv20.cn
 255.255.255.255		zsiqczxvwyx.wcnv20.cn
+255.255.255.255		ztrcdbjzha.wcnv20.cn
 255.255.255.255		zufqjwlu.wcnv20.cn
 255.255.255.255		zzb.bz
