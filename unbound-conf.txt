@@ -1,5 +1,5 @@
-## original url : https://www.usom.gov.tr/url-list.txt
 ## usom malicious ip addresses and domains blacklist!
+## original url : https://www.usom.gov.tr/url-list.txt
 
 local-data: "a1-stays.com a 255.255.255.255"
 local-data: "a4animation.com a 255.255.255.255"
