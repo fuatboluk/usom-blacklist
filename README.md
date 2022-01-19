@@ -2,7 +2,7 @@
 
 ## latest stdout
 
-"""
+```
 [fuat@fortress usom-blacklist]$ ./check-usom-list 
 
 Start time      : 01:47:48
@@ -3610,4 +3610,4 @@ Original url    : https://www.usom.gov.tr/url-list.txt
 Task completed! - Elapsed time : 01:18:47
 
 [fuat@fortress usom-blacklist]$ 
-"""
+```
