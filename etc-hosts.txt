@@ -1,5 +1,5 @@
-## original url : https://www.usom.gov.tr/url-list.txt
 ## usom malicious ip addresses and domains blacklist!
+## original url : https://www.usom.gov.tr/url-list.txt
 
 255.255.255.255		103.255.250.133
 255.255.255.255		104.152.168.37
