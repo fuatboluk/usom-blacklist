@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # Author: Fuat Bölük <mektup@fuatboluk.com.tr>
 
+curl -s https://www.usom.gov.tr/url-list.txt -o /tmp/url-list.txt
+
 start=$(date "+%H:%M:%S")
 
 echo
@@ -12,7 +14,7 @@ echo
 echo "## Listing all active malicious ips..."
 echo
 
-curl -s https://www.usom.gov.tr/url-list.txt | grep "/" | cut -d "/" -f 1 | sort | \
+grep "/" /tmp/url-list.txt | cut -d "/" -f 1 | sort | \
       grep -oE "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b" | cut -d ":" -f 1 | uniq > /tmp/ip-blacklist.txt
 
 while read -r ip
@@ -37,7 +39,7 @@ echo
 echo "## Listing all active malicious domains..."
 echo
 
-curl -s https://www.usom.gov.tr/url-list.txt | grep "/" | cut -d "/" -f 1 | sort | \
+grep "/" /tmp/url-list.txt | cut -d "/" -f 1 | sort | \
       sed -e "s|www\.||" | cut -d ":" -f 1 | uniq | grep -v "^[0-9].*" | grep -v "^t.co$" > /tmp/domain-blacklist.txt
 
 while read -r domain
