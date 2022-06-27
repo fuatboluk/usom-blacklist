@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# Author: Fuat Bölük <mektup@fuatboluk.com.tr>
 
 curl -s https://www.usom.gov.tr/url-list.txt -o /tmp/url-list.txt
 
