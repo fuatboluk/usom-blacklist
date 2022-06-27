@@ -1,5 +1,7 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Author: Fuat Bölük <mektup@fuatboluk.com.tr>
+
+curl -s https://www.usom.gov.tr/url-list.txt -o /tmp/url-list.txt
 
 start=$(date "+%H:%M:%S")
 
@@ -12,23 +14,20 @@ echo
 echo "## Listing all active malicious ips..."
 echo
 
-ips=$(curl -s https://www.usom.gov.tr/url-list.txt | grep "/" | cut -d "/" -f 1 | sort | \
-      grep -oE "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b" | cut -d ":" -f 1 | uniq > /tmp/ip-blacklist.txt)
+grep "/" /tmp/url-list.txt | cut -d "/" -f 1 | sort | \
+grep -oE "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b" | cut -d ":" -f 1 | uniq >/tmp/ip-blacklist.txt
 
-while read -r ip
-do
-    if [ ! -z "$ip" ]
-    then
+while read -r ip; do
+    if [ -n "$ip" ]; then
         control=$(timeout --foreground 5s curl -Is "$ip" --connect-timeout 5 | grep "HTTP")
-        if [ ! -z "$control" ]
-        then
-            echo "$ip" >> /tmp/all-ip-blacklist.txt
+        if [ -n "$control" ]; then
+            echo "$ip" >>/tmp/all-ip-blacklist.txt
             echo "  Connected     : $ip"
         else
             echo "  Not connected : $ip"
         fi
     fi
-done <<< $(cat /tmp/ip-blacklist.txt)
+done <<<"$(cat /tmp/ip-blacklist.txt)"
 
 rm -f /tmp/ip-blacklist.txt
 
@@ -37,28 +36,25 @@ echo
 echo "## Listing all active malicious domains..."
 echo
 
-ips=$(curl -s https://www.usom.gov.tr/url-list.txt | grep "/" | cut -d "/" -f 1 | sort | \
-      sed -e "s|www\.||" | cut -d ":" -f 1 | uniq | grep -v "^[0-9].*" | grep -v "^t.co$" > /tmp/domain-blacklist.txt)
+grep "/" /tmp/url-list.txt | cut -d "/" -f 1 | sort | \
+sed -e "s|www\.||" | cut -d ":" -f 1 | uniq | grep -v "^[0-9].*" | grep -v "^t.co$" >/tmp/domain-blacklist.txt
 
-while read -r domain
-do
-    if [ ! -z "$domain" ]
-    then
+while read -r domain; do
+    if [ -n "$domain" ]; then
         control=$(timeout --foreground 5s curl -Is "$domain" --connect-timeout 5 | grep "HTTP")
-        if [ ! -z "$control" ]
-        then
-            echo "$domain" >> /tmp/all-domain-blacklist.txt
+        if [ -n "$control" ]; then
+            echo "$domain" >>/tmp/all-domain-blacklist.txt
             echo "  Connected     : $domain"
         else
             echo "  Not connected : $domain"
         fi
     fi
-done <<< $(cat /tmp/domain-blacklist.txt)
+done <<<"$(cat /tmp/domain-blacklist.txt)"
 
 rm -f /tmp/domain-blacklist.txt
 
-cat /tmp/all-ip-blacklist.txt | sort | uniq > $(pwd)/ip-blacklist.txt
-cat /tmp/all-domain-blacklist.txt | tr "[A-Z]" "[a-z]" | sort | uniq > $(pwd)/domain-blacklist.txt
+sort /tmp/all-ip-blacklist.txt | uniq >"$(pwd)/ip-blacklist.txt"
+tr "[:upper:]" "[:lower:]" </tmp/all-domain-blacklist.txt | sort | uniq >"$(pwd)/domain-blacklist.txt"
 
 echo
 echo
@@ -68,34 +64,30 @@ echo "  $(pwd)/ip-blacklist.txt"
 echo "  $(pwd)/domain-blacklist.txt"
 echo
 
-while read -r host
-do
-    if [ ! -z "$host" ]
-    then
-        echo -e "255.255.255.255\t\t$host" >> /tmp/etc-hosts.txt
+while read -r host; do
+    if [ -n "$host" ]; then
+        echo -e "255.255.255.255\t\t$host" >>/tmp/etc-hosts.txt
     fi
-done <<< $(cat /tmp/all-ip-blacklist.txt /tmp/all-domain-blacklist.txt)
+done <<<"$(cat /tmp/all-ip-blacklist.txt /tmp/all-domain-blacklist.txt)"
 
-echo "## USOM malicious ip addresses and domains blacklist!" > $(pwd)/etc-hosts.txt
-echo "## Original url : https://www.usom.gov.tr/url-list.txt" >> $(pwd)/etc-hosts.txt
-echo "" >> $(pwd)/etc-hosts.txt
+echo "## USOM malicious ip addresses and domains blacklist!" >"$(pwd)/etc-hosts.txt"
+echo "## Original url : https://www.usom.gov.tr/url-list.txt" >>"$(pwd)/etc-hosts.txt"
+echo "" >>"$(pwd)/etc-hosts.txt"
 
-cat /tmp/etc-hosts.txt >> $(pwd)/etc-hosts.txt
+cat /tmp/etc-hosts.txt >>"$(pwd)/etc-hosts.txt"
 
-while read -r unbound
-do
-    if [ ! -z "$unbound" ]
-    then
-        echo "local-zone: \"$unbound\" redirect" >> /tmp/unbound-conf.txt
-        echo "local-data: \"$unbound A 255.255.255.255\"" >> /tmp/unbound-conf.txt
+while read -r unbound; do
+    if [ -n "$unbound" ]; then
+        echo "local-zone: \"$unbound\" redirect" >>/tmp/unbound-conf.txt
+        echo "local-data: \"$unbound A 255.255.255.255\"" >>/tmp/unbound-conf.txt
     fi
-done <<< $(cat /tmp/all-domain-blacklist.txt)
+done <<<"$(cat /tmp/all-domain-blacklist.txt)"
 
-echo "## USOM malicious ip addresses and domains blacklist!" > $(pwd)/unbound-conf.txt
-echo "## Original url : https://www.usom.gov.tr/url-list.txt" >> $(pwd)/unbound-conf.txt
-echo "" >> $(pwd)/unbound-conf.txt
+echo "## USOM malicious ip addresses and domains blacklist!" >"$(pwd)/unbound-conf.txt"
+echo "## Original url : https://www.usom.gov.tr/url-list.txt" >>"$(pwd)/unbound-conf.txt"
+echo "" >>"$(pwd)/unbound-conf.txt"
 
-cat /tmp/unbound-conf.txt >> $(pwd)/unbound-conf.txt
+cat /tmp/unbound-conf.txt >>"$(pwd)/unbound-conf.txt"
 
 echo
 echo "## Local blacklists created!"
@@ -107,7 +99,7 @@ echo
 rm -f /tmp/all-ip-blacklist.txt /tmp/all-domain-blacklist.txt /tmp/etc-hosts.txt /tmp/unbound-conf.txt
 
 end=$(date "+%H:%M:%S")
-elapsed=$(($(date -d "$end" +%s)-$(date -d "$start" +%s)))
+elapsed=$(($(date -d "$end" +%s) - $(date -d "$start" +%s)))
 
 echo
 echo "End time        : $end"
