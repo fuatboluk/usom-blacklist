@@ -1,0 +1,23 @@
+﻿name: Update Lists
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Check USOM list
+        run: ./check-usom-list
+        shell: bash
+
+      - name: Update lists
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 🔼 Auto Update

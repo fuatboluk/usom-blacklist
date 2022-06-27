@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Author: Fuat Bölük <mektup@fuatboluk.com.tr>
 
 start=$(date "+%H:%M:%S")
