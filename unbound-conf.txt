@@ -1,33 +1,3603 @@
 ## USOM malicious ip addresses and domains blacklist!
 ## Original url : https://www.usom.gov.tr/url-list.txt
 
+local-zone: "a.rrbxn.com" redirect
+local-data: "a.rrbxn.com A 255.255.255.255"
+local-zone: "a2zcentre.com" redirect
+local-data: "a2zcentre.com A 255.255.255.255"
+local-zone: "aaaglobalint.com" redirect
+local-data: "aaaglobalint.com A 255.255.255.255"
+local-zone: "aacca.com.pk" redirect
+local-data: "aacca.com.pk A 255.255.255.255"
+local-zone: "aafh.org" redirect
+local-data: "aafh.org A 255.255.255.255"
+local-zone: "aahung.org" redirect
+local-data: "aahung.org A 255.255.255.255"
+local-zone: "aaidas.com" redirect
+local-data: "aaidas.com A 255.255.255.255"
+local-zone: "aairveerz.com" redirect
+local-data: "aairveerz.com A 255.255.255.255"
+local-zone: "aalanguageservices.eu" redirect
+local-data: "aalanguageservices.eu A 255.255.255.255"
+local-zone: "aalens.net" redirect
+local-data: "aalens.net A 255.255.255.255"
+local-zone: "aamirgroup.com.pk" redirect
+local-data: "aamirgroup.com.pk A 255.255.255.255"
+local-zone: "aandacompany.com" redirect
+local-data: "aandacompany.com A 255.255.255.255"
+local-zone: "aarchimylove.com" redirect
+local-data: "aarchimylove.com A 255.255.255.255"
+local-zone: "aatravelexperts.com" redirect
+local-data: "aatravelexperts.com A 255.255.255.255"
+local-zone: "aazbs.com" redirect
+local-data: "aazbs.com A 255.255.255.255"
+local-zone: "ab-building.com" redirect
+local-data: "ab-building.com A 255.255.255.255"
+local-zone: "ab-photography.de" redirect
+local-data: "ab-photography.de A 255.255.255.255"
+local-zone: "ab-studio.uk" redirect
+local-data: "ab-studio.uk A 255.255.255.255"
+local-zone: "abagnale.org" redirect
+local-data: "abagnale.org A 255.255.255.255"
+local-zone: "abbashub.com" redirect
+local-data: "abbashub.com A 255.255.255.255"
+local-zone: "abbeyrichard.com" redirect
+local-data: "abbeyrichard.com A 255.255.255.255"
+local-zone: "abdullahandco.com" redirect
+local-data: "abdullahandco.com A 255.255.255.255"
+local-zone: "abeehatech.com" redirect
+local-data: "abeehatech.com A 255.255.255.255"
+local-zone: "abeonatravel.ge" redirect
+local-data: "abeonatravel.ge A 255.255.255.255"
+local-zone: "abies.co.za" redirect
+local-data: "abies.co.za A 255.255.255.255"
+local-zone: "abirsove.com" redirect
+local-data: "abirsove.com A 255.255.255.255"
+local-zone: "abosict.nl" redirect
+local-data: "abosict.nl A 255.255.255.255"
+local-zone: "aboutduvetcovers.com" redirect
+local-data: "aboutduvetcovers.com A 255.255.255.255"
+local-zone: "aboutephesus.com" redirect
+local-data: "aboutephesus.com A 255.255.255.255"
+local-zone: "aboutswiss.ch" redirect
+local-data: "aboutswiss.ch A 255.255.255.255"
+local-zone: "abovepromo.com" redirect
+local-data: "abovepromo.com A 255.255.255.255"
+local-zone: "absfinancialplanning.co.za" redirect
+local-data: "absfinancialplanning.co.za A 255.255.255.255"
+local-zone: "abshipscompany.com" redirect
+local-data: "abshipscompany.com A 255.255.255.255"
+local-zone: "absolutekerry.com" redirect
+local-data: "absolutekerry.com A 255.255.255.255"
+local-zone: "acaciainvestigations.com" redirect
+local-data: "acaciainvestigations.com A 255.255.255.255"
+local-zone: "academi.bike" redirect
+local-data: "academi.bike A 255.255.255.255"
+local-zone: "academicwritingbrokers.com" redirect
+local-data: "academicwritingbrokers.com A 255.255.255.255"
+local-zone: "academy-khi.com" redirect
+local-data: "academy-khi.com A 255.255.255.255"
+local-zone: "academyla.store" redirect
+local-data: "academyla.store A 255.255.255.255"
+local-zone: "accc.planso.de" redirect
+local-data: "accc.planso.de A 255.255.255.255"
+local-zone: "accountingformanagement.org" redirect
+local-data: "accountingformanagement.org A 255.255.255.255"
+local-zone: "accuratescaleplus.com" redirect
+local-data: "accuratescaleplus.com A 255.255.255.255"
+local-zone: "achanesman.com" redirect
+local-data: "achanesman.com A 255.255.255.255"
+local-zone: "achatcommercefloride.com" redirect
+local-data: "achatcommercefloride.com A 255.255.255.255"
+local-zone: "achimugu.com" redirect
+local-data: "achimugu.com A 255.255.255.255"
+local-zone: "acmecepl.com" redirect
+local-data: "acmecepl.com A 255.255.255.255"
+local-zone: "acmemultan.com" redirect
+local-data: "acmemultan.com A 255.255.255.255"
+local-zone: "acorncontentcreation.com" redirect
+local-data: "acorncontentcreation.com A 255.255.255.255"
+local-zone: "actbuildchange.com" redirect
+local-data: "actbuildchange.com A 255.255.255.255"
+local-zone: "actforchange.biz" redirect
+local-data: "actforchange.biz A 255.255.255.255"
+local-zone: "actionloaded.com" redirect
+local-data: "actionloaded.com A 255.255.255.255"
+local-zone: "activistasconstructivos.org" redirect
+local-data: "activistasconstructivos.org A 255.255.255.255"
+local-zone: "acu.city" redirect
+local-data: "acu.city A 255.255.255.255"
+local-zone: "acucon.net" redirect
+local-data: "acucon.net A 255.255.255.255"
+local-zone: "acupuncturestaffs.com" redirect
+local-data: "acupuncturestaffs.com A 255.255.255.255"
+local-zone: "acupunturanatural.com" redirect
+local-data: "acupunturanatural.com A 255.255.255.255"
+local-zone: "adaliprefabrik.com" redirect
+local-data: "adaliprefabrik.com A 255.255.255.255"
+local-zone: "adam-hen.com" redirect
+local-data: "adam-hen.com A 255.255.255.255"
+local-zone: "adambaluch.ae" redirect
+local-data: "adambaluch.ae A 255.255.255.255"
+local-zone: "addictdkp.com" redirect
+local-data: "addictdkp.com A 255.255.255.255"
+local-zone: "addorg.org" redirect
+local-data: "addorg.org A 255.255.255.255"
+local-zone: "addrealbass.com" redirect
+local-data: "addrealbass.com A 255.255.255.255"
+local-zone: "addsaintgaudens.com" redirect
+local-data: "addsaintgaudens.com A 255.255.255.255"
+local-zone: "addysworld.com" redirect
+local-data: "addysworld.com A 255.255.255.255"
+local-zone: "adelane-solutions.com" redirect
+local-data: "adelane-solutions.com A 255.255.255.255"
+local-zone: "adhdaware.org.uk" redirect
+local-data: "adhdaware.org.uk A 255.255.255.255"
+local-zone: "adioslabs.in" redirect
+local-data: "adioslabs.in A 255.255.255.255"
+local-zone: "adjdigital.com" redirect
+local-data: "adjdigital.com A 255.255.255.255"
+local-zone: "adlabgames.com" redirect
+local-data: "adlabgames.com A 255.255.255.255"
+local-zone: "adotstudios.com" redirect
+local-data: "adotstudios.com A 255.255.255.255"
+local-zone: "adpiggy.com" redirect
+local-data: "adpiggy.com A 255.255.255.255"
+local-zone: "adpiggybank.com" redirect
+local-data: "adpiggybank.com A 255.255.255.255"
+local-zone: "adriangrand.com" redirect
+local-data: "adriangrand.com A 255.255.255.255"
+local-zone: "adrianskar.com" redirect
+local-data: "adrianskar.com A 255.255.255.255"
+local-zone: "adrianstimson.com" redirect
+local-data: "adrianstimson.com A 255.255.255.255"
+local-zone: "adriasolaclavijo.com" redirect
+local-data: "adriasolaclavijo.com A 255.255.255.255"
+local-zone: "adrushyaguru.com" redirect
+local-data: "adrushyaguru.com A 255.255.255.255"
+local-zone: "adupree.com" redirect
+local-data: "adupree.com A 255.255.255.255"
+local-zone: "advcadsys.com" redirect
+local-data: "advcadsys.com A 255.255.255.255"
+local-zone: "advertapp.me" redirect
+local-data: "advertapp.me A 255.255.255.255"
+local-zone: "advertchina.com" redirect
+local-data: "advertchina.com A 255.255.255.255"
+local-zone: "adwheelers.com" redirect
+local-data: "adwheelers.com A 255.255.255.255"
+local-zone: "aedelavenir.com" redirect
+local-data: "aedelavenir.com A 255.255.255.255"
+local-zone: "aedlifepower.com" redirect
+local-data: "aedlifepower.com A 255.255.255.255"
+local-zone: "aewc.com.au" redirect
+local-data: "aewc.com.au A 255.255.255.255"
+local-zone: "aexergy.com" redirect
+local-data: "aexergy.com A 255.255.255.255"
+local-zone: "aezla.com" redirect
+local-data: "aezla.com A 255.255.255.255"
+local-zone: "afairgo.net" redirect
+local-data: "afairgo.net A 255.255.255.255"
+local-zone: "afdlhost.com" redirect
+local-data: "afdlhost.com A 255.255.255.255"
+local-zone: "affableacademics.org" redirect
+local-data: "affableacademics.org A 255.255.255.255"
+local-zone: "affairespatissieres.com" redirect
+local-data: "affairespatissieres.com A 255.255.255.255"
+local-zone: "affenpinscher.org" redirect
+local-data: "affenpinscher.org A 255.255.255.255"
+local-zone: "affiliatemarketingquest.com" redirect
+local-data: "affiliatemarketingquest.com A 255.255.255.255"
+local-zone: "affixforex.com" redirect
+local-data: "affixforex.com A 255.255.255.255"
+local-zone: "affordable-35mm-slide-scanning.com" redirect
+local-data: "affordable-35mm-slide-scanning.com A 255.255.255.255"
+local-zone: "affordablesandiegomovers.com" redirect
+local-data: "affordablesandiegomovers.com A 255.255.255.255"
+local-zone: "afikagroup.com" redirect
+local-data: "afikagroup.com A 255.255.255.255"
+local-zone: "afikapower.com" redirect
+local-data: "afikapower.com A 255.255.255.255"
+local-zone: "afikaquadpro.com" redirect
+local-data: "afikaquadpro.com A 255.255.255.255"
+local-zone: "afiyahealth.com" redirect
+local-data: "afiyahealth.com A 255.255.255.255"
+local-zone: "afjdqhrj.wcnv20.cn" redirect
+local-data: "afjdqhrj.wcnv20.cn A 255.255.255.255"
+local-zone: "afosystec.com" redirect
+local-data: "afosystec.com A 255.255.255.255"
+local-zone: "africangypsyjazz.com" redirect
+local-data: "africangypsyjazz.com A 255.255.255.255"
+local-zone: "africanleadershipcentre.org" redirect
+local-data: "africanleadershipcentre.org A 255.255.255.255"
+local-zone: "africanpixels.zar.cc" redirect
+local-data: "africanpixels.zar.cc A 255.255.255.255"
+local-zone: "africastrongspiritualhealer.com" redirect
+local-data: "africastrongspiritualhealer.com A 255.255.255.255"
+local-zone: "afrikitti.com" redirect
+local-data: "afrikitti.com A 255.255.255.255"
+local-zone: "afrogeo.com" redirect
+local-data: "afrogeo.com A 255.255.255.255"
+local-zone: "afrtech.com" redirect
+local-data: "afrtech.com A 255.255.255.255"
+local-zone: "afshipping.com" redirect
+local-data: "afshipping.com A 255.255.255.255"
+local-zone: "after.vix.br" redirect
+local-data: "after.vix.br A 255.255.255.255"
+local-zone: "afuocolento.it" redirect
+local-data: "afuocolento.it A 255.255.255.255"
+local-zone: "afzlrcubyyj.wcnv20.cn" redirect
+local-data: "afzlrcubyyj.wcnv20.cn A 255.255.255.255"
+local-zone: "agapeencounter.org" redirect
+local-data: "agapeencounter.org A 255.255.255.255"
+local-zone: "agapita.com" redirect
+local-data: "agapita.com A 255.255.255.255"
+local-zone: "aghnia.com" redirect
+local-data: "aghnia.com A 255.255.255.255"
+local-zone: "agico.com.pk" redirect
+local-data: "agico.com.pk A 255.255.255.255"
+local-zone: "agiledepot.com" redirect
+local-data: "agiledepot.com A 255.255.255.255"
+local-zone: "aglow.edu.pk" redirect
+local-data: "aglow.edu.pk A 255.255.255.255"
+local-zone: "agricolavicuna.cl" redirect
+local-data: "agricolavicuna.cl A 255.255.255.255"
+local-zone: "agriturismobellaria.net" redirect
+local-data: "agriturismobellaria.net A 255.255.255.255"
+local-zone: "agrogen.com.tr" redirect
+local-data: "agrogen.com.tr A 255.255.255.255"
+local-zone: "ahc.me.uk" redirect
+local-data: "ahc.me.uk A 255.255.255.255"
+local-zone: "ahdaaf.ae" redirect
+local-data: "ahdaaf.ae A 255.255.255.255"
+local-zone: "ahelicoptermom.com" redirect
+local-data: "ahelicoptermom.com A 255.255.255.255"
+local-zone: "ahero-resource-center.org" redirect
+local-data: "ahero-resource-center.org A 255.255.255.255"
+local-zone: "ahmadhassan.net" redirect
+local-data: "ahmadhassan.net A 255.255.255.255"
+local-zone: "ahsanfarooqui.xyz" redirect
+local-data: "ahsanfarooqui.xyz A 255.255.255.255"
+local-zone: "ahsfoundation.co.uk" redirect
+local-data: "ahsfoundation.co.uk A 255.255.255.255"
+local-zone: "ahsonqazi.com" redirect
+local-data: "ahsonqazi.com A 255.255.255.255"
+local-zone: "ahworld.com.pk" redirect
+local-data: "ahworld.com.pk A 255.255.255.255"
+local-zone: "aianalytics.ie" redirect
+local-data: "aianalytics.ie A 255.255.255.255"
+local-zone: "aibdqlscbs.wcnv20.cn" redirect
+local-data: "aibdqlscbs.wcnv20.cn A 255.255.255.255"
+local-zone: "aigroupofcompany.com" redirect
+local-data: "aigroupofcompany.com A 255.255.255.255"
+local-zone: "aileeshop.com" redirect
+local-data: "aileeshop.com A 255.255.255.255"
+local-zone: "ailiaenterprises.com" redirect
+local-data: "ailiaenterprises.com A 255.255.255.255"
+local-zone: "aimalproduction.com" redirect
+local-data: "aimalproduction.com A 255.255.255.255"
+local-zone: "aimmop.pk" redirect
+local-data: "aimmop.pk A 255.255.255.255"
+local-zone: "aims-corp.com" redirect
+local-data: "aims-corp.com A 255.255.255.255"
+local-zone: "aimsagro.com" redirect
+local-data: "aimsagro.com A 255.255.255.255"
+local-zone: "aimswelfare.org" redirect
+local-data: "aimswelfare.org A 255.255.255.255"
+local-zone: "aimth.pk" redirect
+local-data: "aimth.pk A 255.255.255.255"
+local-zone: "aiofotoevideo.com" redirect
+local-data: "aiofotoevideo.com A 255.255.255.255"
+local-zone: "aipa.ca" redirect
+local-data: "aipa.ca A 255.255.255.255"
+local-zone: "airfanhydro.net" redirect
+local-data: "airfanhydro.net A 255.255.255.255"
+local-zone: "airgenx.com" redirect
+local-data: "airgenx.com A 255.255.255.255"
+local-zone: "airnetinfotech.com" redirect
+local-data: "airnetinfotech.com A 255.255.255.255"
+local-zone: "airplussa.co.za" redirect
+local-data: "airplussa.co.za A 255.255.255.255"
+local-zone: "airportenclave.com.pk" redirect
+local-data: "airportenclave.com.pk A 255.255.255.255"
+local-zone: "airsoftpoligon.com.tr" redirect
+local-data: "airsoftpoligon.com.tr A 255.255.255.255"
+local-zone: "airtravels.us" redirect
+local-data: "airtravels.us A 255.255.255.255"
+local-zone: "airtronuae.com" redirect
+local-data: "airtronuae.com A 255.255.255.255"
+local-zone: "airwhite.net" redirect
+local-data: "airwhite.net A 255.255.255.255"
+local-zone: "aisp74.asso.fr" redirect
+local-data: "aisp74.asso.fr A 255.255.255.255"
+local-zone: "aitech.com.tr" redirect
+local-data: "aitech.com.tr A 255.255.255.255"
+local-zone: "ajajxcjexue.wcnv20.cn" redirect
+local-data: "ajajxcjexue.wcnv20.cn A 255.255.255.255"
+local-zone: "ajepcoin.com" redirect
+local-data: "ajepcoin.com A 255.255.255.255"
+local-zone: "ajipnsfv.wcnv20.cn" redirect
+local-data: "ajipnsfv.wcnv20.cn A 255.255.255.255"
+local-zone: "ajxzybdct.wcnv20.cn" redirect
+local-data: "ajxzybdct.wcnv20.cn A 255.255.255.255"
+local-zone: "ak-industry.com" redirect
+local-data: "ak-industry.com A 255.255.255.255"
+local-zone: "ak-on.com" redirect
+local-data: "ak-on.com A 255.255.255.255"
+local-zone: "akademihastanesi.net" redirect
+local-data: "akademihastanesi.net A 255.255.255.255"
+local-zone: "akaiideas.com" redirect
+local-data: "akaiideas.com A 255.255.255.255"
+local-zone: "akarnakliye.com.tr" redirect
+local-data: "akarnakliye.com.tr A 255.255.255.255"
+local-zone: "akaycelik.com" redirect
+local-data: "akaycelik.com A 255.255.255.255"
+local-zone: "akbuilders.pk" redirect
+local-data: "akbuilders.pk A 255.255.255.255"
+local-zone: "akcaymesrubat.com" redirect
+local-data: "akcaymesrubat.com A 255.255.255.255"
+local-zone: "akgullerinsaat.com.tr" redirect
+local-data: "akgullerinsaat.com.tr A 255.255.255.255"
+local-zone: "akoglumesrubat.com" redirect
+local-data: "akoglumesrubat.com A 255.255.255.255"
+local-zone: "akoli.gr" redirect
+local-data: "akoli.gr A 255.255.255.255"
+local-zone: "akoluklu.com" redirect
+local-data: "akoluklu.com A 255.255.255.255"
+local-zone: "al-mostakbl.com" redirect
+local-data: "al-mostakbl.com A 255.255.255.255"
+local-zone: "alaca.com.tr" redirect
+local-data: "alaca.com.tr A 255.255.255.255"
+local-zone: "aladiyat.ae" redirect
+local-data: "aladiyat.ae A 255.255.255.255"
+local-zone: "alahlasi.com" redirect
+local-data: "alahlasi.com A 255.255.255.255"
+local-zone: "alainsaffel.com" redirect
+local-data: "alainsaffel.com A 255.255.255.255"
+local-zone: "alarabtents.com" redirect
+local-data: "alarabtents.com A 255.255.255.255"
+local-zone: "alaskamaterials.com" redirect
+local-data: "alaskamaterials.com A 255.255.255.255"
+local-zone: "alaskanharvestseafood.com" redirect
+local-data: "alaskanharvestseafood.com A 255.255.255.255"
+local-zone: "albedogida.com" redirect
+local-data: "albedogida.com A 255.255.255.255"
+local-zone: "albertaedmonton.com" redirect
+local-data: "albertaedmonton.com A 255.255.255.255"
+local-zone: "albl.org" redirect
+local-data: "albl.org A 255.255.255.255"
+local-zone: "alcafricandatalab.com" redirect
+local-data: "alcafricandatalab.com A 255.255.255.255"
+local-zone: "alcafricanos.com" redirect
+local-data: "alcafricanos.com A 255.255.255.255"
+local-zone: "alcatrazmoon.com" redirect
+local-data: "alcatrazmoon.com A 255.255.255.255"
+local-zone: "alceharfield.com" redirect
+local-data: "alceharfield.com A 255.255.255.255"
+local-zone: "alchamel.info" redirect
+local-data: "alchamel.info A 255.255.255.255"
+local-zone: "alchamelup.org" redirect
+local-data: "alchamelup.org A 255.255.255.255"
+local-zone: "aleenasgiftbox.com" redirect
+local-data: "aleenasgiftbox.com A 255.255.255.255"
+local-zone: "alemaohost.com" redirect
+local-data: "alemaohost.com A 255.255.255.255"
+local-zone: "aleoestudio.com" redirect
+local-data: "aleoestudio.com A 255.255.255.255"
+local-zone: "aleph.pk" redirect
+local-data: "aleph.pk A 255.255.255.255"
+local-zone: "alessandroalessandrini.it" redirect
+local-data: "alessandroalessandrini.it A 255.255.255.255"
+local-zone: "alessioborzuola.com" redirect
+local-data: "alessioborzuola.com A 255.255.255.255"
+local-zone: "aleter.ae" redirect
+local-data: "aleter.ae A 255.255.255.255"
+local-zone: "aleviturkler.com" redirect
+local-data: "aleviturkler.com A 255.255.255.255"
+local-zone: "alexanderbecker.net" redirect
+local-data: "alexanderbecker.net A 255.255.255.255"
+local-zone: "alexrocchi.com" redirect
+local-data: "alexrocchi.com A 255.255.255.255"
+local-zone: "alfatek-intelligence.com" redirect
+local-data: "alfatek-intelligence.com A 255.255.255.255"
+local-zone: "algarvesup.com" redirect
+local-data: "algarvesup.com A 255.255.255.255"
+local-zone: "algom-law.com" redirect
+local-data: "algom-law.com A 255.255.255.255"
+local-zone: "alhidayahfoundation.co.uk" redirect
+local-data: "alhidayahfoundation.co.uk A 255.255.255.255"
+local-zone: "aliacan.com" redirect
+local-data: "aliacan.com A 255.255.255.255"
+local-zone: "alissanicolai.com" redirect
+local-data: "alissanicolai.com A 255.255.255.255"
+local-zone: "alizemimarlik.com.tr" redirect
+local-data: "alizemimarlik.com.tr A 255.255.255.255"
+local-zone: "aljasar.com" redirect
+local-data: "aljasar.com A 255.255.255.255"
+local-zone: "alkousy.com" redirect
+local-data: "alkousy.com A 255.255.255.255"
+local-zone: "all-reseller.com" redirect
+local-data: "all-reseller.com A 255.255.255.255"
+local-zone: "allaboutblockchain.net" redirect
+local-data: "allaboutblockchain.net A 255.255.255.255"
+local-zone: "allamwith.com" redirect
+local-data: "allamwith.com A 255.255.255.255"
+local-zone: "allday.gr" redirect
+local-data: "allday.gr A 255.255.255.255"
+local-zone: "alldomains-crm.com" redirect
+local-data: "alldomains-crm.com A 255.255.255.255"
+local-zone: "allinonebusinessresources.com" redirect
+local-data: "allinonebusinessresources.com A 255.255.255.255"
+local-zone: "allisonplumbing.com" redirect
+local-data: "allisonplumbing.com A 255.255.255.255"
+local-zone: "allkidsworld.com" redirect
+local-data: "allkidsworld.com A 255.255.255.255"
+local-zone: "allsporthealthandfitness.com" redirect
+local-data: "allsporthealthandfitness.com A 255.255.255.255"
+local-zone: "alluhaybi.com.sa" redirect
+local-data: "alluhaybi.com.sa A 255.255.255.255"
+local-zone: "allusdoctors.com" redirect
+local-data: "allusdoctors.com A 255.255.255.255"
+local-zone: "almahaconsultants.com" redirect
+local-data: "almahaconsultants.com A 255.255.255.255"
+local-zone: "almarjantobacco.com" redirect
+local-data: "almarjantobacco.com A 255.255.255.255"
+local-zone: "almatours.gr" redirect
+local-data: "almatours.gr A 255.255.255.255"
+local-zone: "almeriahotelja.com" redirect
+local-data: "almeriahotelja.com A 255.255.255.255"
+local-zone: "alotur.com" redirect
+local-data: "alotur.com A 255.255.255.255"
+local-zone: "alphabee.fund" redirect
+local-data: "alphabee.fund A 255.255.255.255"
+local-zone: "alphamike.com.mv" redirect
+local-data: "alphamike.com.mv A 255.255.255.255"
+local-zone: "alphaobring.com" redirect
+local-data: "alphaobring.com A 255.255.255.255"
+local-zone: "alphapridesafaris.com" redirect
+local-data: "alphapridesafaris.com A 255.255.255.255"
+local-zone: "alsharhanstore.com" redirect
+local-data: "alsharhanstore.com A 255.255.255.255"
+local-zone: "alshohub.org" redirect
+local-data: "alshohub.org A 255.255.255.255"
+local-zone: "altcoinaddict.com" redirect
+local-data: "altcoinaddict.com A 255.255.255.255"
+local-zone: "alterwebhost.com" redirect
+local-data: "alterwebhost.com A 255.255.255.255"
+local-zone: "althurayaa.com" redirect
+local-data: "althurayaa.com A 255.255.255.255"
+local-zone: "altinoluk-akcay.com" redirect
+local-data: "altinoluk-akcay.com A 255.255.255.255"
+local-zone: "altosdefontana.com" redirect
+local-data: "altosdefontana.com A 255.255.255.255"
+local-zone: "alvesajewellery.com" redirect
+local-data: "alvesajewellery.com A 255.255.255.255"
+local-zone: "alwake3press.com" redirect
+local-data: "alwake3press.com A 255.255.255.255"
+local-zone: "always-beauty.ch" redirect
+local-data: "always-beauty.ch A 255.255.255.255"
+local-zone: "alxcorp.com" redirect
+local-data: "alxcorp.com A 255.255.255.255"
+local-zone: "am1int.fcomet.com" redirect
+local-data: "am1int.fcomet.com A 255.255.255.255"
+local-zone: "amari.ro" redirect
+local-data: "amari.ro A 255.255.255.255"
+local-zone: "amashop.ir" redirect
+local-data: "amashop.ir A 255.255.255.255"
+local-zone: "amateurastronomy.org" redirect
+local-data: "amateurastronomy.org A 255.255.255.255"
+local-zone: "amatikulutours.com" redirect
+local-data: "amatikulutours.com A 255.255.255.255"
+local-zone: "amazethings.com" redirect
+local-data: "amazethings.com A 255.255.255.255"
+local-zone: "ambiances-toiles.fr" redirect
+local-data: "ambiances-toiles.fr A 255.255.255.255"
+local-zone: "ambientmoon.co.za" redirect
+local-data: "ambientmoon.co.za A 255.255.255.255"
+local-zone: "ambrogiauto.com" redirect
+local-data: "ambrogiauto.com A 255.255.255.255"
+local-zone: "ambulatorioveterinariocalusco.com" redirect
+local-data: "ambulatorioveterinariocalusco.com A 255.255.255.255"
+local-zone: "ambyenta.hr" redirect
+local-data: "ambyenta.hr A 255.255.255.255"
+local-zone: "amc-trans.ro" redirect
+local-data: "amc-trans.ro A 255.255.255.255"
+local-zone: "amcscomputer.com" redirect
+local-data: "amcscomputer.com A 255.255.255.255"
+local-zone: "americabr.com.br" redirect
+local-data: "americabr.com.br A 255.255.255.255"
+local-zone: "americanbrasil.com.br" redirect
+local-data: "americanbrasil.com.br A 255.255.255.255"
+local-zone: "americanisexpres.com" redirect
+local-data: "americanisexpres.com A 255.255.255.255"
+local-zone: "americanlegacies.org" redirect
+local-data: "americanlegacies.org A 255.255.255.255"
+local-zone: "americanwestmedia.com" redirect
+local-data: "americanwestmedia.com A 255.255.255.255"
+local-zone: "amgtymjgwamb.wcnv20.cn" redirect
+local-data: "amgtymjgwamb.wcnv20.cn A 255.255.255.255"
+local-zone: "amiehepperlin.com" redirect
+local-data: "amiehepperlin.com A 255.255.255.255"
+local-zone: "amishcountryfurnishings.com" redirect
+local-data: "amishcountryfurnishings.com A 255.255.255.255"
+local-zone: "ammannati.it" redirect
+local-data: "ammannati.it A 255.255.255.255"
+local-zone: "amofoundation.org" redirect
+local-data: "amofoundation.org A 255.255.255.255"
+local-zone: "amooy.com" redirect
+local-data: "amooy.com A 255.255.255.255"
+local-zone: "amphibiblechurch.com" redirect
+local-data: "amphibiblechurch.com A 255.255.255.255"
+local-zone: "ampvita.com" redirect
+local-data: "ampvita.com A 255.255.255.255"
+local-zone: "amruthavana.com" redirect
+local-data: "amruthavana.com A 255.255.255.255"
+local-zone: "anahera.biz" redirect
+local-data: "anahera.biz A 255.255.255.255"
+local-zone: "analystcnwang.com" redirect
+local-data: "analystcnwang.com A 255.255.255.255"
+local-zone: "anbinni.ba" redirect
+local-data: "anbinni.ba A 255.255.255.255"
+local-zone: "ancient-wisdoms.com" redirect
+local-data: "ancient-wisdoms.com A 255.255.255.255"
+local-zone: "ancoeng.co.za" redirect
+local-data: "ancoeng.co.za A 255.255.255.255"
+local-zone: "and10.uzuzuseubumaandro1.com" redirect
+local-data: "and10.uzuzuseubumaandro1.com A 255.255.255.255"
+local-zone: "and12.thesuchivestfishmarketeat111.com" redirect
+local-data: "and12.thesuchivestfishmarketeat111.com A 255.255.255.255"
+local-zone: "and12.thesuchivestfishmarketeat222.com" redirect
+local-data: "and12.thesuchivestfishmarketeat222.com A 255.255.255.255"
+local-zone: "and13.dexterwasanicemoviesz1.com" redirect
+local-data: "and13.dexterwasanicemoviesz1.com A 255.255.255.255"
+local-zone: "and18.f16zakitchenboy1.com" redirect
+local-data: "and18.f16zakitchenboy1.com A 255.255.255.255"
+local-zone: "and19.amainwrorldnancy1.com" redirect
+local-data: "and19.amainwrorldnancy1.com A 255.255.255.255"
+local-zone: "and28.aviationdreamflightering1.com" redirect
+local-data: "and28.aviationdreamflightering1.com A 255.255.255.255"
+local-zone: "and30.amainwrorldnancy2.com" redirect
+local-data: "and30.amainwrorldnancy2.com A 255.255.255.255"
+local-zone: "and30.blabladomdom.com" redirect
+local-data: "and30.blabladomdom.com A 255.255.255.255"
+local-zone: "and31.amainwrorldnancy4.com" redirect
+local-data: "and31.amainwrorldnancy4.com A 255.255.255.255"
+local-zone: "and4.junglebeariwtc1.com" redirect
+local-data: "and4.junglebeariwtc1.com A 255.255.255.255"
+local-zone: "and4.junglebeariwtc2.com" redirect
+local-data: "and4.junglebeariwtc2.com A 255.255.255.255"
+local-zone: "and9.themainnotmainstreet2.com" redirect
+local-data: "and9.themainnotmainstreet2.com A 255.255.255.255"
+local-zone: "andihaas.at" redirect
+local-data: "andihaas.at A 255.255.255.255"
+local-zone: "ando.co.kr" redirect
+local-data: "ando.co.kr A 255.255.255.255"
+local-zone: "andrasadam.com" redirect
+local-data: "andrasadam.com A 255.255.255.255"
+local-zone: "andreabelfi.com" redirect
+local-data: "andreabelfi.com A 255.255.255.255"
+local-zone: "andrebruton.com" redirect
+local-data: "andrebruton.com A 255.255.255.255"
+local-zone: "andrespazsoldan.com" redirect
+local-data: "andrespazsoldan.com A 255.255.255.255"
+local-zone: "andrewsbisom.com" redirect
+local-data: "andrewsbisom.com A 255.255.255.255"
+local-zone: "androidwikihow.com" redirect
+local-data: "androidwikihow.com A 255.255.255.255"
+local-zone: "anf.gov.pk" redirect
+local-data: "anf.gov.pk A 255.255.255.255"
+local-zone: "angel-blanco.net" redirect
+local-data: "angel-blanco.net A 255.255.255.255"
+local-zone: "angel-seeds.com.ua" redirect
+local-data: "angel-seeds.com.ua A 255.255.255.255"
+local-zone: "angelsongroup.com" redirect
+local-data: "angelsongroup.com A 255.255.255.255"
+local-zone: "anglero.com" redirect
+local-data: "anglero.com A 255.255.255.255"
+local-zone: "angloglot.com" redirect
+local-data: "angloglot.com A 255.255.255.255"
+local-zone: "animallantalya.com" redirect
+local-data: "animallantalya.com A 255.255.255.255"
+local-zone: "animeok.co.il" redirect
+local-data: "animeok.co.il A 255.255.255.255"
+local-zone: "ankamesrubat.com" redirect
+local-data: "ankamesrubat.com A 255.255.255.255"
+local-zone: "ankaraikincielesyalar.com" redirect
+local-data: "ankaraikincielesyalar.com A 255.255.255.255"
+local-zone: "ankarakiralikvinc.web.tr" redirect
+local-data: "ankarakiralikvinc.web.tr A 255.255.255.255"
+local-zone: "ankaramehteri.com" redirect
+local-data: "ankaramehteri.com A 255.255.255.255"
+local-zone: "ankaratemizlik.web.tr" redirect
+local-data: "ankaratemizlik.web.tr A 255.255.255.255"
+local-zone: "ankaratemizliksirketleri.web.tr" redirect
+local-data: "ankaratemizliksirketleri.web.tr A 255.255.255.255"
+local-zone: "annabelle.nl" redirect
+local-data: "annabelle.nl A 255.255.255.255"
+local-zone: "anngrigphoto.com" redirect
+local-data: "anngrigphoto.com A 255.255.255.255"
+local-zone: "anotherdayinparadise.ca" redirect
+local-data: "anotherdayinparadise.ca A 255.255.255.255"
+local-zone: "anphmhqf.wcnv20.cn" redirect
+local-data: "anphmhqf.wcnv20.cn A 255.255.255.255"
+local-zone: "ansetech.co.kr" redirect
+local-data: "ansetech.co.kr A 255.255.255.255"
+local-zone: "answerstoprayer.org" redirect
+local-data: "answerstoprayer.org A 255.255.255.255"
+local-zone: "anthaigroup.vn" redirect
+local-data: "anthaigroup.vn A 255.255.255.255"
+local-zone: "antitecnologia.com" redirect
+local-data: "antitecnologia.com A 255.255.255.255"
+local-zone: "antjetaubert.de" redirect
+local-data: "antjetaubert.de A 255.255.255.255"
+local-zone: "antkriko.com" redirect
+local-data: "antkriko.com A 255.255.255.255"
+local-zone: "antsaninsaat.com.tr" redirect
+local-data: "antsaninsaat.com.tr A 255.255.255.255"
+local-zone: "anuragcreatives.com" redirect
+local-data: "anuragcreatives.com A 255.255.255.255"
+local-zone: "anyeva.com" redirect
+local-data: "anyeva.com A 255.255.255.255"
+local-zone: "anythingispossible.world" redirect
+local-data: "anythingispossible.world A 255.255.255.255"
+local-zone: "aoryx.ae" redirect
+local-data: "aoryx.ae A 255.255.255.255"
+local-zone: "apalawyers.pt" redirect
+local-data: "apalawyers.pt A 255.255.255.255"
+local-zone: "apidubai.ae" redirect
+local-data: "apidubai.ae A 255.255.255.255"
+local-zone: "apiiination.com" redirect
+local-data: "apiiination.com A 255.255.255.255"
+local-zone: "apkglobe.net" redirect
+local-data: "apkglobe.net A 255.255.255.255"
+local-zone: "apobiomedix.ca" redirect
+local-data: "apobiomedix.ca A 255.255.255.255"
+local-zone: "apollonweb.com" redirect
+local-data: "apollonweb.com A 255.255.255.255"
+local-zone: "apqecjaleeu.wcnv20.cn" redirect
+local-data: "apqecjaleeu.wcnv20.cn A 255.255.255.255"
+local-zone: "aqarco.com" redirect
+local-data: "aqarco.com A 255.255.255.255"
+local-zone: "aqlaal.com" redirect
+local-data: "aqlaal.com A 255.255.255.255"
+local-zone: "aquabsafe.com" redirect
+local-data: "aquabsafe.com A 255.255.255.255"
+local-zone: "aqualogicwc.co.uk" redirect
+local-data: "aqualogicwc.co.uk A 255.255.255.255"
+local-zone: "aquo.in" redirect
+local-data: "aquo.in A 255.255.255.255"
+local-zone: "ar-rihla.com" redirect
+local-data: "ar-rihla.com A 255.255.255.255"
+local-zone: "arabelaholdings.com" redirect
+local-data: "arabelaholdings.com A 255.255.255.255"
+local-zone: "arabsdeals.com" redirect
+local-data: "arabsdeals.com A 255.255.255.255"
+local-zone: "aracexpress.com" redirect
+local-data: "aracexpress.com A 255.255.255.255"
+local-zone: "arbiogaz.com" redirect
+local-data: "arbiogaz.com A 255.255.255.255"
+local-zone: "arbruisseau.com" redirect
+local-data: "arbruisseau.com A 255.255.255.255"
+local-zone: "archersassociationofamerica.org" redirect
+local-data: "archersassociationofamerica.org A 255.255.255.255"
+local-zone: "architectshub.in" redirect
+local-data: "architectshub.in A 255.255.255.255"
+local-zone: "architectsinc.net" redirect
+local-data: "architectsinc.net A 255.255.255.255"
+local-zone: "architecturalplus.co.nz" redirect
+local-data: "architecturalplus.co.nz A 255.255.255.255"
+local-zone: "arctkrmxjscg.wcnv20.cn" redirect
+local-data: "arctkrmxjscg.wcnv20.cn A 255.255.255.255"
+local-zone: "arcusautomatika.ba" redirect
+local-data: "arcusautomatika.ba A 255.255.255.255"
+local-zone: "ardvessels.com" redirect
+local-data: "ardvessels.com A 255.255.255.255"
+local-zone: "aresebetseng.co.za" redirect
+local-data: "aresebetseng.co.za A 255.255.255.255"
+local-zone: "arestihome.com" redirect
+local-data: "arestihome.com A 255.255.255.255"
+local-zone: "arhiepiscopiabucurestilor.ro" redirect
+local-data: "arhiepiscopiabucurestilor.ro A 255.255.255.255"
+local-zone: "arkamp.ir" redirect
+local-data: "arkamp.ir A 255.255.255.255"
+local-zone: "arm.net.pk" redirect
+local-data: "arm.net.pk A 255.255.255.255"
+local-zone: "armadakizyurdu.com" redirect
+local-data: "armadakizyurdu.com A 255.255.255.255"
+local-zone: "armator.info" redirect
+local-data: "armator.info A 255.255.255.255"
 local-zone: "armtheprofileoriginals.com" redirect
 local-data: "armtheprofileoriginals.com A 255.255.255.255"
+local-zone: "arpid.ru" redirect
+local-data: "arpid.ru A 255.255.255.255"
+local-zone: "artibilisim.xyz" redirect
+local-data: "artibilisim.xyz A 255.255.255.255"
+local-zone: "artistanbul.tv" redirect
+local-data: "artistanbul.tv A 255.255.255.255"
+local-zone: "arzumceyiz.com" redirect
+local-data: "arzumceyiz.com A 255.255.255.255"
+local-zone: "asaninsaat.com" redirect
+local-data: "asaninsaat.com A 255.255.255.255"
+local-zone: "asaryapi.com.tr" redirect
+local-data: "asaryapi.com.tr A 255.255.255.255"
+local-zone: "asduru.com.tr" redirect
+local-data: "asduru.com.tr A 255.255.255.255"
+local-zone: "aseltech.com.tr" redirect
+local-data: "aseltech.com.tr A 255.255.255.255"
+local-zone: "asesoriastepual.cl" redirect
+local-data: "asesoriastepual.cl A 255.255.255.255"
+local-zone: "asgen.org" redirect
+local-data: "asgen.org A 255.255.255.255"
+local-zone: "ashapeforlife.com" redirect
+local-data: "ashapeforlife.com A 255.255.255.255"
+local-zone: "asjjvlimuud.wcnv20.cn" redirect
+local-data: "asjjvlimuud.wcnv20.cn A 255.255.255.255"
+local-zone: "askarisecurities.com.pk" redirect
+local-data: "askarisecurities.com.pk A 255.255.255.255"
+local-zone: "aslimaj.com" redirect
+local-data: "aslimaj.com A 255.255.255.255"
+local-zone: "asnsport-bg.com" redirect
+local-data: "asnsport-bg.com A 255.255.255.255"
+local-zone: "assemblee-nationale.cg" redirect
+local-data: "assemblee-nationale.cg A 255.255.255.255"
+local-zone: "asseqvsbsleh.wcnv20.cn" redirect
+local-data: "asseqvsbsleh.wcnv20.cn A 255.255.255.255"
+local-zone: "assurancetemporaireenligne.com" redirect
+local-data: "assurancetemporaireenligne.com A 255.255.255.255"
+local-zone: "assuredfirst.com" redirect
+local-data: "assuredfirst.com A 255.255.255.255"
+local-zone: "astra.com.tr" redirect
+local-data: "astra.com.tr A 255.255.255.255"
+local-zone: "astrumtechnologies.co.za" redirect
+local-data: "astrumtechnologies.co.za A 255.255.255.255"
+local-zone: "asturkmadencilik.com" redirect
+local-data: "asturkmadencilik.com A 255.255.255.255"
+local-zone: "ataglobal.com.tr" redirect
+local-data: "ataglobal.com.tr A 255.255.255.255"
+local-zone: "atakan.com" redirect
+local-data: "atakan.com A 255.255.255.255"
+local-zone: "atamanelektronik.com" redirect
+local-data: "atamanelektronik.com A 255.255.255.255"
+local-zone: "atascelikyapi.com" redirect
+local-data: "atascelikyapi.com A 255.255.255.255"
+local-zone: "atcouriers.co.za" redirect
+local-data: "atcouriers.co.za A 255.255.255.255"
+local-zone: "atexmodels.co.za" redirect
+local-data: "atexmodels.co.za A 255.255.255.255"
+local-zone: "atkiatkisiimalat.com" redirect
+local-data: "atkiatkisiimalat.com A 255.255.255.255"
+local-zone: "attilabalogh.com" redirect
+local-data: "attilabalogh.com A 255.255.255.255"
+local-zone: "atxvfhoklmo.wcnv20.cn" redirect
+local-data: "atxvfhoklmo.wcnv20.cn A 255.255.255.255"
+local-zone: "auctionify.com.ng" redirect
+local-data: "auctionify.com.ng A 255.255.255.255"
+local-zone: "audio-pa-service.de" redirect
+local-data: "audio-pa-service.de A 255.255.255.255"
+local-zone: "auditlater.top" redirect
+local-data: "auditlater.top A 255.255.255.255"
+local-zone: "aujmgfpl.wcnv20.cn" redirect
+local-data: "aujmgfpl.wcnv20.cn A 255.255.255.255"
+local-zone: "auraco.ca" redirect
+local-data: "auraco.ca A 255.255.255.255"
+local-zone: "ausfinex.com" redirect
+local-data: "ausfinex.com A 255.255.255.255"
+local-zone: "auto-ecole-lecastelet.com" redirect
+local-data: "auto-ecole-lecastelet.com A 255.255.255.255"
+local-zone: "autoecole-jeanpierre.com" redirect
+local-data: "autoecole-jeanpierre.com A 255.255.255.255"
+local-zone: "autoecoleathena.com" redirect
+local-data: "autoecoleathena.com A 255.255.255.255"
+local-zone: "autoecoleboisdesroches.com" redirect
+local-data: "autoecoleboisdesroches.com A 255.255.255.255"
+local-zone: "automattenonline.com" redirect
+local-data: "automattenonline.com A 255.255.255.255"
+local-zone: "auxilia-fr.com" redirect
+local-data: "auxilia-fr.com A 255.255.255.255"
+local-zone: "avaagriculture.com" redirect
+local-data: "avaagriculture.com A 255.255.255.255"
+local-zone: "avcihukukburosu.com" redirect
+local-data: "avcihukukburosu.com A 255.255.255.255"
+local-zone: "aviasiya.com" redirect
+local-data: "aviasiya.com A 255.255.255.255"
+local-zone: "avizoneaviation.com" redirect
+local-data: "avizoneaviation.com A 255.255.255.255"
+local-zone: "avrupabaski.com" redirect
+local-data: "avrupabaski.com A 255.255.255.255"
+local-zone: "awebcommerce.com" redirect
+local-data: "awebcommerce.com A 255.255.255.255"
+local-zone: "ayakkabisitesi.com" redirect
+local-data: "ayakkabisitesi.com A 255.255.255.255"
+local-zone: "aydincaliskankanarya.com" redirect
+local-data: "aydincaliskankanarya.com A 255.255.255.255"
+local-zone: "aydinsenturk.com" redirect
+local-data: "aydinsenturk.com A 255.255.255.255"
+local-zone: "aymuhendislik.com" redirect
+local-data: "aymuhendislik.com A 255.255.255.255"
+local-zone: "aysamturizm.com.tr" redirect
+local-data: "aysamturizm.com.tr A 255.255.255.255"
+local-zone: "ayterm.com" redirect
+local-data: "ayterm.com A 255.255.255.255"
+local-zone: "azadpattanhpp.com" redirect
+local-data: "azadpattanhpp.com A 255.255.255.255"
+local-zone: "azedizayn.com" redirect
+local-data: "azedizayn.com A 255.255.255.255"
+local-zone: "azim.co.il" redirect
+local-data: "azim.co.il A 255.255.255.255"
+local-zone: "b-design.studio" redirect
+local-data: "b-design.studio A 255.255.255.255"
+local-zone: "b-dvs.com" redirect
+local-data: "b-dvs.com A 255.255.255.255"
+local-zone: "b.link" redirect
+local-data: "b.link A 255.255.255.255"
+local-zone: "babafareed.org.pk" redirect
+local-data: "babafareed.org.pk A 255.255.255.255"
+local-zone: "babalmadina.com" redirect
+local-data: "babalmadina.com A 255.255.255.255"
+local-zone: "babil117.com" redirect
+local-data: "babil117.com A 255.255.255.255"
+local-zone: "bafflethink.com" redirect
+local-data: "bafflethink.com A 255.255.255.255"
+local-zone: "bahaosgb.com" redirect
+local-data: "bahaosgb.com A 255.255.255.255"
+local-zone: "bahriatownservices.com" redirect
+local-data: "bahriatownservices.com A 255.255.255.255"
+local-zone: "bakbitv.com" redirect
+local-data: "bakbitv.com A 255.255.255.255"
+local-zone: "bakemartplus.ae" redirect
+local-data: "bakemartplus.ae A 255.255.255.255"
+local-zone: "bakhabarnews.com" redirect
+local-data: "bakhabarnews.com A 255.255.255.255"
+local-zone: "bakiroglu.com.tr" redirect
+local-data: "bakiroglu.com.tr A 255.255.255.255"
+local-zone: "baksapk.com" redirect
+local-data: "baksapk.com A 255.255.255.255"
+local-zone: "balaateen.co.za" redirect
+local-data: "balaateen.co.za A 255.255.255.255"
+local-zone: "baldatca.com" redirect
+local-data: "baldatca.com A 255.255.255.255"
+local-zone: "balkonresidence.com" redirect
+local-data: "balkonresidence.com A 255.255.255.255"
+local-zone: "balzantruck.com" redirect
+local-data: "balzantruck.com A 255.255.255.255"
+local-zone: "banglanews-24.com" redirect
+local-data: "banglanews-24.com A 255.255.255.255"
+local-zone: "banjo.la" redirect
+local-data: "banjo.la A 255.255.255.255"
+local-zone: "bansko-furniture.co.uk" redirect
+local-data: "bansko-furniture.co.uk A 255.255.255.255"
+local-zone: "bartabee.com" redirect
+local-data: "bartabee.com A 255.255.255.255"
+local-zone: "basarteks.com" redirect
+local-data: "basarteks.com A 255.255.255.255"
+local-zone: "bashancorp.co.za" redirect
+local-data: "bashancorp.co.za A 255.255.255.255"
+local-zone: "basketballkungfu.com" redirect
+local-data: "basketballkungfu.com A 255.255.255.255"
+local-zone: "bat99-11611.co" redirect
+local-data: "bat99-11611.co A 255.255.255.255"
+local-zone: "batistadopovosjc.org.br" redirect
+local-data: "batistadopovosjc.org.br A 255.255.255.255"
+local-zone: "bayimpex.be" redirect
+local-data: "bayimpex.be A 255.255.255.255"
+local-zone: "baynetins.com" redirect
+local-data: "baynetins.com A 255.255.255.255"
+local-zone: "bazinga-shop.eu" redirect
+local-data: "bazinga-shop.eu A 255.255.255.255"
+local-zone: "bbtravels.net" redirect
+local-data: "bbtravels.net A 255.255.255.255"
+local-zone: "bckkaucuk.com" redirect
+local-data: "bckkaucuk.com A 255.255.255.255"
+local-zone: "bdholdings.com" redirect
+local-data: "bdholdings.com A 255.255.255.255"
+local-zone: "beaconlocation.com" redirect
+local-data: "beaconlocation.com A 255.255.255.255"
+local-zone: "beaconwelfare.com" redirect
+local-data: "beaconwelfare.com A 255.255.255.255"
+local-zone: "beamfight.com" redirect
+local-data: "beamfight.com A 255.255.255.255"
+local-zone: "beansviolins.com" redirect
+local-data: "beansviolins.com A 255.255.255.255"
+local-zone: "beardempire.pk" redirect
+local-data: "beardempire.pk A 255.255.255.255"
+local-zone: "beconsultants.org" redirect
+local-data: "beconsultants.org A 255.255.255.255"
+local-zone: "bedarimillat.com" redirect
+local-data: "bedarimillat.com A 255.255.255.255"
+local-zone: "beddysstudio.com" redirect
+local-data: "beddysstudio.com A 255.255.255.255"
+local-zone: "behealthier.eu" redirect
+local-data: "behealthier.eu A 255.255.255.255"
+local-zone: "bek.ae" redirect
+local-data: "bek.ae A 255.255.255.255"
+local-zone: "belfortsecurity.com" redirect
+local-data: "belfortsecurity.com A 255.255.255.255"
+local-zone: "bench-mark.org" redirect
+local-data: "bench-mark.org A 255.255.255.255"
+local-zone: "bentivegna.es" redirect
+local-data: "bentivegna.es A 255.255.255.255"
+local-zone: "benztechsolutions.com" redirect
+local-data: "benztechsolutions.com A 255.255.255.255"
+local-zone: "bepovoblago.com" redirect
+local-data: "bepovoblago.com A 255.255.255.255"
+local-zone: "berds.org.pk" redirect
+local-data: "berds.org.pk A 255.255.255.255"
+local-zone: "berped.co.za" redirect
+local-data: "berped.co.za A 255.255.255.255"
+local-zone: "bervin.com.tr" redirect
+local-data: "bervin.com.tr A 255.255.255.255"
+local-zone: "besertoprak.com.tr" redirect
+local-data: "besertoprak.com.tr A 255.255.255.255"
+local-zone: "best-dreams.com" redirect
+local-data: "best-dreams.com A 255.255.255.255"
+local-zone: "bestaxi.nl" redirect
+local-data: "bestaxi.nl A 255.255.255.255"
+local-zone: "bestcoverpix.com" redirect
+local-data: "bestcoverpix.com A 255.255.255.255"
+local-zone: "bestdecorativemirrors.com" redirect
+local-data: "bestdecorativemirrors.com A 255.255.255.255"
+local-zone: "bestencouragementwords.com" redirect
+local-data: "bestencouragementwords.com A 255.255.255.255"
+local-zone: "bestfgt.com" redirect
+local-data: "bestfgt.com A 255.255.255.255"
+local-zone: "bestoballoons.com" redirect
+local-data: "bestoballoons.com A 255.255.255.255"
+local-zone: "beta.wally02.org" redirect
+local-data: "beta.wally02.org A 255.255.255.255"
+local-zone: "betatechnologiesme.com" redirect
+local-data: "betatechnologiesme.com A 255.255.255.255"
+local-zone: "beyazavukatlik.com" redirect
+local-data: "beyazavukatlik.com A 255.255.255.255"
+local-zone: "bfval.com" redirect
+local-data: "bfval.com A 255.255.255.255"
+local-zone: "bfzszpaug.wcnv20.cn" redirect
+local-data: "bfzszpaug.wcnv20.cn A 255.255.255.255"
+local-zone: "bg.com.tr" redirect
+local-data: "bg.com.tr A 255.255.255.255"
+local-zone: "bgadvocaten.nl" redirect
+local-data: "bgadvocaten.nl A 255.255.255.255"
+local-zone: "bgpsouthasia.com" redirect
+local-data: "bgpsouthasia.com A 255.255.255.255"
+local-zone: "bhakkarrishtey.com" redirect
+local-data: "bhakkarrishtey.com A 255.255.255.255"
+local-zone: "bhekiguru.co.za" redirect
+local-data: "bhekiguru.co.za A 255.255.255.255"
+local-zone: "bhlslctlmcf.wcnv20.cn" redirect
+local-data: "bhlslctlmcf.wcnv20.cn A 255.255.255.255"
+local-zone: "bibanka.com" redirect
+local-data: "bibanka.com A 255.255.255.255"
+local-zone: "bicer-san.com" redirect
+local-data: "bicer-san.com A 255.255.255.255"
+local-zone: "bienart.com" redirect
+local-data: "bienart.com A 255.255.255.255"
+local-zone: "bifikirajans.com" redirect
+local-data: "bifikirajans.com A 255.255.255.255"
+local-zone: "bigdatasolution.com.pk" redirect
+local-data: "bigdatasolution.com.pk A 255.255.255.255"
+local-zone: "bigfans.ae" redirect
+local-data: "bigfans.ae A 255.255.255.255"
+local-zone: "biglickentertainment.com" redirect
+local-data: "biglickentertainment.com A 255.255.255.255"
+local-zone: "bilenbizibilir.com" redirect
+local-data: "bilenbizibilir.com A 255.255.255.255"
+local-zone: "bilikit.com" redirect
+local-data: "bilikit.com A 255.255.255.255"
+local-zone: "biljum.com" redirect
+local-data: "biljum.com A 255.255.255.255"
+local-zone: "billielaw.com" redirect
+local-data: "billielaw.com A 255.255.255.255"
+local-zone: "binabidconsulting.com" redirect
+local-data: "binabidconsulting.com A 255.255.255.255"
+local-zone: "binaries.site" redirect
+local-data: "binaries.site A 255.255.255.255"
+local-zone: "bingleybuilder.co.uk" redirect
+local-data: "bingleybuilder.co.uk A 255.255.255.255"
+local-zone: "binham.com" redirect
+local-data: "binham.com A 255.255.255.255"
+local-zone: "binhamgroup.com" redirect
+local-data: "binhamgroup.com A 255.255.255.255"
+local-zone: "binitelecom.com" redirect
+local-data: "binitelecom.com A 255.255.255.255"
+local-zone: "binuq.gob.pk" redirect
+local-data: "binuq.gob.pk A 255.255.255.255"
+local-zone: "biodogacevre.com" redirect
+local-data: "biodogacevre.com A 255.255.255.255"
+local-zone: "biondi.co" redirect
+local-data: "biondi.co A 255.255.255.255"
+local-zone: "bioservepharma.com" redirect
+local-data: "bioservepharma.com A 255.255.255.255"
+local-zone: "bit.do" redirect
+local-data: "bit.do A 255.255.255.255"
 local-zone: "bit.ly" redirect
 local-data: "bit.ly A 255.255.255.255"
+local-zone: "bitandbyte62.com" redirect
+local-data: "bitandbyte62.com A 255.255.255.255"
+local-zone: "bitekservis.com" redirect
+local-data: "bitekservis.com A 255.255.255.255"
+local-zone: "bitsym.com" redirect
+local-data: "bitsym.com A 255.255.255.255"
+local-zone: "biyanyapi.com" redirect
+local-data: "biyanyapi.com A 255.255.255.255"
+local-zone: "bizimbag.com" redirect
+local-data: "bizimbag.com A 255.255.255.255"
+local-zone: "bizimnalbur.com" redirect
+local-data: "bizimnalbur.com A 255.255.255.255"
+local-zone: "bizxess.com" redirect
+local-data: "bizxess.com A 255.255.255.255"
+local-zone: "bkconsultants.com.pk" redirect
+local-data: "bkconsultants.com.pk A 255.255.255.255"
+local-zone: "bkembroidery.com" redirect
+local-data: "bkembroidery.com A 255.255.255.255"
+local-zone: "bkmzvkaoi.wcnv20.cn" redirect
+local-data: "bkmzvkaoi.wcnv20.cn A 255.255.255.255"
+local-zone: "blackgirlswhocraft.com" redirect
+local-data: "blackgirlswhocraft.com A 255.255.255.255"
+local-zone: "blackgoldoilserv.com" redirect
+local-data: "blackgoldoilserv.com A 255.255.255.255"
+local-zone: "blackrabbitthailand.com" redirect
+local-data: "blackrabbitthailand.com A 255.255.255.255"
+local-zone: "blackthorn.co.za" redirect
+local-data: "blackthorn.co.za A 255.255.255.255"
+local-zone: "blackwolfco.com" redirect
+local-data: "blackwolfco.com A 255.255.255.255"
+local-zone: "blankwebagency.com" redirect
+local-data: "blankwebagency.com A 255.255.255.255"
+local-zone: "blog.kobisi.com" redirect
+local-data: "blog.kobisi.com A 255.255.255.255"
+local-zone: "blog.openthefar.com" redirect
+local-data: "blog.openthefar.com A 255.255.255.255"
+local-zone: "blog.sefaireaider.com" redirect
+local-data: "blog.sefaireaider.com A 255.255.255.255"
+local-zone: "bloggertemplates4u.com" redirect
+local-data: "bloggertemplates4u.com A 255.255.255.255"
+local-zone: "bloggingio.com" redirect
+local-data: "bloggingio.com A 255.255.255.255"
+local-zone: "bloorco.com" redirect
+local-data: "bloorco.com A 255.255.255.255"
+local-zone: "bluebayauto.com" redirect
+local-data: "bluebayauto.com A 255.255.255.255"
+local-zone: "bluecrome.com" redirect
+local-data: "bluecrome.com A 255.255.255.255"
+local-zone: "bluehawkbeats.com" redirect
+local-data: "bluehawkbeats.com A 255.255.255.255"
+local-zone: "bluewaves.ae" redirect
+local-data: "bluewaves.ae A 255.255.255.255"
+local-zone: "blushagency.com" redirect
+local-data: "blushagency.com A 255.255.255.255"
+local-zone: "bluvgkcs.wcnv20.cn" redirect
+local-data: "bluvgkcs.wcnv20.cn A 255.255.255.255"
+local-zone: "bm360.com.pk" redirect
+local-data: "bm360.com.pk A 255.255.255.255"
+local-zone: "bmc.edu.pk" redirect
+local-data: "bmc.edu.pk A 255.255.255.255"
+local-zone: "bmctelecom.ae" redirect
+local-data: "bmctelecom.ae A 255.255.255.255"
+local-zone: "bmorecleaning.com" redirect
+local-data: "bmorecleaning.com A 255.255.255.255"
+local-zone: "bmscissors.com" redirect
+local-data: "bmscissors.com A 255.255.255.255"
+local-zone: "bnboutlet.com" redirect
+local-data: "bnboutlet.com A 255.255.255.255"
+local-zone: "bntlaminates.com" redirect
+local-data: "bntlaminates.com A 255.255.255.255"
+local-zone: "boardaffairs.com" redirect
+local-data: "boardaffairs.com A 255.255.255.255"
+local-zone: "boatwif.co.uk" redirect
+local-data: "boatwif.co.uk A 255.255.255.255"
+local-zone: "bocekilaclama.gen.tr" redirect
+local-data: "bocekilaclama.gen.tr A 255.255.255.255"
+local-zone: "bocekilaclamazeytinburnu.net" redirect
+local-data: "bocekilaclamazeytinburnu.net A 255.255.255.255"
+local-zone: "boetsebiltong.co.za" redirect
+local-data: "boetsebiltong.co.za A 255.255.255.255"
+local-zone: "bogjerlow.com" redirect
+local-data: "bogjerlow.com A 255.255.255.255"
+local-zone: "boilersinfo.com" redirect
+local-data: "boilersinfo.com A 255.255.255.255"
+local-zone: "bojibanf.wcnv20.cn" redirect
+local-data: "bojibanf.wcnv20.cn A 255.255.255.255"
+local-zone: "bokkeriejesj.nl" redirect
+local-data: "bokkeriejesj.nl A 255.255.255.255"
+local-zone: "bonjurparti.com" redirect
+local-data: "bonjurparti.com A 255.255.255.255"
+local-zone: "bonofigliophotography.com" redirect
+local-data: "bonofigliophotography.com A 255.255.255.255"
+local-zone: "bonus.rocks" redirect
+local-data: "bonus.rocks A 255.255.255.255"
+local-zone: "book-house.org" redirect
+local-data: "book-house.org A 255.255.255.255"
+local-zone: "bookmeguide.com" redirect
+local-data: "bookmeguide.com A 255.255.255.255"
+local-zone: "booksandtoys.com.tr" redirect
+local-data: "booksandtoys.com.tr A 255.255.255.255"
+local-zone: "bor.uz" redirect
+local-data: "bor.uz A 255.255.255.255"
+local-zone: "boringinternet.com" redirect
+local-data: "boringinternet.com A 255.255.255.255"
+local-zone: "bornear.com" redirect
+local-data: "bornear.com A 255.255.255.255"
+local-zone: "bosacik.sk" redirect
+local-data: "bosacik.sk A 255.255.255.255"
+local-zone: "botmanhosting.com" redirect
+local-data: "botmanhosting.com A 255.255.255.255"
+local-zone: "boudua.com" redirect
+local-data: "boudua.com A 255.255.255.255"
+local-zone: "bouranabrothers.com" redirect
+local-data: "bouranabrothers.com A 255.255.255.255"
+local-zone: "bozlxyaxr.wcnv20.cn" redirect
+local-data: "bozlxyaxr.wcnv20.cn A 255.255.255.255"
+local-zone: "bradleybakerrmusic.com" redirect
+local-data: "bradleybakerrmusic.com A 255.255.255.255"
+local-zone: "bradleysherrer.com" redirect
+local-data: "bradleysherrer.com A 255.255.255.255"
+local-zone: "brainlight.me" redirect
+local-data: "brainlight.me A 255.255.255.255"
+local-zone: "bramloosveld.be" redirect
+local-data: "bramloosveld.be A 255.255.255.255"
+local-zone: "brand-key.com" redirect
+local-data: "brand-key.com A 255.255.255.255"
+local-zone: "brandosol.com" redirect
+local-data: "brandosol.com A 255.255.255.255"
+local-zone: "brandr.ge" redirect
+local-data: "brandr.ge A 255.255.255.255"
+local-zone: "brandspeak.org" redirect
+local-data: "brandspeak.org A 255.255.255.255"
+local-zone: "bravori.com" redirect
+local-data: "bravori.com A 255.255.255.255"
+local-zone: "breadnbutter.com.pk" redirect
+local-data: "breadnbutter.com.pk A 255.255.255.255"
+local-zone: "breakbyte.com" redirect
+local-data: "breakbyte.com A 255.255.255.255"
+local-zone: "breastfeedingbra.co.za" redirect
+local-data: "breastfeedingbra.co.za A 255.255.255.255"
+local-zone: "bridgepakistan.org" redirect
+local-data: "bridgepakistan.org A 255.255.255.255"
+local-zone: "bridgewaybpo.com" redirect
+local-data: "bridgewaybpo.com A 255.255.255.255"
+local-zone: "briskfm.co.uk" redirect
+local-data: "briskfm.co.uk A 255.255.255.255"
+local-zone: "briskways.net" redirect
+local-data: "briskways.net A 255.255.255.255"
+local-zone: "britishasia-equip.co.uk" redirect
+local-data: "britishasia-equip.co.uk A 255.255.255.255"
+local-zone: "broadpeak.co" redirect
+local-data: "broadpeak.co A 255.255.255.255"
+local-zone: "broadstone.com.pk" redirect
+local-data: "broadstone.com.pk A 255.255.255.255"
+local-zone: "broken-arrow.co.za" redirect
+local-data: "broken-arrow.co.za A 255.255.255.255"
+local-zone: "brosen.com.pk" redirect
+local-data: "brosen.com.pk A 255.255.255.255"
+local-zone: "bshconglobal.com" redirect
+local-data: "bshconglobal.com A 255.255.255.255"
+local-zone: "btafbearings.com" redirect
+local-data: "btafbearings.com A 255.255.255.255"
+local-zone: "btfila.org" redirect
+local-data: "btfila.org A 255.255.255.255"
+local-zone: "buboobioinnovations.co.za" redirect
+local-data: "buboobioinnovations.co.za A 255.255.255.255"
+local-zone: "buhlebayoacademy.com" redirect
+local-data: "buhlebayoacademy.com A 255.255.255.255"
+local-zone: "buildingstandards.com.pk" redirect
+local-data: "buildingstandards.com.pk A 255.255.255.255"
+local-zone: "buildyoursalon.com" redirect
+local-data: "buildyoursalon.com A 255.255.255.255"
+local-zone: "bumbledyne.com" redirect
+local-data: "bumbledyne.com A 255.255.255.255"
+local-zone: "buqsrpfh.wcnv20.cn" redirect
+local-data: "buqsrpfh.wcnv20.cn A 255.255.255.255"
+local-zone: "burgercoetzeeattorneys.co.za" redirect
+local-data: "burgercoetzeeattorneys.co.za A 255.255.255.255"
+local-zone: "burkertparts.com" redirect
+local-data: "burkertparts.com A 255.255.255.255"
+local-zone: "burlesonlelas.com" redirect
+local-data: "burlesonlelas.com A 255.255.255.255"
+local-zone: "burnout.com.pk" redirect
+local-data: "burnout.com.pk A 255.255.255.255"
+local-zone: "bursabitkisel.com" redirect
+local-data: "bursabitkisel.com A 255.255.255.255"
+local-zone: "bursatemamutfak.com" redirect
+local-data: "bursatemamutfak.com A 255.255.255.255"
+local-zone: "busad.com" redirect
+local-data: "busad.com A 255.255.255.255"
+local-zone: "butikiletisim.com" redirect
+local-data: "butikiletisim.com A 255.255.255.255"
+local-zone: "buynow.com.pk" redirect
+local-data: "buynow.com.pk A 255.255.255.255"
+local-zone: "buzzfeedhealth.com" redirect
+local-data: "buzzfeedhealth.com A 255.255.255.255"
+local-zone: "bvzfrjmghu.wcnv20.cn" redirect
+local-data: "bvzfrjmghu.wcnv20.cn A 255.255.255.255"
+local-zone: "bzwslxbo.wcnv20.cn" redirect
+local-data: "bzwslxbo.wcnv20.cn A 255.255.255.255"
+local-zone: "c3pconsulting.com" redirect
+local-data: "c3pconsulting.com A 255.255.255.255"
+local-zone: "cafawelding.co.za" redirect
+local-data: "cafawelding.co.za A 255.255.255.255"
+local-zone: "cafebistrovia.com" redirect
+local-data: "cafebistrovia.com A 255.255.255.255"
+local-zone: "cagliaricity.it" redirect
+local-data: "cagliaricity.it A 255.255.255.255"
+local-zone: "camasirhaneistanbul.com" redirect
+local-data: "camasirhaneistanbul.com A 255.255.255.255"
+local-zone: "cambridgetuts.com" redirect
+local-data: "cambridgetuts.com A 255.255.255.255"
+local-zone: "camkutezyinat.com" redirect
+local-data: "camkutezyinat.com A 255.255.255.255"
+local-zone: "camlikkamping.com" redirect
+local-data: "camlikkamping.com A 255.255.255.255"
+local-zone: "campet.com.tr" redirect
+local-data: "campet.com.tr A 255.255.255.255"
+local-zone: "camps.pk" redirect
+local-data: "camps.pk A 255.255.255.255"
+local-zone: "campusvoltaire.com" redirect
+local-data: "campusvoltaire.com A 255.255.255.255"
+local-zone: "canadianvc.com" redirect
+local-data: "canadianvc.com A 255.255.255.255"
+local-zone: "canaldeal.top" redirect
+local-data: "canaldeal.top A 255.255.255.255"
+local-zone: "canbeginsaat.com" redirect
+local-data: "canbeginsaat.com A 255.255.255.255"
+local-zone: "candidsourcing.com" redirect
+local-data: "candidsourcing.com A 255.255.255.255"
+local-zone: "capetownway.co.za" redirect
+local-data: "capetownway.co.za A 255.255.255.255"
+local-zone: "capitalexchange.ae" redirect
+local-data: "capitalexchange.ae A 255.255.255.255"
+local-zone: "car.ru" redirect
+local-data: "car.ru A 255.255.255.255"
+local-zone: "caregroup.co.za" redirect
+local-data: "caregroup.co.za A 255.255.255.255"
+local-zone: "carlagrobler.co.za" redirect
+local-data: "carlagrobler.co.za A 255.255.255.255"
+local-zone: "carrentbodrum.com" redirect
+local-data: "carrentbodrum.com A 255.255.255.255"
+local-zone: "cartridgecave.co.za" redirect
+local-data: "cartridgecave.co.za A 255.255.255.255"
+local-zone: "cautioncook.top" redirect
+local-data: "cautioncook.top A 255.255.255.255"
+local-zone: "cazochem.co.za" redirect
+local-data: "cazochem.co.za A 255.255.255.255"
+local-zone: "cc.com.pk" redirect
+local-data: "cc.com.pk A 255.255.255.255"
+local-zone: "cchsahardware.com" redirect
+local-data: "cchsahardware.com A 255.255.255.255"
+local-zone: "cdn.discordapp.com" redirect
+local-data: "cdn.discordapp.com A 255.255.255.255"
+local-zone: "cdn.funckgroup-server.com" redirect
+local-data: "cdn.funckgroup-server.com A 255.255.255.255"
+local-zone: "cds.org.pk" redirect
+local-data: "cds.org.pk A 255.255.255.255"
+local-zone: "cemsolutions.org" redirect
+local-data: "cemsolutions.org A 255.255.255.255"
+local-zone: "centraldispatchinc.com" redirect
+local-data: "centraldispatchinc.com A 255.255.255.255"
+local-zone: "centuryacademy.co.za" redirect
+local-data: "centuryacademy.co.za A 255.255.255.255"
+local-zone: "centurythis.com" redirect
+local-data: "centurythis.com A 255.255.255.255"
+local-zone: "ceramica.co.za" redirect
+local-data: "ceramica.co.za A 255.255.255.255"
+local-zone: "cerkezkoytakograf.com" redirect
+local-data: "cerkezkoytakograf.com A 255.255.255.255"
+local-zone: "cevahirogludoner.com" redirect
+local-data: "cevahirogludoner.com A 255.255.255.255"
+local-zone: "ceylaninruyasi.com" redirect
+local-data: "ceylaninruyasi.com A 255.255.255.255"
+local-zone: "ceylanmobilya.com.tr" redirect
+local-data: "ceylanmobilya.com.tr A 255.255.255.255"
+local-zone: "cfm.com.pk" redirect
+local-data: "cfm.com.pk A 255.255.255.255"
+local-zone: "charispaarl.co.za" redirect
+local-data: "charispaarl.co.za A 255.255.255.255"
+local-zone: "charliewestsecurity.co.za" redirect
+local-data: "charliewestsecurity.co.za A 255.255.255.255"
+local-zone: "chinamall.co.za" redirect
+local-data: "chinamall.co.za A 255.255.255.255"
+local-zone: "chitchatdosti.com" redirect
+local-data: "chitchatdosti.com A 255.255.255.255"
+local-zone: "chrisdejager-attorneys.co.za" redirect
+local-data: "chrisdejager-attorneys.co.za A 255.255.255.255"
+local-zone: "chrishanicdc.org" redirect
+local-data: "chrishanicdc.org A 255.255.255.255"
+local-zone: "chudresex.at" redirect
+local-data: "chudresex.at A 255.255.255.255"
+local-zone: "chudresex.cc" redirect
+local-data: "chudresex.cc A 255.255.255.255"
+local-zone: "ciftlikonuasm.gov.tr" redirect
+local-data: "ciftlikonuasm.gov.tr A 255.255.255.255"
+local-zone: "cigercihamza.com" redirect
+local-data: "cigercihamza.com A 255.255.255.255"
+local-zone: "cinargrafikmatbaa.com" redirect
+local-data: "cinargrafikmatbaa.com A 255.255.255.255"
+local-zone: "cipemiliaromagna.cateterismo.it" redirect
+local-data: "cipemiliaromagna.cateterismo.it A 255.255.255.255"
+local-zone: "cittaslowturkiye.org" redirect
+local-data: "cittaslowturkiye.org A 255.255.255.255"
+local-zone: "clandecor.co.za" redirect
+local-data: "clandecor.co.za A 255.255.255.255"
+local-zone: "clientcare.co.ls" redirect
+local-data: "clientcare.co.ls A 255.255.255.255"
+local-zone: "cloudhub.co.ls" redirect
+local-data: "cloudhub.co.ls A 255.255.255.255"
+local-zone: "clouditzone.com" redirect
+local-data: "clouditzone.com A 255.255.255.255"
+local-zone: "clqodqyca.wcnv20.cn" redirect
+local-data: "clqodqyca.wcnv20.cn A 255.255.255.255"
+local-zone: "cmisyzmrj.wcnv20.cn" redirect
+local-data: "cmisyzmrj.wcnv20.cn A 255.255.255.255"
+local-zone: "cms.qa" redirect
+local-data: "cms.qa A 255.255.255.255"
+local-zone: "cns.com.pk" redirect
+local-data: "cns.com.pk A 255.255.255.255"
+local-zone: "cocobooter.com" redirect
+local-data: "cocobooter.com A 255.255.255.255"
+local-zone: "coloradofootinstitute.com" redirect
+local-data: "coloradofootinstitute.com A 255.255.255.255"
+local-zone: "colorglobe.in" redirect
+local-data: "colorglobe.in A 255.255.255.255"
+local-zone: "comecomefindme.ru" redirect
+local-data: "comecomefindme.ru A 255.255.255.255"
+local-zone: "cometnet.biz" redirect
+local-data: "cometnet.biz A 255.255.255.255"
+local-zone: "compushopsa.co.za" redirect
+local-data: "compushopsa.co.za A 255.255.255.255"
+local-zone: "congcuphongthan.com" redirect
+local-data: "congcuphongthan.com A 255.255.255.255"
+local-zone: "conkorea.com" redirect
+local-data: "conkorea.com A 255.255.255.255"
+local-zone: "connect-server.com.ua" redirect
+local-data: "connect-server.com.ua A 255.255.255.255"
+local-zone: "constructionsolutions.info" redirect
+local-data: "constructionsolutions.info A 255.255.255.255"
+local-zone: "controleng.com" redirect
+local-data: "controleng.com A 255.255.255.255"
+local-zone: "cookncash.com" redirect
+local-data: "cookncash.com A 255.255.255.255"
+local-zone: "cool-group.net" redirect
+local-data: "cool-group.net A 255.255.255.255"
+local-zone: "cooldoctor.ae" redirect
+local-data: "cooldoctor.ae A 255.255.255.255"
+local-zone: "coolguys.ae" redirect
+local-data: "coolguys.ae A 255.255.255.255"
+local-zone: "coolingdubai.com" redirect
+local-data: "coolingdubai.com A 255.255.255.255"
+local-zone: "coolplusmedical.com" redirect
+local-data: "coolplusmedical.com A 255.255.255.255"
+local-zone: "copansrl.it" redirect
+local-data: "copansrl.it A 255.255.255.255"
+local-zone: "cortaestanciapolanco.com" redirect
+local-data: "cortaestanciapolanco.com A 255.255.255.255"
+local-zone: "cosmeticsurgeryisb.pk" redirect
+local-data: "cosmeticsurgeryisb.pk A 255.255.255.255"
+local-zone: "cowp.or.kr" redirect
+local-data: "cowp.or.kr A 255.255.255.255"
+local-zone: "crackleplus.com" redirect
+local-data: "crackleplus.com A 255.255.255.255"
+local-zone: "createch.solutions" redirect
+local-data: "createch.solutions A 255.255.255.255"
+local-zone: "creative-things.com" redirect
+local-data: "creative-things.com A 255.255.255.255"
+local-zone: "creativenex.com" redirect
+local-data: "creativenex.com A 255.255.255.255"
+local-zone: "creativetiers.com" redirect
+local-data: "creativetiers.com A 255.255.255.255"
+local-zone: "creditformula.org" redirect
+local-data: "creditformula.org A 255.255.255.255"
+local-zone: "crissamconsulting.co.za" redirect
+local-data: "crissamconsulting.co.za A 255.255.255.255"
+local-zone: "crna-macka.com" redirect
+local-data: "crna-macka.com A 255.255.255.255"
+local-zone: "crystaltidings.co.za" redirect
+local-data: "crystaltidings.co.za A 255.255.255.255"
+local-zone: "csemag.com" redirect
+local-data: "csemag.com A 255.255.255.255"
+local-zone: "ctmgdurbsuin.wcnv20.cn" redirect
+local-data: "ctmgdurbsuin.wcnv20.cn A 255.255.255.255"
+local-zone: "ctmnqkkpznj.wcnv20.cn" redirect
+local-data: "ctmnqkkpznj.wcnv20.cn A 255.255.255.255"
+local-zone: "cugaituoianthai.com" redirect
+local-data: "cugaituoianthai.com A 255.255.255.255"
+local-zone: "cultofmobile.com" redirect
+local-data: "cultofmobile.com A 255.255.255.255"
+local-zone: "cumflbsuut.wcnv20.cn" redirect
+local-data: "cumflbsuut.wcnv20.cn A 255.255.255.255"
+local-zone: "curb-food-cravings.com" redirect
+local-data: "curb-food-cravings.com A 255.255.255.255"
+local-zone: "cutt.ly" redirect
+local-data: "cutt.ly A 255.255.255.255"
+local-zone: "cwzjfzwvkyx.wcnv20.cn" redirect
+local-data: "cwzjfzwvkyx.wcnv20.cn A 255.255.255.255"
+local-zone: "cxzxzxzxzzxzx.s3.eu-central-1.amazonaws.com" redirect
+local-data: "cxzxzxzxzzxzx.s3.eu-central-1.amazonaws.com A 255.255.255.255"
+local-zone: "cy.tc" redirect
+local-data: "cy.tc A 255.255.255.255"
+local-zone: "cybercraft.biz" redirect
+local-data: "cybercraft.biz A 255.255.255.255"
+local-zone: "cynoedrabpcp.wcnv20.cn" redirect
+local-data: "cynoedrabpcp.wcnv20.cn A 255.255.255.255"
+local-zone: "d.filebox.moe" redirect
+local-data: "d.filebox.moe A 255.255.255.255"
+local-zone: "d11295.top" redirect
+local-data: "d11295.top A 255.255.255.255"
+local-zone: "d6tim2wp6ynyd5gvmqgtrqhpl4-adwhj77lcyoafdy-vakifbank.translate.goog" redirect
+local-data: "d6tim2wp6ynyd5gvmqgtrqhpl4-adwhj77lcyoafdy-vakifbank.translate.goog A 255.255.255.255"
+local-zone: "dailyqadamat.com" redirect
+local-data: "dailyqadamat.com A 255.255.255.255"
+local-zone: "dataseek.com.br" redirect
+local-data: "dataseek.com.br A 255.255.255.255"
+local-zone: "datenhaus.info" redirect
+local-data: "datenhaus.info A 255.255.255.255"
+local-zone: "dbhcjzrclv.wcnv20.cn" redirect
+local-data: "dbhcjzrclv.wcnv20.cn A 255.255.255.255"
+local-zone: "dcpieters.co.za" redirect
+local-data: "dcpieters.co.za A 255.255.255.255"
+local-zone: "ddjm.co.kr" redirect
+local-data: "ddjm.co.kr A 255.255.255.255"
+local-zone: "ddyatirim.com" redirect
+local-data: "ddyatirim.com A 255.255.255.255"
+local-zone: "dealmaterial.top" redirect
+local-data: "dealmaterial.top A 255.255.255.255"
+local-zone: "debnoch.com" redirect
+local-data: "debnoch.com A 255.255.255.255"
+local-zone: "dedeyumurtaciftligi.net" redirect
+local-data: "dedeyumurtaciftligi.net A 255.255.255.255"
+local-zone: "deepgraphics.co.za" redirect
+local-data: "deepgraphics.co.za A 255.255.255.255"
+local-zone: "degdiwixj.wcnv20.cn" redirect
+local-data: "degdiwixj.wcnv20.cn A 255.255.255.255"
+local-zone: "delcom.co.za" redirect
+local-data: "delcom.co.za A 255.255.255.255"
+local-zone: "delectronics.com.pk" redirect
+local-data: "delectronics.com.pk A 255.255.255.255"
+local-zone: "deleogun.com" redirect
+local-data: "deleogun.com A 255.255.255.255"
+local-zone: "delinmeal.com" redirect
+local-data: "delinmeal.com A 255.255.255.255"
+local-zone: "demo.scd.network" redirect
+local-data: "demo.scd.network A 255.255.255.255"
+local-zone: "demopowerindo.com" redirect
+local-data: "demopowerindo.com A 255.255.255.255"
+local-zone: "devlette.com" redirect
+local-data: "devlette.com A 255.255.255.255"
+local-zone: "dghfhfgjfhjghj6699.net" redirect
+local-data: "dghfhfgjfhjghj6699.net A 255.255.255.255"
+local-zone: "dhaspquf.wcnv20.cn" redirect
+local-data: "dhaspquf.wcnv20.cn A 255.255.255.255"
+local-zone: "dhtnldogywx.wcnv20.cn" redirect
+local-data: "dhtnldogywx.wcnv20.cn A 255.255.255.255"
+local-zone: "dianakleyn.co.za" redirect
+local-data: "dianakleyn.co.za A 255.255.255.255"
+local-zone: "diginixtech.com" redirect
+local-data: "diginixtech.com A 255.255.255.255"
+local-zone: "digitalteknik.com.tr" redirect
+local-data: "digitalteknik.com.tr A 255.255.255.255"
+local-zone: "dimer-group.com" redirect
+local-data: "dimer-group.com A 255.255.255.255"
+local-zone: "dingaanassociates.co.za" redirect
+local-data: "dingaanassociates.co.za A 255.255.255.255"
+local-zone: "diprolisa.mx" redirect
+local-data: "diprolisa.mx A 255.255.255.255"
+local-zone: "djtrina.com" redirect
+local-data: "djtrina.com A 255.255.255.255"
+local-zone: "dlgfuarcilik.com" redirect
+local-data: "dlgfuarcilik.com A 255.255.255.255"
+local-zone: "dlomdhfoq.wcnv20.cn" redirect
+local-data: "dlomdhfoq.wcnv20.cn A 255.255.255.255"
+local-zone: "dogadanderman.com" redirect
+local-data: "dogadanderman.com A 255.255.255.255"
+local-zone: "doggypetstore.com" redirect
+local-data: "doggypetstore.com A 255.255.255.255"
+local-zone: "dogukandogan.com.tr" redirect
+local-data: "dogukandogan.com.tr A 255.255.255.255"
+local-zone: "domand.altincopps.com" redirect
+local-data: "domand.altincopps.com A 255.255.255.255"
+local-zone: "domesticguardians.co.za" redirect
+local-data: "domesticguardians.co.za A 255.255.255.255"
+local-zone: "domusgroup.ae" redirect
+local-data: "domusgroup.ae A 255.255.255.255"
+local-zone: "donmezhidrolik.com" redirect
+local-data: "donmezhidrolik.com A 255.255.255.255"
+local-zone: "doomed.cf" redirect
+local-data: "doomed.cf A 255.255.255.255"
+local-zone: "dorakiletisim.com" redirect
+local-data: "dorakiletisim.com A 255.255.255.255"
+local-zone: "dorjenmar.com" redirect
+local-data: "dorjenmar.com A 255.255.255.255"
+local-zone: "dp4kb.magelangkota.go.id" redirect
+local-data: "dp4kb.magelangkota.go.id A 255.255.255.255"
+local-zone: "drhalilciftci.com" redirect
+local-data: "drhalilciftci.com A 255.255.255.255"
+local-zone: "drorrpenf.wcnv20.cn" redirect
+local-data: "drorrpenf.wcnv20.cn A 255.255.255.255"
+local-zone: "drug-treatment-directory.com" redirect
+local-data: "drug-treatment-directory.com A 255.255.255.255"
+local-zone: "dryve.ae" redirect
+local-data: "dryve.ae A 255.255.255.255"
+local-zone: "dsjbkqqikzml.wcnv20.cn" redirect
+local-data: "dsjbkqqikzml.wcnv20.cn A 255.255.255.255"
+local-zone: "dubaigip.com" redirect
+local-data: "dubaigip.com A 255.255.255.255"
+local-zone: "dubaihelishow.com" redirect
+local-data: "dubaihelishow.com A 255.255.255.255"
+local-zone: "dublindriveways.ie" redirect
+local-data: "dublindriveways.ie A 255.255.255.255"
+local-zone: "duckiesplumbing.com.au" redirect
+local-data: "duckiesplumbing.com.au A 255.255.255.255"
+local-zone: "duotonedigital.co.za" redirect
+local-data: "duotonedigital.co.za A 255.255.255.255"
+local-zone: "dusttek.com.tr" redirect
+local-data: "dusttek.com.tr A 255.255.255.255"
+local-zone: "dvakpjsavvv.wcnv20.cn" redirect
+local-data: "dvakpjsavvv.wcnv20.cn A 255.255.255.255"
+local-zone: "dvprojekt.hr" redirect
+local-data: "dvprojekt.hr A 255.255.255.255"
+local-zone: "dylboiler.co.kr" redirect
+local-data: "dylboiler.co.kr A 255.255.255.255"
+local-zone: "dyndin.ru" redirect
+local-data: "dyndin.ru A 255.255.255.255"
+local-zone: "dyskurs.com.ua" redirect
+local-data: "dyskurs.com.ua A 255.255.255.255"
+local-zone: "e-kisa.com" redirect
+local-data: "e-kisa.com A 255.255.255.255"
+local-zone: "easy-home-sales.co.za" redirect
+local-data: "easy-home-sales.co.za A 255.255.255.255"
+local-zone: "ecemkopy.com.tr" redirect
+local-data: "ecemkopy.com.tr A 255.255.255.255"
+local-zone: "ecolerubanvert.com" redirect
+local-data: "ecolerubanvert.com A 255.255.255.255"
+local-zone: "ecology.haglerbailly.com.pk" redirect
+local-data: "ecology.haglerbailly.com.pk A 255.255.255.255"
+local-zone: "ecowis.com" redirect
+local-data: "ecowis.com A 255.255.255.255"
+local-zone: "ecs-consult.com" redirect
+local-data: "ecs-consult.com A 255.255.255.255"
+local-zone: "edbapuotzed.wcnv20.cn" redirect
+local-data: "edbapuotzed.wcnv20.cn A 255.255.255.255"
+local-zone: "ederine.com" redirect
+local-data: "ederine.com A 255.255.255.255"
+local-zone: "edesignz.co.za" redirect
+local-data: "edesignz.co.za A 255.255.255.255"
+local-zone: "edgeforensic.co.za" redirect
+local-data: "edgeforensic.co.za A 255.255.255.255"
+local-zone: "edgesecurity.co.za" redirect
+local-data: "edgesecurity.co.za A 255.255.255.255"
+local-zone: "edu4.co.kr" redirect
+local-data: "edu4.co.kr A 255.255.255.255"
+local-zone: "eforas.com.tr" redirect
+local-data: "eforas.com.tr A 255.255.255.255"
+local-zone: "eforgaraj.com.tr" redirect
+local-data: "eforgaraj.com.tr A 255.255.255.255"
+local-zone: "egedenmesrubat.com" redirect
+local-data: "egedenmesrubat.com A 255.255.255.255"
+local-zone: "egzotikshop.com" redirect
+local-data: "egzotikshop.com A 255.255.255.255"
+local-zone: "ejopeshot.wcnv20.cn" redirect
+local-data: "ejopeshot.wcnv20.cn A 255.255.255.255"
+local-zone: "ekerticaret.com" redirect
+local-data: "ekerticaret.com A 255.255.255.255"
+local-zone: "ekrembahcekapili.com" redirect
+local-data: "ekrembahcekapili.com A 255.255.255.255"
+local-zone: "elan.com.pk" redirect
+local-data: "elan.com.pk A 255.255.255.255"
+local-zone: "elektroniksigaralab.com" redirect
+local-data: "elektroniksigaralab.com A 255.255.255.255"
+local-zone: "elitecaptains.ae" redirect
+local-data: "elitecaptains.ae A 255.255.255.255"
+local-zone: "eloquent.co.za" redirect
+local-data: "eloquent.co.za A 255.255.255.255"
+local-zone: "embali.co.za" redirect
+local-data: "embali.co.za A 255.255.255.255"
+local-zone: "eminelleranaokulu-etut.com" redirect
+local-data: "eminelleranaokulu-etut.com A 255.255.255.255"
+local-zone: "emmabeckerle.com" redirect
+local-data: "emmabeckerle.com A 255.255.255.255"
+local-zone: "empowerbridge.com" redirect
+local-data: "empowerbridge.com A 255.255.255.255"
+local-zone: "emware.co.za" redirect
+local-data: "emware.co.za A 255.255.255.255"
+local-zone: "encontrosmaracatu.com.br" redirect
+local-data: "encontrosmaracatu.com.br A 255.255.255.255"
+local-zone: "enpara.xyz" redirect
+local-data: "enpara.xyz A 255.255.255.255"
+local-zone: "entracorntrading.co.za" redirect
+local-data: "entracorntrading.co.za A 255.255.255.255"
+local-zone: "envi-herzog.de" redirect
+local-data: "envi-herzog.de A 255.255.255.255"
+local-zone: "envirotambang.com" redirect
+local-data: "envirotambang.com A 255.255.255.255"
+local-zone: "envoysoft.net" redirect
+local-data: "envoysoft.net A 255.255.255.255"
+local-zone: "epcb.it" redirect
+local-data: "epcb.it A 255.255.255.255"
+local-zone: "epss.ae" redirect
+local-data: "epss.ae A 255.255.255.255"
+local-zone: "equilibriumm.com" redirect
+local-data: "equilibriumm.com A 255.255.255.255"
+local-zone: "erickeleo.com.br" redirect
+local-data: "erickeleo.com.br A 255.255.255.255"
+local-zone: "ericouellettedev.com" redirect
+local-data: "ericouellettedev.com A 255.255.255.255"
+local-zone: "ernestoangiolini.com" redirect
+local-data: "ernestoangiolini.com A 255.255.255.255"
+local-zone: "erpmas.co.kr" redirect
+local-data: "erpmas.co.kr A 255.255.255.255"
+local-zone: "estemed.com" redirect
+local-data: "estemed.com A 255.255.255.255"
+local-zone: "estudiperceptiva.com" redirect
+local-data: "estudiperceptiva.com A 255.255.255.255"
+local-zone: "esyuzllaeqa.wcnv20.cn" redirect
+local-data: "esyuzllaeqa.wcnv20.cn A 255.255.255.255"
+local-zone: "ethiccert.com" redirect
+local-data: "ethiccert.com A 255.255.255.255"
+local-zone: "eur06.com" redirect
+local-data: "eur06.com A 255.255.255.255"
+local-zone: "eurospa.ae" redirect
+local-data: "eurospa.ae A 255.255.255.255"
+local-zone: "evansmokaba.com" redirect
+local-data: "evansmokaba.com A 255.255.255.255"
+local-zone: "experttutors.co.za" redirect
+local-data: "experttutors.co.za A 255.255.255.255"
+local-zone: "externalclient.ru" redirect
+local-data: "externalclient.ru A 255.255.255.255"
+local-zone: "exuberant-group.com" redirect
+local-data: "exuberant-group.com A 255.255.255.255"
+local-zone: "fachwerkhaus.ws" redirect
+local-data: "fachwerkhaus.ws A 255.255.255.255"
+local-zone: "faithmetal.com.pk" redirect
+local-data: "faithmetal.com.pk A 255.255.255.255"
+local-zone: "fal.cl" redirect
+local-data: "fal.cl A 255.255.255.255"
+local-zone: "farhangroup.net" redirect
+local-data: "farhangroup.net A 255.255.255.255"
+local-zone: "faries-studios.com" redirect
+local-data: "faries-studios.com A 255.255.255.255"
+local-zone: "fasching-hallbergmoos.de" redirect
+local-data: "fasching-hallbergmoos.de A 255.255.255.255"
+local-zone: "faturaniode.blogspot.com" redirect
+local-data: "faturaniode.blogspot.com A 255.255.255.255"
+local-zone: "fbmwornbszjq.wcnv20.cn" redirect
+local-data: "fbmwornbszjq.wcnv20.cn A 255.255.255.255"
+local-zone: "fbrvolume.co.za" redirect
+local-data: "fbrvolume.co.za A 255.255.255.255"
+local-zone: "fccorp.co.za" redirect
+local-data: "fccorp.co.za A 255.255.255.255"
+local-zone: "fcpconsultores.com.br" redirect
+local-data: "fcpconsultores.com.br A 255.255.255.255"
+local-zone: "fduvubavc.wcnv20.cn" redirect
+local-data: "fduvubavc.wcnv20.cn A 255.255.255.255"
+local-zone: "felicesfiestas.com.mx" redirect
+local-data: "felicesfiestas.com.mx A 255.255.255.255"
+local-zone: "ferdinandsaf.s3.eu-central-1.amazonaws.com" redirect
+local-data: "ferdinandsaf.s3.eu-central-1.amazonaws.com A 255.255.255.255"
+local-zone: "ffc.com.pk" redirect
+local-data: "ffc.com.pk A 255.255.255.255"
+local-zone: "fgpcw-kr.edu.pk" redirect
+local-data: "fgpcw-kr.edu.pk A 255.255.255.255"
+local-zone: "files.constantcontact.com" redirect
+local-data: "files.constantcontact.com A 255.255.255.255"
+local-zone: "files2.codecguide.com" redirect
+local-data: "files2.codecguide.com A 255.255.255.255"
+local-zone: "files6.uludagbilisim.com" redirect
+local-data: "files6.uludagbilisim.com A 255.255.255.255"
+local-zone: "filllfoll.biz" redirect
+local-data: "filllfoll.biz A 255.255.255.255"
+local-zone: "findfree-people-friends.com" redirect
+local-data: "findfree-people-friends.com A 255.255.255.255"
+local-zone: "fiqnqspwcw.wcnv20.cn" redirect
+local-data: "fiqnqspwcw.wcnv20.cn A 255.255.255.255"
 local-zone: "firebasestorage.googleapis.com" redirect
 local-data: "firebasestorage.googleapis.com A 255.255.255.255"
+local-zone: "firstalliance.church" redirect
+local-data: "firstalliance.church A 255.255.255.255"
+local-zone: "fitmentfurniture.com" redirect
+local-data: "fitmentfurniture.com A 255.255.255.255"
+local-zone: "fkdzqsopg.wcnv20.cn" redirect
+local-data: "fkdzqsopg.wcnv20.cn A 255.255.255.255"
+local-zone: "fkqmbizmh.wcnv20.cn" redirect
+local-data: "fkqmbizmh.wcnv20.cn A 255.255.255.255"
+local-zone: "flashroms.com" redirect
+local-data: "flashroms.com A 255.255.255.255"
+local-zone: "flooringforyou.co.uk" redirect
+local-data: "flooringforyou.co.uk A 255.255.255.255"
+local-zone: "fltduty.ca" redirect
+local-data: "fltduty.ca A 255.255.255.255"
+local-zone: "fmmakuwxomb.wcnv20.cn" redirect
+local-data: "fmmakuwxomb.wcnv20.cn A 255.255.255.255"
+local-zone: "fn.tc" redirect
+local-data: "fn.tc A 255.255.255.255"
+local-zone: "fored.or.kr" redirect
+local-data: "fored.or.kr A 255.255.255.255"
+local-zone: "forms.app" redirect
+local-data: "forms.app A 255.255.255.255"
+local-zone: "formtools.com" redirect
+local-data: "formtools.com A 255.255.255.255"
+local-zone: "fotodecolle-zagotovki.ru" redirect
+local-data: "fotodecolle-zagotovki.ru A 255.255.255.255"
+local-zone: "fourrese.net" redirect
+local-data: "fourrese.net A 255.255.255.255"
+local-zone: "fragranceoil.co.za" redirect
+local-data: "fragranceoil.co.za A 255.255.255.255"
+local-zone: "freese-architekten.de" redirect
+local-data: "freese-architekten.de A 255.255.255.255"
+local-zone: "freeskl.com" redirect
+local-data: "freeskl.com A 255.255.255.255"
+local-zone: "frontiernet.net" redirect
+local-data: "frontiernet.net A 255.255.255.255"
+local-zone: "fsegitimsaglikvakfi.org" redirect
+local-data: "fsegitimsaglikvakfi.org A 255.255.255.255"
+local-zone: "funeralbusinesssolution.com" redirect
+local-data: "funeralbusinesssolution.com A 255.255.255.255"
+local-zone: "fustahermetic.com" redirect
+local-data: "fustahermetic.com A 255.255.255.255"
+local-zone: "fymumiddomj.wcnv20.cn" redirect
+local-data: "fymumiddomj.wcnv20.cn A 255.255.255.255"
+local-zone: "g-v-s.ru" redirect
+local-data: "g-v-s.ru A 255.255.255.255"
+local-zone: "gabrio.it" redirect
+local-data: "gabrio.it A 255.255.255.255"
+local-zone: "galaxyforwarders.com" redirect
+local-data: "galaxyforwarders.com A 255.255.255.255"
+local-zone: "galwayprimary.co.za" redirect
+local-data: "galwayprimary.co.za A 255.255.255.255"
+local-zone: "ganitis.gr" redirect
+local-data: "ganitis.gr A 255.255.255.255"
+local-zone: "ganoset.com" redirect
+local-data: "ganoset.com A 255.255.255.255"
+local-zone: "gbti.org.pk" redirect
+local-data: "gbti.org.pk A 255.255.255.255"
+local-zone: "gcjoccary.wcnv20.cn" redirect
+local-data: "gcjoccary.wcnv20.cn A 255.255.255.255"
+local-zone: "geetransfers.co.za" redirect
+local-data: "geetransfers.co.za A 255.255.255.255"
+local-zone: "gelecekdiyarbakirsigorta.com" redirect
+local-data: "gelecekdiyarbakirsigorta.com A 255.255.255.255"
+local-zone: "gemana.ae" redirect
+local-data: "gemana.ae A 255.255.255.255"
+local-zone: "geotrading.ae" redirect
+local-data: "geotrading.ae A 255.255.255.255"
+local-zone: "gestyy.com" redirect
+local-data: "gestyy.com A 255.255.255.255"
+local-zone: "getabletravel.co.za" redirect
+local-data: "getabletravel.co.za A 255.255.255.255"
+local-zone: "gg.gg" redirect
+local-data: "gg.gg A 255.255.255.255"
+local-zone: "gideonitesprojects.com" redirect
+local-data: "gideonitesprojects.com A 255.255.255.255"
+local-zone: "giginsulation.com" redirect
+local-data: "giginsulation.com A 255.255.255.255"
+local-zone: "gildhroge.wcnv20.cn" redirect
+local-data: "gildhroge.wcnv20.cn A 255.255.255.255"
+local-zone: "gipnjqpqxyv.wcnv20.cn" redirect
+local-data: "gipnjqpqxyv.wcnv20.cn A 255.255.255.255"
+local-zone: "git.tc" redirect
+local-data: "git.tc A 255.255.255.255"
+local-zone: "gizliemlak.com" redirect
+local-data: "gizliemlak.com A 255.255.255.255"
+local-zone: "glashandelmaxima.nl" redirect
+local-data: "glashandelmaxima.nl A 255.255.255.255"
+local-zone: "glgroup.co.za" redirect
+local-data: "glgroup.co.za A 255.255.255.255"
+local-zone: "globalmitrateknik.com" redirect
+local-data: "globalmitrateknik.com A 255.255.255.255"
+local-zone: "globaltransformers.com" redirect
+local-data: "globaltransformers.com A 255.255.255.255"
+local-zone: "gncaf.or.kr" redirect
+local-data: "gncaf.or.kr A 255.255.255.255"
+local-zone: "gnezdodesign.ru" redirect
+local-data: "gnezdodesign.ru A 255.255.255.255"
+local-zone: "gokcekolej.com" redirect
+local-data: "gokcekolej.com A 255.255.255.255"
+local-zone: "gokhantemiz.com" redirect
+local-data: "gokhantemiz.com A 255.255.255.255"
+local-zone: "goldenyat.com" redirect
+local-data: "goldenyat.com A 255.255.255.255"
+local-zone: "goliathstoneindustries.com" redirect
+local-data: "goliathstoneindustries.com A 255.255.255.255"
+local-zone: "gongim.com" redirect
+local-data: "gongim.com A 255.255.255.255"
+local-zone: "gongsinet.kr" redirect
+local-data: "gongsinet.kr A 255.255.255.255"
+local-zone: "goo.gl" redirect
+local-data: "goo.gl A 255.255.255.255"
+local-zone: "goodproject.xyz" redirect
+local-data: "goodproject.xyz A 255.255.255.255"
+local-zone: "goolineb2b.com" redirect
+local-data: "goolineb2b.com A 255.255.255.255"
+local-zone: "goolinegaming.com" redirect
+local-data: "goolinegaming.com A 255.255.255.255"
+local-zone: "grainsandmore.com.pk" redirect
+local-data: "grainsandmore.com.pk A 255.255.255.255"
+local-zone: "great.social" redirect
+local-data: "great.social A 255.255.255.255"
+local-zone: "greenedus.com" redirect
+local-data: "greenedus.com A 255.255.255.255"
+local-zone: "greenerlivingca.com" redirect
+local-data: "greenerlivingca.com A 255.255.255.255"
+local-zone: "gsmmid.com" redirect
+local-data: "gsmmid.com A 255.255.255.255"
+local-zone: "gulenapart.com" redirect
+local-data: "gulenapart.com A 255.255.255.255"
+local-zone: "gundemhaber.org" redirect
+local-data: "gundemhaber.org A 255.255.255.255"
+local-zone: "gustomimarlik.com" redirect
+local-data: "gustomimarlik.com A 255.255.255.255"
+local-zone: "gvs.com.pk" redirect
+local-data: "gvs.com.pk A 255.255.255.255"
+local-zone: "gwdtwbkoybb.wcnv20.cn" redirect
+local-data: "gwdtwbkoybb.wcnv20.cn A 255.255.255.255"
+local-zone: "gzlhrllkhis.wcnv20.cn" redirect
+local-data: "gzlhrllkhis.wcnv20.cn A 255.255.255.255"
+local-zone: "h1854684.stratoserver.net" redirect
+local-data: "h1854684.stratoserver.net A 255.255.255.255"
+local-zone: "haanohtmpfd.wcnv20.cn" redirect
+local-data: "haanohtmpfd.wcnv20.cn A 255.255.255.255"
+local-zone: "habibtextiles.pk" redirect
+local-data: "habibtextiles.pk A 255.255.255.255"
 local-zone: "haeundaejugong.com" redirect
 local-data: "haeundaejugong.com A 255.255.255.255"
+local-zone: "halimofset.com.tr" redirect
+local-data: "halimofset.com.tr A 255.255.255.255"
+local-zone: "hannanaslan.com.tr" redirect
+local-data: "hannanaslan.com.tr A 255.255.255.255"
+local-zone: "harmonyguesthouse.co.za" redirect
+local-data: "harmonyguesthouse.co.za A 255.255.255.255"
+local-zone: "harryandbell.com" redirect
+local-data: "harryandbell.com A 255.255.255.255"
+local-zone: "hartenboswaterpark.co.za" redirect
+local-data: "hartenboswaterpark.co.za A 255.255.255.255"
+local-zone: "hashtag.com.pk" redirect
+local-data: "hashtag.com.pk A 255.255.255.255"
+local-zone: "havilahglo.co.za" redirect
+local-data: "havilahglo.co.za A 255.255.255.255"
+local-zone: "hawk-lines.com" redirect
+local-data: "hawk-lines.com A 255.255.255.255"
+local-zone: "hayrabolu.bel.tr" redirect
+local-data: "hayrabolu.bel.tr A 255.255.255.255"
+local-zone: "healthzonesa.co.za" redirect
+local-data: "healthzonesa.co.za A 255.255.255.255"
+local-zone: "hellohealthy.pro" redirect
+local-data: "hellohealthy.pro A 255.255.255.255"
+local-zone: "henweekendsbirmingham.co.uk" redirect
+local-data: "henweekendsbirmingham.co.uk A 255.255.255.255"
+local-zone: "hesterwebber.co.za" redirect
+local-data: "hesterwebber.co.za A 255.255.255.255"
+local-zone: "hexacam.com" redirect
+local-data: "hexacam.com A 255.255.255.255"
+local-zone: "heybekuruyemis.com.tr" redirect
+local-data: "heybekuruyemis.com.tr A 255.255.255.255"
+local-zone: "hfvpylrssnbg.wcnv20.cn" redirect
+local-data: "hfvpylrssnbg.wcnv20.cn A 255.255.255.255"
+local-zone: "hhrgdsmylyp.wcnv20.cn" redirect
+local-data: "hhrgdsmylyp.wcnv20.cn A 255.255.255.255"
+local-zone: "highschoolsuperstar.co.za" redirect
+local-data: "highschoolsuperstar.co.za A 255.255.255.255"
+local-zone: "hisabati.com" redirect
+local-data: "hisabati.com A 255.255.255.255"
+local-zone: "hisandherskennels.co.za" redirect
+local-data: "hisandherskennels.co.za A 255.255.255.255"
+local-zone: "hitec-sa.com" redirect
+local-data: "hitec-sa.com A 255.255.255.255"
+local-zone: "hivekorea.com" redirect
+local-data: "hivekorea.com A 255.255.255.255"
+local-zone: "hjb-racing.co.za" redirect
+local-data: "hjb-racing.co.za A 255.255.255.255"
+local-zone: "hkwatercolors.com" redirect
+local-data: "hkwatercolors.com A 255.255.255.255"
+local-zone: "hmholdings360.co.za" redirect
+local-data: "hmholdings360.co.za A 255.255.255.255"
+local-zone: "hmp.me" redirect
+local-data: "hmp.me A 255.255.255.255"
+local-zone: "homeofblinds.com" redirect
+local-data: "homeofblinds.com A 255.255.255.255"
+local-zone: "homeownersinsurance.ca" redirect
+local-data: "homeownersinsurance.ca A 255.255.255.255"
+local-zone: "homody.com" redirect
+local-data: "homody.com A 255.255.255.255"
+local-zone: "host4unix.net" redirect
+local-data: "host4unix.net A 255.255.255.255"
+local-zone: "hosthof.com" redirect
+local-data: "hosthof.com A 255.255.255.255"
+local-zone: "hosthof.pk" redirect
+local-data: "hosthof.pk A 255.255.255.255"
+local-zone: "hostingvalley.co.uk" redirect
+local-data: "hostingvalley.co.uk A 255.255.255.255"
+local-zone: "hotelyayoba.com" redirect
+local-data: "hotelyayoba.com A 255.255.255.255"
+local-zone: "hsbutton.co.kr" redirect
+local-data: "hsbutton.co.kr A 255.255.255.255"
+local-zone: "hsshivling.com" redirect
+local-data: "hsshivling.com A 255.255.255.255"
+local-zone: "huknkwhx.wcnv20.cn" redirect
+local-data: "huknkwhx.wcnv20.cn A 255.255.255.255"
+local-zone: "hukukportal.com" redirect
+local-data: "hukukportal.com A 255.255.255.255"
+local-zone: "hwayou.com.tw" redirect
+local-data: "hwayou.com.tw A 255.255.255.255"
+local-zone: "hybridauto.co.za" redirect
+local-data: "hybridauto.co.za A 255.255.255.255"
+local-zone: "iancullen.co.za" redirect
+local-data: "iancullen.co.za A 255.255.255.255"
+local-zone: "ibrahimtoruk.com" redirect
+local-data: "ibrahimtoruk.com A 255.255.255.255"
+local-zone: "icapmecareers.com" redirect
+local-data: "icapmecareers.com A 255.255.255.255"
+local-zone: "icerike.com" redirect
+local-data: "icerike.com A 255.255.255.255"
+local-zone: "iconicciti.com" redirect
+local-data: "iconicciti.com A 255.255.255.255"
+local-zone: "iconnectuae.com" redirect
+local-data: "iconnectuae.com A 255.255.255.255"
+local-zone: "iewa.sk" redirect
+local-data: "iewa.sk A 255.255.255.255"
+local-zone: "iggleconsulting.com" redirect
+local-data: "iggleconsulting.com A 255.255.255.255"
 local-zone: "igstalk.com" redirect
 local-data: "igstalk.com A 255.255.255.255"
+local-zone: "ihlosiqs-pm.co.za" redirect
+local-data: "ihlosiqs-pm.co.za A 255.255.255.255"
+local-zone: "iida-sevensuns.com" redirect
+local-data: "iida-sevensuns.com A 255.255.255.255"
+local-zone: "iiee.edu.pk" redirect
+local-data: "iiee.edu.pk A 255.255.255.255"
+local-zone: "iilii.site" redirect
+local-data: "iilii.site A 255.255.255.255"
+local-zone: "iklimlendirmekonferansi.com" redirect
+local-data: "iklimlendirmekonferansi.com A 255.255.255.255"
+local-zone: "ikrea.or.kr" redirect
+local-data: "ikrea.or.kr A 255.255.255.255"
+local-zone: "ilaydapromosyon.com" redirect
+local-data: "ilaydapromosyon.com A 255.255.255.255"
+local-zone: "iloveat.fr" redirect
+local-data: "iloveat.fr A 255.255.255.255"
+local-zone: "iluvit.co.za" redirect
+local-data: "iluvit.co.za A 255.255.255.255"
+local-zone: "imageliners.com" redirect
+local-data: "imageliners.com A 255.255.255.255"
+local-zone: "in2accounting.co.za" redirect
+local-data: "in2accounting.co.za A 255.255.255.255"
+local-zone: "incoso.co.za" redirect
+local-data: "incoso.co.za A 255.255.255.255"
+local-zone: "indepenmedia.nl" redirect
+local-data: "indepenmedia.nl A 255.255.255.255"
+local-zone: "indiba-africa.co.za" redirect
+local-data: "indiba-africa.co.za A 255.255.255.255"
+local-zone: "indocraft.co.za" redirect
+local-data: "indocraft.co.za A 255.255.255.255"
+local-zone: "indulogistics.com" redirect
+local-data: "indulogistics.com A 255.255.255.255"
+local-zone: "induworld.ae" redirect
+local-data: "induworld.ae A 255.255.255.255"
+local-zone: "intechbilisim.com" redirect
+local-data: "intechbilisim.com A 255.255.255.255"
+local-zone: "intelecom.co.za" redirect
+local-data: "intelecom.co.za A 255.255.255.255"
+local-zone: "intelligentprotection.co.za" redirect
+local-data: "intelligentprotection.co.za A 255.255.255.255"
+local-zone: "intellismartglobal.com" redirect
+local-data: "intellismartglobal.com A 255.255.255.255"
+local-zone: "intellmix.com" redirect
+local-data: "intellmix.com A 255.255.255.255"
+local-zone: "interafricaconsulting.com" redirect
+local-data: "interafricaconsulting.com A 255.255.255.255"
+local-zone: "interloaf.com" redirect
+local-data: "interloaf.com A 255.255.255.255"
+local-zone: "iorlamlnh.wcnv20.cn" redirect
+local-data: "iorlamlnh.wcnv20.cn A 255.255.255.255"
+local-zone: "ipripak.org" redirect
+local-data: "ipripak.org A 255.255.255.255"
+local-zone: "iptv16.com" redirect
+local-data: "iptv16.com A 255.255.255.255"
+local-zone: "iqra.co.za" redirect
+local-data: "iqra.co.za A 255.255.255.255"
+local-zone: "iqtxbqzrczt.wcnv20.cn" redirect
+local-data: "iqtxbqzrczt.wcnv20.cn A 255.255.255.255"
+local-zone: "ircshyzltf.wcnv20.cn" redirect
+local-data: "ircshyzltf.wcnv20.cn A 255.255.255.255"
+local-zone: "irfanandirfan.com" redirect
+local-data: "irfanandirfan.com A 255.255.255.255"
+local-zone: "iscm.edu.ar" redirect
+local-data: "iscm.edu.ar A 255.255.255.255"
+local-zone: "isgs.com.pk" redirect
+local-data: "isgs.com.pk A 255.255.255.255"
+local-zone: "islemn.com" redirect
+local-data: "islemn.com A 255.255.255.255"
+local-zone: "isound.co.za" redirect
+local-data: "isound.co.za A 255.255.255.255"
+local-zone: "istanbulteknikhirdavat.com" redirect
+local-data: "istanbulteknikhirdavat.com A 255.255.255.255"
+local-zone: "itengineering.co.za" redirect
+local-data: "itengineering.co.za A 255.255.255.255"
+local-zone: "itsmaterial.us" redirect
+local-data: "itsmaterial.us A 255.255.255.255"
+local-zone: "itthub.com" redirect
+local-data: "itthub.com A 255.255.255.255"
+local-zone: "iurhjfnmflsdf.com" redirect
+local-data: "iurhjfnmflsdf.com A 255.255.255.255"
+local-zone: "iwqclywyrpv.wcnv20.cn" redirect
+local-data: "iwqclywyrpv.wcnv20.cn A 255.255.255.255"
+local-zone: "jakuboweb.com" redirect
+local-data: "jakuboweb.com A 255.255.255.255"
+local-zone: "jamia-asria.org" redirect
+local-data: "jamia-asria.org A 255.255.255.255"
+local-zone: "jannahqu.org" redirect
+local-data: "jannahqu.org A 255.255.255.255"
+local-zone: "jannatkhah.ir" redirect
+local-data: "jannatkhah.ir A 255.255.255.255"
+local-zone: "jitk.nusamandiri.ac.id" redirect
+local-data: "jitk.nusamandiri.ac.id A 255.255.255.255"
+local-zone: "jixpvuezhj.wcnv20.cn" redirect
+local-data: "jixpvuezhj.wcnv20.cn A 255.255.255.255"
+local-zone: "jjs.com.pk" redirect
+local-data: "jjs.com.pk A 255.255.255.255"
+local-zone: "joojlee.com" redirect
+local-data: "joojlee.com A 255.255.255.255"
+local-zone: "joyngroup.com" redirect
+local-data: "joyngroup.com A 255.255.255.255"
+local-zone: "jozipainters.co.za" redirect
+local-data: "jozipainters.co.za A 255.255.255.255"
+local-zone: "jsonstore.io" redirect
+local-data: "jsonstore.io A 255.255.255.255"
+local-zone: "judo59.com" redirect
+local-data: "judo59.com A 255.255.255.255"
+local-zone: "juelgkbeo.wcnv20.cn" redirect
+local-data: "juelgkbeo.wcnv20.cn A 255.255.255.255"
+local-zone: "justasec.com.au" redirect
+local-data: "justasec.com.au A 255.255.255.255"
+local-zone: "justinwalker.co.za" redirect
+local-data: "justinwalker.co.za A 255.255.255.255"
+local-zone: "jwseshowe.co.za" redirect
+local-data: "jwseshowe.co.za A 255.255.255.255"
+local-zone: "k-kiosk.com" redirect
+local-data: "k-kiosk.com A 255.255.255.255"
+local-zone: "kIsa.link" redirect
+local-data: "kIsa.link A 255.255.255.255"
+local-zone: "kailanisilks.com" redirect
+local-data: "kailanisilks.com A 255.255.255.255"
+local-zone: "kartacnictvi.cz" redirect
+local-data: "kartacnictvi.cz A 255.255.255.255"
+local-zone: "kartprinterleri.com" redirect
+local-data: "kartprinterleri.com A 255.255.255.255"
+local-zone: "kcdryervents.com" redirect
+local-data: "kcdryervents.com A 255.255.255.255"
+local-zone: "kernsmee.ru" redirect
+local-data: "kernsmee.ru A 255.255.255.255"
+local-zone: "kesanlazerepilasyon.com" redirect
+local-data: "kesanlazerepilasyon.com A 255.255.255.255"
+local-zone: "keyzone.ws" redirect
+local-data: "keyzone.ws A 255.255.255.255"
+local-zone: "kirklareli.com.tr" redirect
+local-data: "kirklareli.com.tr A 255.255.255.255"
+local-zone: "kisa.link" redirect
+local-data: "kisa.link A 255.255.255.255"
+local-zone: "kisalt.space" redirect
+local-data: "kisalt.space A 255.255.255.255"
 local-zone: "kjdnc.gp114.net" redirect
 local-data: "kjdnc.gp114.net A 255.255.255.255"
+local-zone: "kkattorneys.com.pk" redirect
+local-data: "kkattorneys.com.pk A 255.255.255.255"
+local-zone: "kkindonesia.com" redirect
+local-data: "kkindonesia.com A 255.255.255.255"
+local-zone: "kne.co.kr" redirect
+local-data: "kne.co.kr A 255.255.255.255"
+local-zone: "ko.tc" redirect
+local-data: "ko.tc A 255.255.255.255"
+local-zone: "komatireddy.net" redirect
+local-data: "komatireddy.net A 255.255.255.255"
+local-zone: "kopfkorea.com" redirect
+local-data: "kopfkorea.com A 255.255.255.255"
+local-zone: "kopilka.io" redirect
+local-data: "kopilka.io A 255.255.255.255"
+local-zone: "kopkarla.co.id" redirect
+local-data: "kopkarla.co.id A 255.255.255.255"
+local-zone: "korajans.com" redirect
+local-data: "korajans.com A 255.255.255.255"
+local-zone: "korhanplastik.com.tr" redirect
+local-data: "korhanplastik.com.tr A 255.255.255.255"
+local-zone: "kosel.com.tr" redirect
+local-data: "kosel.com.tr A 255.255.255.255"
+local-zone: "koshcreative.co.uk" redirect
+local-data: "koshcreative.co.uk A 255.255.255.255"
+local-zone: "kosic.or.kr" redirect
+local-data: "kosic.or.kr A 255.255.255.255"
+local-zone: "kpzmxvutx.wcnv20.cn" redirect
+local-data: "kpzmxvutx.wcnv20.cn A 255.255.255.255"
+local-zone: "kqsgctgwx.wcnv20.cn" redirect
+local-data: "kqsgctgwx.wcnv20.cn A 255.255.255.255"
+local-zone: "kqtixvvffi.wcnv20.cn" redirect
+local-data: "kqtixvvffi.wcnv20.cn A 255.255.255.255"
+local-zone: "kse.org.pk" redirect
+local-data: "kse.org.pk A 255.255.255.255"
+local-zone: "ksu.com.tr" redirect
+local-data: "ksu.com.tr A 255.255.255.255"
+local-zone: "ktxhsrmh.wcnv20.cn" redirect
+local-data: "ktxhsrmh.wcnv20.cn A 255.255.255.255"
+local-zone: "kulagidaicecek.com" redirect
+local-data: "kulagidaicecek.com A 255.255.255.255"
 local-zone: "kumdo.org" redirect
 local-data: "kumdo.org A 255.255.255.255"
+local-zone: "kumsan.gen.tr" redirect
+local-data: "kumsan.gen.tr A 255.255.255.255"
+local-zone: "kurucuvincelektrik.com" redirect
+local-data: "kurucuvincelektrik.com A 255.255.255.255"
 local-zone: "kutt.it" redirect
 local-data: "kutt.it A 255.255.255.255"
+local-zone: "kuzeyyeliinsaat.com.tr" redirect
+local-data: "kuzeyyeliinsaat.com.tr A 255.255.255.255"
+local-zone: "ladiescircle.co.za" redirect
+local-data: "ladiescircle.co.za A 255.255.255.255"
+local-zone: "lamaggiora.it" redirect
+local-data: "lamaggiora.it A 255.255.255.255"
+local-zone: "lanamakotrue.com" redirect
+local-data: "lanamakotrue.com A 255.255.255.255"
+local-zone: "laraibgroup.com" redirect
+local-data: "laraibgroup.com A 255.255.255.255"
+local-zone: "laserswat.com" redirect
+local-data: "laserswat.com A 255.255.255.255"
+local-zone: "last-time.ru" redirect
+local-data: "last-time.ru A 255.255.255.255"
+local-zone: "lbmjhvic.wcnv20.cn" redirect
+local-data: "lbmjhvic.wcnv20.cn A 255.255.255.255"
+local-zone: "lbygrxeu.wcnv20.cn" redirect
+local-data: "lbygrxeu.wcnv20.cn A 255.255.255.255"
+local-zone: "leholluwma.wcnv20.cn" redirect
+local-data: "leholluwma.wcnv20.cn A 255.255.255.255"
+local-zone: "lgpkztmpyny.wcnv20.cn" redirect
+local-data: "lgpkztmpyny.wcnv20.cn A 255.255.255.255"
+local-zone: "licfpnda.wcnv20.cn" redirect
+local-data: "licfpnda.wcnv20.cn A 255.255.255.255"
+local-zone: "lightrdr.best" redirect
+local-data: "lightrdr.best A 255.255.255.255"
+local-zone: "lihkab59.com" redirect
+local-data: "lihkab59.com A 255.255.255.255"
+local-zone: "liladecor.com.tr" redirect
+local-data: "liladecor.com.tr A 255.255.255.255"
+local-zone: "lingsao.com.cn" redirect
+local-data: "lingsao.com.cn A 255.255.255.255"
+local-zone: "link.tl" redirect
+local-data: "link.tl A 255.255.255.255"
+local-zone: "littleblessingscotons.com" redirect
+local-data: "littleblessingscotons.com A 255.255.255.255"
+local-zone: "llallagua.ch" redirect
+local-data: "llallagua.ch A 255.255.255.255"
+local-zone: "lllllll.eu" redirect
+local-data: "lllllll.eu A 255.255.255.255"
+local-zone: "lmy.de" redirect
+local-data: "lmy.de A 255.255.255.255"
+local-zone: "lnhwmeopo.wcnv20.cn" redirect
+local-data: "lnhwmeopo.wcnv20.cn A 255.255.255.255"
+local-zone: "loansonhomes.co.za" redirect
+local-data: "loansonhomes.co.za A 255.255.255.255"
+local-zone: "locknlockmall.com" redirect
+local-data: "locknlockmall.com A 255.255.255.255"
+local-zone: "logicsfort.com" redirect
+local-data: "logicsfort.com A 255.255.255.255"
+local-zone: "lol.tc" redirect
+local-data: "lol.tc A 255.255.255.255"
+local-zone: "loupeacara.net" redirect
+local-data: "loupeacara.net A 255.255.255.255"
+local-zone: "loupeahak.com" redirect
+local-data: "loupeahak.com A 255.255.255.255"
+local-zone: "loveandlight.aws3.net" redirect
+local-data: "loveandlight.aws3.net A 255.255.255.255"
+local-zone: "lrskurumsal.com" redirect
+local-data: "lrskurumsal.com A 255.255.255.255"
+local-zone: "lsbozonsta.wcnv20.cn" redirect
+local-data: "lsbozonsta.wcnv20.cn A 255.255.255.255"
+local-zone: "ltcxtseayai.wcnv20.cn" redirect
+local-data: "ltcxtseayai.wcnv20.cn A 255.255.255.255"
+local-zone: "ltirqcmrseuq.wcnv20.cn" redirect
+local-data: "ltirqcmrseuq.wcnv20.cn A 255.255.255.255"
 local-zone: "luminix.kr" redirect
 local-data: "luminix.kr A 255.255.255.255"
 local-zone: "luminix.openhaja.com" redirect
 local-data: "luminix.openhaja.com A 255.255.255.255"
+local-zone: "luxconprojects.co.za" redirect
+local-data: "luxconprojects.co.za A 255.255.255.255"
+local-zone: "lwac.com" redirect
+local-data: "lwac.com A 255.255.255.255"
+local-zone: "lyjjglrnpk.wcnv20.cn" redirect
+local-data: "lyjjglrnpk.wcnv20.cn A 255.255.255.255"
+local-zone: "lykvmhociat.wcnv20.cn" redirect
+local-data: "lykvmhociat.wcnv20.cn A 255.255.255.255"
+local-zone: "m-3.co.za" redirect
+local-data: "m-3.co.za A 255.255.255.255"
+local-zone: "m2.tc" redirect
+local-data: "m2.tc A 255.255.255.255"
+local-zone: "macleodphotography.com" redirect
+local-data: "macleodphotography.com A 255.255.255.255"
+local-zone: "mail.estudiorrbp.com.uy" redirect
+local-data: "mail.estudiorrbp.com.uy A 255.255.255.255"
+local-zone: "mail.sisnet.co.kr" redirect
+local-data: "mail.sisnet.co.kr A 255.255.255.255"
+local-zone: "mailingservers.net" redirect
+local-data: "mailingservers.net A 255.255.255.255"
+local-zone: "malboer.co.za" redirect
+local-data: "malboer.co.za A 255.255.255.255"
+local-zone: "mamelina.com" redirect
+local-data: "mamelina.com A 255.255.255.255"
+local-zone: "maps-covid.com" redirect
+local-data: "maps-covid.com A 255.255.255.255"
+local-zone: "matern-eger.de" redirect
+local-data: "matern-eger.de A 255.255.255.255"
+local-zone: "maymaychihai.com" redirect
+local-data: "maymaychihai.com A 255.255.255.255"
+local-zone: "mayoorschoolabudhabi.com" redirect
+local-data: "mayoorschoolabudhabi.com A 255.255.255.255"
+local-zone: "mbrainingevents.com" redirect
+local-data: "mbrainingevents.com A 255.255.255.255"
+local-zone: "mcwhorterdesign.com" redirect
+local-data: "mcwhorterdesign.com A 255.255.255.255"
+local-zone: "mediatrendsistem.com" redirect
+local-data: "mediatrendsistem.com A 255.255.255.255"
+local-zone: "medipedics.com" redirect
+local-data: "medipedics.com A 255.255.255.255"
+local-zone: "memosigla.su" redirect
+local-data: "memosigla.su A 255.255.255.255"
+local-zone: "mepetresources.com" redirect
+local-data: "mepetresources.com A 255.255.255.255"
+local-zone: "mepure.com" redirect
+local-data: "mepure.com A 255.255.255.255"
+local-zone: "mercurysound.es" redirect
+local-data: "mercurysound.es A 255.255.255.255"
+local-zone: "mexicanagm.mx" redirect
+local-data: "mexicanagm.mx A 255.255.255.255"
+local-zone: "mf-staging-html-01.sfo2.digitaloceanspaces.com" redirect
+local-data: "mf-staging-html-01.sfo2.digitaloceanspaces.com A 255.255.255.255"
+local-zone: "mgamule.co.za" redirect
+local-data: "mgamule.co.za A 255.255.255.255"
+local-zone: "microdots.in" redirect
+local-data: "microdots.in A 255.255.255.255"
+local-zone: "mikimaths.com" redirect
+local-data: "mikimaths.com A 255.255.255.255"
+local-zone: "mileage.krb.co.kr" redirect
+local-data: "mileage.krb.co.kr A 255.255.255.255"
+local-zone: "missiegeslaagd.nl" redirect
+local-data: "missiegeslaagd.nl A 255.255.255.255"
+local-zone: "mitsubishiklimaservisim.net" redirect
+local-data: "mitsubishiklimaservisim.net A 255.255.255.255"
+local-zone: "mobilsube.github.io" redirect
+local-data: "mobilsube.github.io A 255.255.255.255"
+local-zone: "moboradar.com" redirect
+local-data: "moboradar.com A 255.255.255.255"
+local-zone: "mohamedbinham.com" redirect
+local-data: "mohamedbinham.com A 255.255.255.255"
+local-zone: "mokawafm.com" redirect
+local-data: "mokawafm.com A 255.255.255.255"
+local-zone: "mokorotlocorporate.com" redirect
+local-data: "mokorotlocorporate.com A 255.255.255.255"
+local-zone: "mountsinaischool.edu.pk" redirect
+local-data: "mountsinaischool.edu.pk A 255.255.255.255"
+local-zone: "mrveggy.com" redirect
+local-data: "mrveggy.com A 255.255.255.255"
+local-zone: "mtxhlihch.wcnv20.cn" redirect
+local-data: "mtxhlihch.wcnv20.cn A 255.255.255.255"
+local-zone: "muallematsela.com" redirect
+local-data: "muallematsela.com A 255.255.255.255"
+local-zone: "mukhtarfeeds.com" redirect
+local-data: "mukhtarfeeds.com A 255.255.255.255"
+local-zone: "multichoice.com.pk" redirect
+local-data: "multichoice.com.pk A 255.255.255.255"
+local-zone: "mumeizama.com" redirect
+local-data: "mumeizama.com A 255.255.255.255"
+local-zone: "mumtazandbrohi.com" redirect
+local-data: "mumtazandbrohi.com A 255.255.255.255"
+local-zone: "musgqgkkvhv.wcnv20.cn" redirect
+local-data: "musgqgkkvhv.wcnv20.cn A 255.255.255.255"
+local-zone: "mycar.ge" redirect
+local-data: "mycar.ge A 255.255.255.255"
+local-zone: "myhealthmedical.ae" redirect
+local-data: "myhealthmedical.ae A 255.255.255.255"
+local-zone: "mytechgo.com" redirect
+local-data: "mytechgo.com A 255.255.255.255"
+local-zone: "nabtires.com" redirect
+local-data: "nabtires.com A 255.255.255.255"
+local-zone: "nacindia.in" redirect
+local-data: "nacindia.in A 255.255.255.255"
+local-zone: "nakoserum.com" redirect
+local-data: "nakoserum.com A 255.255.255.255"
+local-zone: "nalitravel.co.za" redirect
+local-data: "nalitravel.co.za A 255.255.255.255"
+local-zone: "natenstedt.nl" redirect
+local-data: "natenstedt.nl A 255.255.255.255"
+local-zone: "nayablabs.com" redirect
+local-data: "nayablabs.com A 255.255.255.255"
+local-zone: "nbftgceqhs.wcnv20.cn" redirect
+local-data: "nbftgceqhs.wcnv20.cn A 255.255.255.255"
+local-zone: "ndjbhhfcgt.wcnv20.cn" redirect
+local-data: "ndjbhhfcgt.wcnv20.cn A 255.255.255.255"
+local-zone: "neomfarming.com" redirect
+local-data: "neomfarming.com A 255.255.255.255"
+local-zone: "neonmedia.pl" redirect
+local-data: "neonmedia.pl A 255.255.255.255"
+local-zone: "netsolcomputers.in" redirect
+local-data: "netsolcomputers.in A 255.255.255.255"
+local-zone: "nettoyage-plafond.com" redirect
+local-data: "nettoyage-plafond.com A 255.255.255.255"
+local-zone: "newstimesreportshonkong.desi" redirect
+local-data: "newstimesreportshonkong.desi A 255.255.255.255"
+local-zone: "newtech-consulting.ae" redirect
+local-data: "newtech-consulting.ae A 255.255.255.255"
+local-zone: "ngzxwmont.wcnv20.cn" redirect
+local-data: "ngzxwmont.wcnv20.cn A 255.255.255.255"
+local-zone: "nhirqndaon.wcnv20.cn" redirect
+local-data: "nhirqndaon.wcnv20.cn A 255.255.255.255"
+local-zone: "nhvojmolwnqh.wcnv20.cn" redirect
+local-data: "nhvojmolwnqh.wcnv20.cn A 255.255.255.255"
+local-zone: "nicecars.com.ar" redirect
+local-data: "nicecars.com.ar A 255.255.255.255"
+local-zone: "nifvaanigowl.wcnv20.cn" redirect
+local-data: "nifvaanigowl.wcnv20.cn A 255.255.255.255"
+local-zone: "nisnlcmaf.wcnv20.cn" redirect
+local-data: "nisnlcmaf.wcnv20.cn A 255.255.255.255"
+local-zone: "niufebbzmho.wcnv20.cn" redirect
+local-data: "niufebbzmho.wcnv20.cn A 255.255.255.255"
+local-zone: "njb-gmbh.com" redirect
+local-data: "njb-gmbh.com A 255.255.255.255"
+local-zone: "njvrchvzdj.wcnv20.cn" redirect
+local-data: "njvrchvzdj.wcnv20.cn A 255.255.255.255"
+local-zone: "nkmvrbluxbwy.wcnv20.cn" redirect
+local-data: "nkmvrbluxbwy.wcnv20.cn A 255.255.255.255"
+local-zone: "nkpztjnhl.wcnv20.cn" redirect
+local-data: "nkpztjnhl.wcnv20.cn A 255.255.255.255"
+local-zone: "nodihyzv.wcnv20.cn" redirect
+local-data: "nodihyzv.wcnv20.cn A 255.255.255.255"
+local-zone: "nolandsintl.com" redirect
+local-data: "nolandsintl.com A 255.255.255.255"
+local-zone: "nonyunzfgiac.wcnv20.cn" redirect
+local-data: "nonyunzfgiac.wcnv20.cn A 255.255.255.255"
+local-zone: "novaworld-novaland.vn" redirect
+local-data: "novaworld-novaland.vn A 255.255.255.255"
+local-zone: "nowayright.biz" redirect
+local-data: "nowayright.biz A 255.255.255.255"
+local-zone: "npfiamloyhc.wcnv20.cn" redirect
+local-data: "npfiamloyhc.wcnv20.cn A 255.255.255.255"
+local-zone: "nrsp.org.pk" redirect
+local-data: "nrsp.org.pk A 255.255.255.255"
+local-zone: "obaidsaqerbusit.com" redirect
+local-data: "obaidsaqerbusit.com A 255.255.255.255"
+local-zone: "odcpkintranet.org" redirect
+local-data: "odcpkintranet.org A 255.255.255.255"
+local-zone: "odehnallzev.wcnv20.cn" redirect
+local-data: "odehnallzev.wcnv20.cn A 255.255.255.255"
+local-zone: "odjhnbvb.wcnv20.cn" redirect
+local-data: "odjhnbvb.wcnv20.cn A 255.255.255.255"
+local-zone: "officialdivinea.com" redirect
+local-data: "officialdivinea.com A 255.255.255.255"
+local-zone: "oftheearthphotography.com" redirect
+local-data: "oftheearthphotography.com A 255.255.255.255"
+local-zone: "oilandgaseng.com" redirect
+local-data: "oilandgaseng.com A 255.255.255.255"
+local-zone: "olexco.ae" redirect
+local-data: "olexco.ae A 255.255.255.255"
+local-zone: "olymposarmy.com" redirect
+local-data: "olymposarmy.com A 255.255.255.255"
+local-zone: "ommjlanceacu.wcnv20.cn" redirect
+local-data: "ommjlanceacu.wcnv20.cn A 255.255.255.255"
+local-zone: "omniaconsultingparma.it" redirect
+local-data: "omniaconsultingparma.it A 255.255.255.255"
+local-zone: "oneway.clientresultsnow.com" redirect
+local-data: "oneway.clientresultsnow.com A 255.255.255.255"
+local-zone: "onlinenews.com.pk" redirect
+local-data: "onlinenews.com.pk A 255.255.255.255"
+local-zone: "onspotlinks.co.za" redirect
+local-data: "onspotlinks.co.za A 255.255.255.255"
+local-zone: "opendisclosure.org.za" redirect
+local-data: "opendisclosure.org.za A 255.255.255.255"
+local-zone: "opizxjjcok.wcnv20.cn" redirect
+local-data: "opizxjjcok.wcnv20.cn A 255.255.255.255"
+local-zone: "optimizeme.in" redirect
+local-data: "optimizeme.in A 255.255.255.255"
+local-zone: "opydgvlegrdd.wcnv20.cn" redirect
+local-data: "opydgvlegrdd.wcnv20.cn A 255.255.255.255"
+local-zone: "opzhjcusgw.wcnv20.cn" redirect
+local-data: "opzhjcusgw.wcnv20.cn A 255.255.255.255"
 local-zone: "organmelody.top" redirect
 local-data: "organmelody.top A 255.255.255.255"
+local-zone: "outdoorheater.ae" redirect
+local-data: "outdoorheater.ae A 255.255.255.255"
+local-zone: "ovuixaxtelyn.wcnv20.cn" redirect
+local-data: "ovuixaxtelyn.wcnv20.cn A 255.255.255.255"
+local-zone: "ozdemirleryapi.com.tr" redirect
+local-data: "ozdemirleryapi.com.tr A 255.255.255.255"
+local-zone: "ozqbbajc.wcnv20.cn" redirect
+local-data: "ozqbbajc.wcnv20.cn A 255.255.255.255"
+local-zone: "pacificprime.ae" redirect
+local-data: "pacificprime.ae A 255.255.255.255"
+local-zone: "paimantrust.org" redirect
+local-data: "paimantrust.org A 255.255.255.255"
+local-zone: "pakial.com" redirect
+local-data: "pakial.com A 255.255.255.255"
+local-zone: "paksteel.com" redirect
+local-data: "paksteel.com A 255.255.255.255"
+local-zone: "paktechinfo.com" redirect
+local-data: "paktechinfo.com A 255.255.255.255"
+local-zone: "pamforprogress.com" redirect
+local-data: "pamforprogress.com A 255.255.255.255"
+local-zone: "pamudzi.co.za" redirect
+local-data: "pamudzi.co.za A 255.255.255.255"
+local-zone: "paste.ee" redirect
+local-data: "paste.ee A 255.255.255.255"
+local-zone: "patioheater.ae" redirect
+local-data: "patioheater.ae A 255.255.255.255"
+local-zone: "patrickreeves.com" redirect
+local-data: "patrickreeves.com A 255.255.255.255"
+local-zone: "pazazta.com" redirect
+local-data: "pazazta.com A 255.255.255.255"
+local-zone: "pbcenter.home.pl" redirect
+local-data: "pbcenter.home.pl A 255.255.255.255"
+local-zone: "pcdesk.co.kr" redirect
+local-data: "pcdesk.co.kr A 255.255.255.255"
+local-zone: "pelinfidancilik.com" redirect
+local-data: "pelinfidancilik.com A 255.255.255.255"
+local-zone: "pembegozluk.com" redirect
+local-data: "pembegozluk.com A 255.255.255.255"
+local-zone: "peqvcogv.wcnv20.cn" redirect
+local-data: "peqvcogv.wcnv20.cn A 255.255.255.255"
+local-zone: "perfectlabels.net" redirect
+local-data: "perfectlabels.net A 255.255.255.255"
+local-zone: "permanite.co.za" redirect
+local-data: "permanite.co.za A 255.255.255.255"
+local-zone: "perryroadrecords.co.uk" redirect
+local-data: "perryroadrecords.co.uk A 255.255.255.255"
+local-zone: "petromenllc.com" redirect
+local-data: "petromenllc.com A 255.255.255.255"
+local-zone: "pgak.net" redirect
+local-data: "pgak.net A 255.255.255.255"
+local-zone: "pgkhi.com" redirect
+local-data: "pgkhi.com A 255.255.255.255"
+local-zone: "phoenix.zar.cc" redirect
+local-data: "phoenix.zar.cc A 255.255.255.255"
+local-zone: "photobookexpress.com" redirect
+local-data: "photobookexpress.com A 255.255.255.255"
+local-zone: "photobucket.com" redirect
+local-data: "photobucket.com A 255.255.255.255"
+local-zone: "pickwick-poppins.com" redirect
+local-data: "pickwick-poppins.com A 255.255.255.255"
+local-zone: "pinnacleweld.co.za" redirect
+local-data: "pinnacleweld.co.za A 255.255.255.255"
+local-zone: "pkix.pk" redirect
+local-data: "pkix.pk A 255.255.255.255"
+local-zone: "pkproud.com" redirect
+local-data: "pkproud.com A 255.255.255.255"
+local-zone: "plantconsultants.co.za" redirect
+local-data: "plantconsultants.co.za A 255.255.255.255"
+local-zone: "plantengineering.com" redirect
+local-data: "plantengineering.com A 255.255.255.255"
+local-zone: "plexsolutions.co.za" redirect
+local-data: "plexsolutions.co.za A 255.255.255.255"
+local-zone: "plik.root.gg" redirect
+local-data: "plik.root.gg A 255.255.255.255"
+local-zone: "pmanquetil.com" redirect
+local-data: "pmanquetil.com A 255.255.255.255"
+local-zone: "pmdpk.com" redirect
+local-data: "pmdpk.com A 255.255.255.255"
+local-zone: "poemsan.info" redirect
+local-data: "poemsan.info A 255.255.255.255"
+local-zone: "popfilms.co.za" redirect
+local-data: "popfilms.co.za A 255.255.255.255"
+local-zone: "ppe4u.co.za" redirect
+local-data: "ppe4u.co.za A 255.255.255.255"
+local-zone: "prestbusiness.co.za" redirect
+local-data: "prestbusiness.co.za A 255.255.255.255"
+local-zone: "printinghub.co.za" redirect
+local-data: "printinghub.co.za A 255.255.255.255"
 local-zone: "priortable.top" redirect
 local-data: "priortable.top A 255.255.255.255"
+local-zone: "privategallerie.info" redirect
+local-data: "privategallerie.info A 255.255.255.255"
+local-zone: "procarsrl.com.ar" redirect
+local-data: "procarsrl.com.ar A 255.255.255.255"
+local-zone: "produkktc.com" redirect
+local-data: "produkktc.com A 255.255.255.255"
+local-zone: "proeventsports.co.za" redirect
+local-data: "proeventsports.co.za A 255.255.255.255"
+local-zone: "project1114457.turbo.site" redirect
+local-data: "project1114457.turbo.site A 255.255.255.255"
+local-zone: "projectartdivvy.com" redirect
+local-data: "projectartdivvy.com A 255.255.255.255"
+local-zone: "projekthd.com" redirect
+local-data: "projekthd.com A 255.255.255.255"
+local-zone: "promapharita.com" redirect
+local-data: "promapharita.com A 255.255.255.255"
+local-zone: "promechtransport.co.za" redirect
+local-data: "promechtransport.co.za A 255.255.255.255"
+local-zone: "prommap.co.za" redirect
+local-data: "prommap.co.za A 255.255.255.255"
+local-zone: "pronette.co.za" redirect
+local-data: "pronette.co.za A 255.255.255.255"
+local-zone: "proplumbing.co.za" redirect
+local-data: "proplumbing.co.za A 255.255.255.255"
+local-zone: "pudphfpbyjql.wcnv20.cn" redirect
+local-data: "pudphfpbyjql.wcnv20.cn A 255.255.255.255"
+local-zone: "puigoxwoldrh.wcnv20.cn" redirect
+local-data: "puigoxwoldrh.wcnv20.cn A 255.255.255.255"
+local-zone: "pvp.tc" redirect
+local-data: "pvp.tc A 255.255.255.255"
+local-zone: "pymkwtzzdeb.wcnv20.cn" redirect
+local-data: "pymkwtzzdeb.wcnv20.cn A 255.255.255.255"
+local-zone: "pzsyqyuyrh.wcnv20.cn" redirect
+local-data: "pzsyqyuyrh.wcnv20.cn A 255.255.255.255"
+local-zone: "qfowzcnpyshu.wcnv20.cn" redirect
+local-data: "qfowzcnpyshu.wcnv20.cn A 255.255.255.255"
+local-zone: "qhhvvrqmd.wcnv20.cn" redirect
+local-data: "qhhvvrqmd.wcnv20.cn A 255.255.255.255"
+local-zone: "qjzqbqlp.wcnv20.cn" redirect
+local-data: "qjzqbqlp.wcnv20.cn A 255.255.255.255"
+local-zone: "qowjmumoeeg.wcnv20.cn" redirect
+local-data: "qowjmumoeeg.wcnv20.cn A 255.255.255.255"
+local-zone: "qrcodes.pro" redirect
+local-data: "qrcodes.pro A 255.255.255.255"
+local-zone: "qsrimages.co.za" redirect
+local-data: "qsrimages.co.za A 255.255.255.255"
+local-zone: "quecue.kr" redirect
+local-data: "quecue.kr A 255.255.255.255"
+local-zone: "quikteam.com" redirect
+local-data: "quikteam.com A 255.255.255.255"
+local-zone: "quraqlothnq.wcnv20.cn" redirect
+local-data: "quraqlothnq.wcnv20.cn A 255.255.255.255"
+local-zone: "qzkrbttsmc.wcnv20.cn" redirect
+local-data: "qzkrbttsmc.wcnv20.cn A 255.255.255.255"
+local-zone: "radyohaber.com.tr" redirect
+local-data: "radyohaber.com.tr A 255.255.255.255"
+local-zone: "ragazzemessenger.com" redirect
+local-data: "ragazzemessenger.com A 255.255.255.255"
+local-zone: "ramzcapital.com" redirect
+local-data: "ramzcapital.com A 255.255.255.255"
+local-zone: "rapistindia.com" redirect
+local-data: "rapistindia.com A 255.255.255.255"
+local-zone: "rcivnzlvbj.wcnv20.cn" redirect
+local-data: "rcivnzlvbj.wcnv20.cn A 255.255.255.255"
+local-zone: "rcpk.co.za" redirect
+local-data: "rcpk.co.za A 255.255.255.255"
+local-zone: "real-websolutions.nl" redirect
+local-data: "real-websolutions.nl A 255.255.255.255"
+local-zone: "realdealhouse.eu" redirect
+local-data: "realdealhouse.eu A 255.255.255.255"
+local-zone: "realstar.co.za" redirect
+local-data: "realstar.co.za A 255.255.255.255"
+local-zone: "reatlegile.com" redirect
+local-data: "reatlegile.com A 255.255.255.255"
 local-zone: "rebrand.ly" redirect
 local-data: "rebrand.ly A 255.255.255.255"
+local-zone: "reesconsulting.co.za" redirect
+local-data: "reesconsulting.co.za A 255.255.255.255"
+local-zone: "refikengin.com" redirect
+local-data: "refikengin.com A 255.255.255.255"
+local-zone: "regionprinters.com" redirect
+local-data: "regionprinters.com A 255.255.255.255"
+local-zone: "ren7oaks.co.uk" redirect
+local-data: "ren7oaks.co.uk A 255.255.255.255"
+local-zone: "rentwestq.com" redirect
+local-data: "rentwestq.com A 255.255.255.255"
+local-zone: "ribbonlogistics.com" redirect
+local-data: "ribbonlogistics.com A 255.255.255.255"
+local-zone: "richardwillettphotography.com" redirect
+local-data: "richardwillettphotography.com A 255.255.255.255"
+local-zone: "risabaattorneys.com" redirect
+local-data: "risabaattorneys.com A 255.255.255.255"
+local-zone: "risu.fi" redirect
+local-data: "risu.fi A 255.255.255.255"
+local-zone: "rmmun.org.pk" redirect
+local-data: "rmmun.org.pk A 255.255.255.255"
+local-zone: "robertwatton.co.uk" redirect
+local-data: "robertwatton.co.uk A 255.255.255.255"
+local-zone: "rocknsoulamerica.com" redirect
+local-data: "rocknsoulamerica.com A 255.255.255.255"
+local-zone: "rodtimberproducts.co.za" redirect
+local-data: "rodtimberproducts.co.za A 255.255.255.255"
+local-zone: "rollotech.co.za" redirect
+local-data: "rollotech.co.za A 255.255.255.255"
+local-zone: "romcablu.com" redirect
+local-data: "romcablu.com A 255.255.255.255"
+local-zone: "rorymartin8.info" redirect
+local-data: "rorymartin8.info A 255.255.255.255"
+local-zone: "roseace.com.pk" redirect
+local-data: "roseace.com.pk A 255.255.255.255"
+local-zone: "roshnisindh.org.pk" redirect
+local-data: "roshnisindh.org.pk A 255.255.255.255"
+local-zone: "royalhijyen.com" redirect
+local-data: "royalhijyen.com A 255.255.255.255"
+local-zone: "roycolemandds.com" redirect
+local-data: "roycolemandds.com A 255.255.255.255"
+local-zone: "rtaep.org" redirect
+local-data: "rtaep.org A 255.255.255.255"
+local-zone: "rtwjrqocw.wcnv20.cn" redirect
+local-data: "rtwjrqocw.wcnv20.cn A 255.255.255.255"
+local-zone: "ru.tc" redirect
+local-data: "ru.tc A 255.255.255.255"
+local-zone: "rudraagrointernational.com" redirect
+local-data: "rudraagrointernational.com A 255.255.255.255"
+local-zone: "runkel.com.mx" redirect
+local-data: "runkel.com.mx A 255.255.255.255"
+local-zone: "rupertsherwood.com" redirect
+local-data: "rupertsherwood.com A 255.255.255.255"
+local-zone: "rvnstudios.co.za" redirect
+local-data: "rvnstudios.co.za A 255.255.255.255"
+local-zone: "ryanchristiefurniture.co.za" redirect
+local-data: "ryanchristiefurniture.co.za A 255.255.255.255"
+local-zone: "rydezbfgc.wcnv20.cn" redirect
+local-data: "rydezbfgc.wcnv20.cn A 255.255.255.255"
+local-zone: "s3-eu-west-1.amazonaws.com" redirect
+local-data: "s3-eu-west-1.amazonaws.com A 255.255.255.255"
+local-zone: "s3.amazonaws.com" redirect
+local-data: "s3.amazonaws.com A 255.255.255.255"
+local-zone: "s3.us-east-2.amazonaws.com" redirect
+local-data: "s3.us-east-2.amazonaws.com A 255.255.255.255"
+local-zone: "saacma.co.za" redirect
+local-data: "saacma.co.za A 255.255.255.255"
+local-zone: "sabinaengineering.com" redirect
+local-data: "sabinaengineering.com A 255.255.255.255"
+local-zone: "sabines-marmeladen.de" redirect
+local-data: "sabines-marmeladen.de A 255.255.255.255"
+local-zone: "sallyscott.co.za" redirect
+local-data: "sallyscott.co.za A 255.255.255.255"
+local-zone: "salmanandassociates.com.pk" redirect
+local-data: "salmanandassociates.com.pk A 255.255.255.255"
+local-zone: "sampling-group.com" redirect
+local-data: "sampling-group.com A 255.255.255.255"
+local-zone: "samurmakina.com.tr" redirect
+local-data: "samurmakina.com.tr A 255.255.255.255"
+local-zone: "sanco.it" redirect
+local-data: "sanco.it A 255.255.255.255"
+local-zone: "sancorbr.com.br" redirect
+local-data: "sancorbr.com.br A 255.255.255.255"
+local-zone: "sandalci.com.tr" redirect
+local-data: "sandalci.com.tr A 255.255.255.255"
+local-zone: "sanko1.co.jp" redirect
+local-data: "sanko1.co.jp A 255.255.255.255"
+local-zone: "sarahtame.at" redirect
+local-data: "sarahtame.at A 255.255.255.255"
+local-zone: "sarilartarim.com" redirect
+local-data: "sarilartarim.com A 255.255.255.255"
+local-zone: "saritohum.com" redirect
+local-data: "saritohum.com A 255.255.255.255"
+local-zone: "satcomputers.co.za" redirect
+local-data: "satcomputers.co.za A 255.255.255.255"
+local-zone: "satuwrite.com" redirect
+local-data: "satuwrite.com A 255.255.255.255"
+local-zone: "satwa.ae" redirect
+local-data: "satwa.ae A 255.255.255.255"
+local-zone: "sc-otdushina.ru" redirect
+local-data: "sc-otdushina.ru A 255.255.255.255"
+local-zone: "schw4rz.com" redirect
+local-data: "schw4rz.com A 255.255.255.255"
+local-zone: "sclionionescu.ro" redirect
+local-data: "sclionionescu.ro A 255.255.255.255"
+local-zone: "scouting-bvb.nl" redirect
+local-data: "scouting-bvb.nl A 255.255.255.255"
+local-zone: "sdorf.com.br" redirect
+local-data: "sdorf.com.br A 255.255.255.255"
+local-zone: "seffafkartvizitim.com" redirect
+local-data: "seffafkartvizitim.com A 255.255.255.255"
+local-zone: "seismicfactory.co.za" redirect
+local-data: "seismicfactory.co.za A 255.255.255.255"
+local-zone: "seoinlahorepakistan.com" redirect
+local-data: "seoinlahorepakistan.com A 255.255.255.255"
+local-zone: "serversvalley.com" redirect
+local-data: "serversvalley.com A 255.255.255.255"
+local-zone: "servicebox.co.za" redirect
+local-data: "servicebox.co.za A 255.255.255.255"
+local-zone: "sesisitmer.com" redirect
+local-data: "sesisitmer.com A 255.255.255.255"
+local-zone: "sestili.it" redirect
+local-data: "sestili.it A 255.255.255.255"
+local-zone: "sexex.co.il" redirect
+local-data: "sexex.co.il A 255.255.255.255"
+local-zone: "shahkara.com.tr" redirect
+local-data: "shahkara.com.tr A 255.255.255.255"
+local-zone: "shejipxw.com" redirect
+local-data: "shejipxw.com A 255.255.255.255"
+local-zone: "shgida.com" redirect
+local-data: "shgida.com A 255.255.255.255"
+local-zone: "shineindian.com" redirect
+local-data: "shineindian.com A 255.255.255.255"
+local-zone: "short.pe" redirect
+local-data: "short.pe A 255.255.255.255"
+local-zone: "shortygram.com" redirect
+local-data: "shortygram.com A 255.255.255.255"
+local-zone: "shreeconstructions.co.in" redirect
+local-data: "shreeconstructions.co.in A 255.255.255.255"
+local-zone: "shullen.co.za" redirect
+local-data: "shullen.co.za A 255.255.255.255"
+local-zone: "shurabura.org" redirect
+local-data: "shurabura.org A 255.255.255.255"
+local-zone: "shurt.pw" redirect
+local-data: "shurt.pw A 255.255.255.255"
+local-zone: "sightselect.top" redirect
+local-data: "sightselect.top A 255.255.255.255"
+local-zone: "sigmahydraulics.com" redirect
+local-data: "sigmahydraulics.com A 255.255.255.255"
+local-zone: "signo-comunicacion.com.ar" redirect
+local-data: "signo-comunicacion.com.ar A 255.255.255.255"
+local-zone: "sikanderajam.com" redirect
+local-data: "sikanderajam.com A 255.255.255.255"
+local-zone: "simpexbpo.com" redirect
+local-data: "simpexbpo.com A 255.255.255.255"
+local-zone: "simpleks.co.za" redirect
+local-data: "simpleks.co.za A 255.255.255.255"
+local-zone: "sinebar.co.za" redirect
+local-data: "sinebar.co.za A 255.255.255.255"
+local-zone: "sirinadas.com" redirect
+local-data: "sirinadas.com A 255.255.255.255"
+local-zone: "sirketcv.com" redirect
+local-data: "sirketcv.com A 255.255.255.255"
+local-zone: "sisco-ent.com" redirect
+local-data: "sisco-ent.com A 255.255.255.255"
+local-zone: "sishubamedia.co.za" redirect
+local-data: "sishubamedia.co.za A 255.255.255.255"
+local-zone: "sistemal.net.tr" redirect
+local-data: "sistemal.net.tr A 255.255.255.255"
+local-zone: "sitasbeton.com.tr" redirect
+local-data: "sitasbeton.com.tr A 255.255.255.255"
+local-zone: "site.inquima.com.br" redirect
+local-data: "site.inquima.com.br A 255.255.255.255"
+local-zone: "sjog.mw" redirect
+local-data: "sjog.mw A 255.255.255.255"
+local-zone: "skbyapi.com.tr" redirect
+local-data: "skbyapi.com.tr A 255.255.255.255"
+local-zone: "skjcbntd.wcnv20.cn" redirect
+local-data: "skjcbntd.wcnv20.cn A 255.255.255.255"
+local-zone: "skmoljjpc.wcnv20.cn" redirect
+local-data: "skmoljjpc.wcnv20.cn A 255.255.255.255"
+local-zone: "skyblueprint.co.za" redirect
+local-data: "skyblueprint.co.za A 255.255.255.255"
+local-zone: "slcmprojects.co.za" redirect
+local-data: "slcmprojects.co.za A 255.255.255.255"
+local-zone: "slwtech.com" redirect
+local-data: "slwtech.com A 255.255.255.255"
+local-zone: "smart-sense.co.il" redirect
+local-data: "smart-sense.co.il A 255.255.255.255"
+local-zone: "smartcare.com.tr" redirect
+local-data: "smartcare.com.tr A 255.255.255.255"
+local-zone: "smarterbaby.com" redirect
+local-data: "smarterbaby.com A 255.255.255.255"
+local-zone: "smpinsankamil.sch.id" redirect
+local-data: "smpinsankamil.sch.id A 255.255.255.255"
+local-zone: "snackattack.co.za" redirect
+local-data: "snackattack.co.za A 255.255.255.255"
+local-zone: "snip.ly" redirect
+local-data: "snip.ly A 255.255.255.255"
+local-zone: "snum.or.kr" redirect
+local-data: "snum.or.kr A 255.255.255.255"
+local-zone: "sofa.rs" redirect
+local-data: "sofa.rs A 255.255.255.255"
+local-zone: "softwarehub.co.za" redirect
+local-data: "softwarehub.co.za A 255.255.255.255"
+local-zone: "solartree.pk" redirect
+local-data: "solartree.pk A 255.255.255.255"
+local-zone: "soligro.com" redirect
+local-data: "soligro.com A 255.255.255.255"
+local-zone: "sonafoundation.org.pk" redirect
+local-data: "sonafoundation.org.pk A 255.255.255.255"
+local-zone: "sonneteck.com" redirect
+local-data: "sonneteck.com A 255.255.255.255"
+local-zone: "sonnyelectric.com" redirect
+local-data: "sonnyelectric.com A 255.255.255.255"
+local-zone: "sookgail.su" redirect
+local-data: "sookgail.su A 255.255.255.255"
+local-zone: "sorumvar.net" redirect
+local-data: "sorumvar.net A 255.255.255.255"
+local-zone: "sowetojive.co.za" redirect
+local-data: "sowetojive.co.za A 255.255.255.255"
+local-zone: "speranza2000.com" redirect
+local-data: "speranza2000.com A 255.255.255.255"
+local-zone: "spoyfydyq.wcnv20.cn" redirect
+local-data: "spoyfydyq.wcnv20.cn A 255.255.255.255"
+local-zone: "srngroup.com.tr" redirect
+local-data: "srngroup.com.tr A 255.255.255.255"
+local-zone: "srppmqyqhv.wcnv20.cn" redirect
+local-data: "srppmqyqhv.wcnv20.cn A 255.255.255.255"
+local-zone: "ssonweb.com" redirect
+local-data: "ssonweb.com A 255.255.255.255"
+local-zone: "startr.com" redirect
+local-data: "startr.com A 255.255.255.255"
+local-zone: "stayfitphysio.ca" redirect
+local-data: "stayfitphysio.ca A 255.255.255.255"
+local-zone: "stockwhip.top" redirect
+local-data: "stockwhip.top A 255.255.255.255"
+local-zone: "strictlybusiness.co.za" redirect
+local-data: "strictlybusiness.co.za A 255.255.255.255"
+local-zone: "stubbornsystems.com" redirect
+local-data: "stubbornsystems.com A 255.255.255.255"
+local-zone: "studioslefteris.gr" redirect
+local-data: "studioslefteris.gr A 255.255.255.255"
+local-zone: "studiospa.com.pl" redirect
+local-data: "studiospa.com.pl A 255.255.255.255"
+local-zone: "style1.co.kr" redirect
+local-data: "style1.co.kr A 255.255.255.255"
+local-zone: "sullivanprimary.co.za" redirect
+local-data: "sullivanprimary.co.za A 255.255.255.255"
+local-zone: "sumato.com.tr" redirect
+local-data: "sumato.com.tr A 255.255.255.255"
+local-zone: "sumzzindustry.com" redirect
+local-data: "sumzzindustry.com A 255.255.255.255"
+local-zone: "sunchipaint.com.vn" redirect
+local-data: "sunchipaint.com.vn A 255.255.255.255"
+local-zone: "sunnyinteractive.com.au" redirect
+local-data: "sunnyinteractive.com.au A 255.255.255.255"
+local-zone: "sunnypalour.com" redirect
+local-data: "sunnypalour.com A 255.255.255.255"
+local-zone: "support-ip.com" redirect
+local-data: "support-ip.com A 255.255.255.255"
+local-zone: "susinternational.com" redirect
+local-data: "susinternational.com A 255.255.255.255"
+local-zone: "swarm-solutions.com" redirect
+local-data: "swarm-solutions.com A 255.255.255.255"
+local-zone: "symergy.co.za" redirect
+local-data: "symergy.co.za A 255.255.255.255"
+local-zone: "ta-pu.ir" redirect
+local-data: "ta-pu.ir A 255.255.255.255"
+local-zone: "taigen-landscape.com" redirect
+local-data: "taigen-landscape.com A 255.255.255.255"
+local-zone: "taloodd.ru" redirect
+local-data: "taloodd.ru A 255.255.255.255"
+local-zone: "tamer.info" redirect
+local-data: "tamer.info A 255.255.255.255"
+local-zone: "tanati.co.za" redirect
+local-data: "tanati.co.za A 255.255.255.255"
+local-zone: "tandemtraining.co.za" redirect
+local-data: "tandemtraining.co.za A 255.255.255.255"
+local-zone: "tasmeemgroup.com" redirect
+local-data: "tasmeemgroup.com A 255.255.255.255"
+local-zone: "tbhwrm1.org" redirect
+local-data: "tbhwrm1.org A 255.255.255.255"
+local-zone: "tcpbereka.co.za" redirect
+local-data: "tcpbereka.co.za A 255.255.255.255"
+local-zone: "technics.pk" redirect
+local-data: "technics.pk A 255.255.255.255"
+local-zone: "teck.fr" redirect
+local-data: "teck.fr A 255.255.255.255"
+local-zone: "tecnigrafite.com" redirect
+local-data: "tecnigrafite.com A 255.255.255.255"
+local-zone: "tecnoriego.com.ec" redirect
+local-data: "tecnoriego.com.ec A 255.255.255.255"
+local-zone: "tees321.com" redirect
+local-data: "tees321.com A 255.255.255.255"
+local-zone: "tek.link" redirect
+local-data: "tek.link A 255.255.255.255"
+local-zone: "telesolutionsconsultants.com" redirect
+local-data: "telesolutionsconsultants.com A 255.255.255.255"
+local-zone: "telete.in" redirect
+local-data: "telete.in A 255.255.255.255"
+local-zone: "teonxtpsfs.wcnv20.cn" redirect
+local-data: "teonxtpsfs.wcnv20.cn A 255.255.255.255"
+local-zone: "tepsecurity.co.za" redirect
+local-data: "tepsecurity.co.za A 255.255.255.255"
+local-zone: "terapine.com" redirect
+local-data: "terapine.com A 255.255.255.255"
+local-zone: "thanlwintimes.com" redirect
+local-data: "thanlwintimes.com A 255.255.255.255"
+local-zone: "thealtarofworship.co.za" redirect
+local-data: "thealtarofworship.co.za A 255.255.255.255"
+local-zone: "theblackout.fr" redirect
+local-data: "theblackout.fr A 255.255.255.255"
+local-zone: "thedailymusicshow.com" redirect
+local-data: "thedailymusicshow.com A 255.255.255.255"
+local-zone: "theguitarstudio.co.za" redirect
+local-data: "theguitarstudio.co.za A 255.255.255.255"
+local-zone: "theharith.com" redirect
+local-data: "theharith.com A 255.255.255.255"
+local-zone: "themusicstudio.co.za" redirect
+local-data: "themusicstudio.co.za A 255.255.255.255"
+local-zone: "thepandoinitiative.org" redirect
+local-data: "thepandoinitiative.org A 255.255.255.255"
+local-zone: "thepianostudio.co.za" redirect
+local-data: "thepianostudio.co.za A 255.255.255.255"
+local-zone: "thiscouldbeyourluckyday.net" redirect
+local-data: "thiscouldbeyourluckyday.net A 255.255.255.255"
+local-zone: "threelivingprojects.co.za" redirect
+local-data: "threelivingprojects.co.za A 255.255.255.255"
+local-zone: "ticketstekoop.nl" redirect
+local-data: "ticketstekoop.nl A 255.255.255.255"
+local-zone: "tiendatresort.com.vn" redirect
+local-data: "tiendatresort.com.vn A 255.255.255.255"
+local-zone: "tilbemarket.com" redirect
+local-data: "tilbemarket.com A 255.255.255.255"
+local-zone: "tiny.cc" redirect
+local-data: "tiny.cc A 255.255.255.255"
+local-zone: "tiny.ie" redirect
+local-data: "tiny.ie A 255.255.255.255"
+local-zone: "tinycc.com" redirect
+local-data: "tinycc.com A 255.255.255.255"
+local-zone: "tinyurl.com" redirect
+local-data: "tinyurl.com A 255.255.255.255"
+local-zone: "tippinggate.co.za" redirect
+local-data: "tippinggate.co.za A 255.255.255.255"
+local-zone: "tiramisu.it" redirect
+local-data: "tiramisu.it A 255.255.255.255"
+local-zone: "tljpofsq.wcnv20.cn" redirect
+local-data: "tljpofsq.wcnv20.cn A 255.255.255.255"
+local-zone: "tngjihyzcqs.wcnv20.cn" redirect
+local-data: "tngjihyzcqs.wcnv20.cn A 255.255.255.255"
+local-zone: "tombstonedesigns.co.za" redirect
+local-data: "tombstonedesigns.co.za A 255.255.255.255"
+local-zone: "tootco.ir" redirect
+local-data: "tootco.ir A 255.255.255.255"
+local-zone: "tophillsports.com" redirect
+local-data: "tophillsports.com A 255.255.255.255"
+local-zone: "toramanlar.com.tr" redirect
+local-data: "toramanlar.com.tr A 255.255.255.255"
+local-zone: "totallyfreepeoplesearch.org" redirect
+local-data: "totallyfreepeoplesearch.org A 255.255.255.255"
+local-zone: "tqyketpmooe.wcnv20.cn" redirect
+local-data: "tqyketpmooe.wcnv20.cn A 255.255.255.255"
+local-zone: "tr.pinterest.com" redirect
+local-data: "tr.pinterest.com A 255.255.255.255"
+local-zone: "tracklink.top" redirect
+local-data: "tracklink.top A 255.255.255.255"
+local-zone: "tradernews.xyz" redirect
+local-data: "tradernews.xyz A 255.255.255.255"
+local-zone: "tradernox.com" redirect
+local-data: "tradernox.com A 255.255.255.255"
+local-zone: "traders-forum.com" redirect
+local-data: "traders-forum.com A 255.255.255.255"
+local-zone: "transactionjunction.co.za" redirect
+local-data: "transactionjunction.co.za A 255.255.255.255"
+local-zone: "trashbox.ru" redirect
+local-data: "trashbox.ru A 255.255.255.255"
+local-zone: "tsmgranite.com" redirect
+local-data: "tsmgranite.com A 255.255.255.255"
+local-zone: "tuminsaat.com" redirect
+local-data: "tuminsaat.com A 255.255.255.255"
+local-zone: "turanlarcitsistemleri.com" redirect
+local-data: "turanlarcitsistemleri.com A 255.255.255.255"
+local-zone: "turfschiploge.nl" redirect
+local-data: "turfschiploge.nl A 255.255.255.255"
+local-zone: "turkey-healthform.org" redirect
+local-data: "turkey-healthform.org A 255.255.255.255"
+local-zone: "tuules.com" redirect
+local-data: "tuules.com A 255.255.255.255"
+local-zone: "twocups.io" redirect
+local-data: "twocups.io A 255.255.255.255"
+local-zone: "u.24d.ir" redirect
+local-data: "u.24d.ir A 255.255.255.255"
+local-zone: "ucarecdn.com" redirect
+local-data: "ucarecdn.com A 255.255.255.255"
+local-zone: "umobidownload.com" redirect
+local-data: "umobidownload.com A 255.255.255.255"
+local-zone: "unboxingtoycon.mx" redirect
+local-data: "unboxingtoycon.mx A 255.255.255.255"
+local-zone: "uniteddatabase.net" redirect
+local-data: "uniteddatabase.net A 255.255.255.255"
+local-zone: "unlimit517.co.jp" redirect
+local-data: "unlimit517.co.jp A 255.255.255.255"
+local-zone: "unveilmimic.top" redirect
+local-data: "unveilmimic.top A 255.255.255.255"
+local-zone: "upfxunlvuvud.wcnv20.cn" redirect
+local-data: "upfxunlvuvud.wcnv20.cn A 255.255.255.255"
+local-zone: "uptown-trading.zar.cc" redirect
+local-data: "uptown-trading.zar.cc A 255.255.255.255"
+local-zone: "urbaniak.waw.pl" redirect
+local-data: "urbaniak.waw.pl A 255.255.255.255"
+local-zone: "urorccqbcgo.wcnv20.cn" redirect
+local-data: "urorccqbcgo.wcnv20.cn A 255.255.255.255"
+local-zone: "usasecurefiles.com" redirect
+local-data: "usasecurefiles.com A 255.255.255.255"
+local-zone: "uselessshoot.top" redirect
+local-data: "uselessshoot.top A 255.255.255.255"
 local-zone: "utka.su" redirect
 local-data: "utka.su A 255.255.255.255"
+local-zone: "uuwgcsedmih.wcnv20.cn" redirect
+local-data: "uuwgcsedmih.wcnv20.cn A 255.255.255.255"
+local-zone: "uvkkthfalc.wcnv20.cn" redirect
+local-data: "uvkkthfalc.wcnv20.cn A 255.255.255.255"
+local-zone: "uxzxyheama.wcnv20.cn" redirect
+local-data: "uxzxyheama.wcnv20.cn A 255.255.255.255"
+local-zone: "uybgklxze.wcnv20.cn" redirect
+local-data: "uybgklxze.wcnv20.cn A 255.255.255.255"
+local-zone: "uyvpnljii.wcnv20.cn" redirect
+local-data: "uyvpnljii.wcnv20.cn A 255.255.255.255"
+local-zone: "vakifmobil.com" redirect
+local-data: "vakifmobil.com A 255.255.255.255"
+local-zone: "vaner.com.sg" redirect
+local-data: "vaner.com.sg A 255.255.255.255"
+local-zone: "vantuwer.sakura.ne.jp" redirect
+local-data: "vantuwer.sakura.ne.jp A 255.255.255.255"
+local-zone: "vatmiddleeast.com" redirect
+local-data: "vatmiddleeast.com A 255.255.255.255"
+local-zone: "ventronics.co.za" redirect
+local-data: "ventronics.co.za A 255.255.255.255"
+local-zone: "venturemeets.com" redirect
+local-data: "venturemeets.com A 255.255.255.255"
+local-zone: "versal.media" redirect
+local-data: "versal.media A 255.255.255.255"
+local-zone: "veytrmzdp.wcnv20.cn" redirect
+local-data: "veytrmzdp.wcnv20.cn A 255.255.255.255"
+local-zone: "vfrrroatad.wcnv20.cn" redirect
+local-data: "vfrrroatad.wcnv20.cn A 255.255.255.255"
+local-zone: "vhupo-tours.com" redirect
+local-data: "vhupo-tours.com A 255.255.255.255"
+local-zone: "viasalvia.de" redirect
+local-data: "viasalvia.de A 255.255.255.255"
+local-zone: "vibaavaacademy.com" redirect
+local-data: "vibaavaacademy.com A 255.255.255.255"
+local-zone: "victorypipe.com.pk" redirect
+local-data: "victorypipe.com.pk A 255.255.255.255"
+local-zone: "viewphotos.co.za" redirect
+local-data: "viewphotos.co.za A 255.255.255.255"
+local-zone: "visionclinic.co.ls" redirect
+local-data: "visionclinic.co.ls A 255.255.255.255"
+local-zone: "visit.news" redirect
+local-data: "visit.news A 255.255.255.255"
+local-zone: "vital.com.pk" redirect
+local-data: "vital.com.pk A 255.255.255.255"
+local-zone: "vitaliberatatraining.com" redirect
+local-data: "vitaliberatatraining.com A 255.255.255.255"
+local-zone: "vkmodule.com.ua" redirect
+local-data: "vkmodule.com.ua A 255.255.255.255"
+local-zone: "vlgstal.ru" redirect
+local-data: "vlgstal.ru A 255.255.255.255"
+local-zone: "votehad.su" redirect
+local-data: "votehad.su A 255.255.255.255"
+local-zone: "vrqxkvbuphe.wcnv20.cn" redirect
+local-data: "vrqxkvbuphe.wcnv20.cn A 255.255.255.255"
+local-zone: "vrzbaloery.wcnv20.cn" redirect
+local-data: "vrzbaloery.wcnv20.cn A 255.255.255.255"
+local-zone: "vseteplo.by" redirect
+local-data: "vseteplo.by A 255.255.255.255"
+local-zone: "vtescebu.com" redirect
+local-data: "vtescebu.com A 255.255.255.255"
+local-zone: "vvfovofw.wcnv20.cn" redirect
+local-data: "vvfovofw.wcnv20.cn A 255.255.255.255"
+local-zone: "vytmrwglkink.wcnv20.cn" redirect
+local-data: "vytmrwglkink.wcnv20.cn A 255.255.255.255"
+local-zone: "w.gdown.baidu.com" redirect
+local-data: "w.gdown.baidu.com A 255.255.255.255"
+local-zone: "waohost.com" redirect
+local-data: "waohost.com A 255.255.255.255"
+local-zone: "wavecafe.co.za" redirect
+local-data: "wavecafe.co.za A 255.255.255.255"
+local-zone: "wbdrivingschool.com" redirect
+local-data: "wbdrivingschool.com A 255.255.255.255"
+local-zone: "wdsc.co.za" redirect
+local-data: "wdsc.co.za A 255.255.255.255"
+local-zone: "web.eng.ubu.ac.th" redirect
+local-data: "web.eng.ubu.ac.th A 255.255.255.255"
+local-zone: "web28tech.co.za" redirect
+local-data: "web28tech.co.za A 255.255.255.255"
+local-zone: "webfuari.com" redirect
+local-data: "webfuari.com A 255.255.255.255"
+local-zone: "webzadminverify.czweb.org" redirect
+local-data: "webzadminverify.czweb.org A 255.255.255.255"
+local-zone: "wegallop.com" redirect
+local-data: "wegallop.com A 255.255.255.255"
+local-zone: "weinvest.co.za" redirect
+local-data: "weinvest.co.za A 255.255.255.255"
+local-zone: "weserve.world" redirect
+local-data: "weserve.world A 255.255.255.255"
+local-zone: "wexznnplhyu.wcnv20.cn" redirect
+local-data: "wexznnplhyu.wcnv20.cn A 255.255.255.255"
+local-zone: "whdacxerg.wcnv20.cn" redirect
+local-data: "whdacxerg.wcnv20.cn A 255.255.255.255"
+local-zone: "whitepearlpro.co.za" redirect
+local-data: "whitepearlpro.co.za A 255.255.255.255"
+local-zone: "whqpvloyhh.wcnv20.cn" redirect
+local-data: "whqpvloyhh.wcnv20.cn A 255.255.255.255"
+local-zone: "whvsvmhbhxhn.wcnv20.cn" redirect
+local-data: "whvsvmhbhxhn.wcnv20.cn A 255.255.255.255"
+local-zone: "wicloud.pk" redirect
+local-data: "wicloud.pk A 255.255.255.255"
+local-zone: "willemshoeck.nl" redirect
+local-data: "willemshoeck.nl A 255.255.255.255"
+local-zone: "willpowerpos.co.za" redirect
+local-data: "willpowerpos.co.za A 255.255.255.255"
+local-zone: "winagainstebola.com" redirect
+local-data: "winagainstebola.com A 255.255.255.255"
+local-zone: "windowsupdate-microsoft.com" redirect
+local-data: "windowsupdate-microsoft.com A 255.255.255.255"
+local-zone: "wink0nproject2016.com" redirect
+local-data: "wink0nproject2016.com A 255.255.255.255"
+local-zone: "wlrrgdjww.wcnv20.cn" redirect
+local-data: "wlrrgdjww.wcnv20.cn A 255.255.255.255"
+local-zone: "wmsggdev.wcnv20.cn" redirect
+local-data: "wmsggdev.wcnv20.cn A 255.255.255.255"
+local-zone: "woellhaf-it.de" redirect
+local-data: "woellhaf-it.de A 255.255.255.255"
+local-zone: "womanblues.su" redirect
+local-data: "womanblues.su A 255.255.255.255"
+local-zone: "world-tour2000.com" redirect
+local-data: "world-tour2000.com A 255.255.255.255"
+local-zone: "worldfoodstory.co.uk" redirect
+local-data: "worldfoodstory.co.uk A 255.255.255.255"
+local-zone: "worshipaltar.co.za" redirect
+local-data: "worshipaltar.co.za A 255.255.255.255"
+local-zone: "wowpress.co.kr" redirect
+local-data: "wowpress.co.kr A 255.255.255.255"
+local-zone: "wwhvcyhro.wcnv20.cn" redirect
+local-data: "wwhvcyhro.wcnv20.cn A 255.255.255.255"
+local-zone: "a1-stays.com" redirect
+local-data: "a1-stays.com A 255.255.255.255"
+local-zone: "aacademybh.com" redirect
+local-data: "aacademybh.com A 255.255.255.255"
+local-zone: "aalotv.com" redirect
+local-data: "aalotv.com A 255.255.255.255"
+local-zone: "abbymouldings.co.uk" redirect
+local-data: "abbymouldings.co.uk A 255.255.255.255"
+local-zone: "abies.co.za" redirect
+local-data: "abies.co.za A 255.255.255.255"
+local-zone: "abruzzogenealogy.com" redirect
+local-data: "abruzzogenealogy.com A 255.255.255.255"
+local-zone: "accountingbookshub.com" redirect
+local-data: "accountingbookshub.com A 255.255.255.255"
+local-zone: "ace-data.com" redirect
+local-data: "ace-data.com A 255.255.255.255"
+local-zone: "achrock.com" redirect
+local-data: "achrock.com A 255.255.255.255"
+local-zone: "acintyaenergy.com" redirect
+local-data: "acintyaenergy.com A 255.255.255.255"
+local-zone: "actingtheparty.co.uk" redirect
+local-data: "actingtheparty.co.uk A 255.255.255.255"
+local-zone: "adamaircon.com" redirect
+local-data: "adamaircon.com A 255.255.255.255"
+local-zone: "addsaintgaudens.com" redirect
+local-data: "addsaintgaudens.com A 255.255.255.255"
+local-zone: "adultchannelsguide.com" redirect
+local-data: "adultchannelsguide.com A 255.255.255.255"
+local-zone: "advcadsys.com" redirect
+local-data: "advcadsys.com A 255.255.255.255"
+local-zone: "aesthetictrainingsolutions.com" redirect
+local-data: "aesthetictrainingsolutions.com A 255.255.255.255"
+local-zone: "affordablehomecare.org" redirect
+local-data: "affordablehomecare.org A 255.255.255.255"
+local-zone: "afikagroup.com" redirect
+local-data: "afikagroup.com A 255.255.255.255"
+local-zone: "afikapower.com" redirect
+local-data: "afikapower.com A 255.255.255.255"
+local-zone: "afikaquadpro.com" redirect
+local-data: "afikaquadpro.com A 255.255.255.255"
+local-zone: "afmedan.org" redirect
+local-data: "afmedan.org A 255.255.255.255"
+local-zone: "afpf.org.pk" redirect
+local-data: "afpf.org.pk A 255.255.255.255"
+local-zone: "after.vix.br" redirect
+local-data: "after.vix.br A 255.255.255.255"
+local-zone: "agencesylvieleclerc.com" redirect
+local-data: "agencesylvieleclerc.com A 255.255.255.255"
+local-zone: "ahamson.com" redirect
+local-data: "ahamson.com A 255.255.255.255"
+local-zone: "aioucheats.com" redirect
+local-data: "aioucheats.com A 255.255.255.255"
+local-zone: "air-mag.ro" redirect
+local-data: "air-mag.ro A 255.255.255.255"
+local-zone: "airporttaxi-uk.co.uk" redirect
+local-data: "airporttaxi-uk.co.uk A 255.255.255.255"
+local-zone: "akkurtgida.com.tr" redirect
+local-data: "akkurtgida.com.tr A 255.255.255.255"
+local-zone: "aladiyat.ae" redirect
+local-data: "aladiyat.ae A 255.255.255.255"
+local-zone: "albertamechanical.ca" redirect
+local-data: "albertamechanical.ca A 255.255.255.255"
+local-zone: "albertaprimebeef.com" redirect
+local-data: "albertaprimebeef.com A 255.255.255.255"
+local-zone: "alcalumni.com" redirect
+local-data: "alcalumni.com A 255.255.255.255"
+local-zone: "alessioborzuola.com" redirect
+local-data: "alessioborzuola.com A 255.255.255.255"
+local-zone: "alexanderhomestead.com" redirect
+local-data: "alexanderhomestead.com A 255.255.255.255"
+local-zone: "alexandrasternin.com" redirect
+local-data: "alexandrasternin.com A 255.255.255.255"
+local-zone: "alexjeffersonconsulting.com" redirect
+local-data: "alexjeffersonconsulting.com A 255.255.255.255"
+local-zone: "alexponcet.com" redirect
+local-data: "alexponcet.com A 255.255.255.255"
+local-zone: "alfransia.com" redirect
+local-data: "alfransia.com A 255.255.255.255"
+local-zone: "algom-law.com" redirect
+local-data: "algom-law.com A 255.255.255.255"
+local-zone: "aliandconsulting.com" redirect
+local-data: "aliandconsulting.com A 255.255.255.255"
+local-zone: "allbuyer.co.uk" redirect
+local-data: "allbuyer.co.uk A 255.255.255.255"
+local-zone: "allcopytoners.com" redirect
+local-data: "allcopytoners.com A 255.255.255.255"
+local-zone: "allwestdental.com" redirect
+local-data: "allwestdental.com A 255.255.255.255"
+local-zone: "alpacal.com" redirect
+local-data: "alpacal.com A 255.255.255.255"
+local-zone: "alphapixa.com" redirect
+local-data: "alphapixa.com A 255.255.255.255"
+local-zone: "alphapridesafaris.com" redirect
+local-data: "alphapridesafaris.com A 255.255.255.255"
+local-zone: "alshohub.org" redirect
+local-data: "alshohub.org A 255.255.255.255"
+local-zone: "alteaparadise.com" redirect
+local-data: "alteaparadise.com A 255.255.255.255"
+local-zone: "altinfiyatlari.org" redirect
+local-data: "altinfiyatlari.org A 255.255.255.255"
+local-zone: "alvarezarquitectos.com" redirect
+local-data: "alvarezarquitectos.com A 255.255.255.255"
+local-zone: "amateurastronomy.org" redirect
+local-data: "amateurastronomy.org A 255.255.255.255"
+local-zone: "ambientproperty.com" redirect
+local-data: "ambientproperty.com A 255.255.255.255"
+local-zone: "amerindgen.com" redirect
+local-data: "amerindgen.com A 255.255.255.255"
+local-zone: "amighini.it" redirect
+local-data: "amighini.it A 255.255.255.255"
+local-zone: "amika.hr" redirect
+local-data: "amika.hr A 255.255.255.255"
+local-zone: "amphibiblechurch.com" redirect
+local-data: "amphibiblechurch.com A 255.255.255.255"
+local-zone: "andreabelfi.com" redirect
+local-data: "andreabelfi.com A 255.255.255.255"
+local-zone: "andrebruton.com" redirect
+local-data: "andrebruton.com A 255.255.255.255"
+local-zone: "androidwikihow.com" redirect
+local-data: "androidwikihow.com A 255.255.255.255"
+local-zone: "antc.ch" redirect
+local-data: "antc.ch A 255.255.255.255"
+local-zone: "antirughenaturale.com" redirect
+local-data: "antirughenaturale.com A 255.255.255.255"
+local-zone: "antoanetapalikarska.com" redirect
+local-data: "antoanetapalikarska.com A 255.255.255.255"
+local-zone: "antojoentucocina.com" redirect
+local-data: "antojoentucocina.com A 255.255.255.255"
+local-zone: "aoryx.ae" redirect
+local-data: "aoryx.ae A 255.255.255.255"
+local-zone: "apmequestrian.com" redirect
+local-data: "apmequestrian.com A 255.255.255.255"
+local-zone: "applecartng.com" redirect
+local-data: "applecartng.com A 255.255.255.255"
+local-zone: "appster.it" redirect
+local-data: "appster.it A 255.255.255.255"
+local-zone: "aprendiendoencasa.com" redirect
+local-data: "aprendiendoencasa.com A 255.255.255.255"
+local-zone: "arabaoyunlari.org" redirect
+local-data: "arabaoyunlari.org A 255.255.255.255"
+local-zone: "arabblower.com" redirect
+local-data: "arabblower.com A 255.255.255.255"
+local-zone: "arabiccasinochoice.com" redirect
+local-data: "arabiccasinochoice.com A 255.255.255.255"
+local-zone: "ariehandomri.com" redirect
+local-data: "ariehandomri.com A 255.255.255.255"
+local-zone: "atcouriers.co.za" redirect
+local-data: "atcouriers.co.za A 255.255.255.255"
+local-zone: "atimuzik.com.tr" redirect
+local-data: "atimuzik.com.tr A 255.255.255.255"
+local-zone: "bahrialive.com" redirect
+local-data: "bahrialive.com A 255.255.255.255"
+local-zone: "bankerbus.com" redirect
+local-data: "bankerbus.com A 255.255.255.255"
+local-zone: "baossdigital.com" redirect
+local-data: "baossdigital.com A 255.255.255.255"
+local-zone: "bashancorp.co.za" redirect
+local-data: "bashancorp.co.za A 255.255.255.255"
+local-zone: "bashirbrothers.com" redirect
+local-data: "bashirbrothers.com A 255.255.255.255"
+local-zone: "baspk.com" redirect
+local-data: "baspk.com A 255.255.255.255"
+local-zone: "batik.com.pk" redirect
+local-data: "batik.com.pk A 255.255.255.255"
+local-zone: "be-indigene.be" redirect
+local-data: "be-indigene.be A 255.255.255.255"
+local-zone: "beeground.com" redirect
+local-data: "beeground.com A 255.255.255.255"
+local-zone: "berkyilmaz.com.tr" redirect
+local-data: "berkyilmaz.com.tr A 255.255.255.255"
+local-zone: "bertflierdesign.nl" redirect
+local-data: "bertflierdesign.nl A 255.255.255.255"
+local-zone: "besman.de" redirect
+local-data: "besman.de A 255.255.255.255"
+local-zone: "bestdecorativemirrors.com" redirect
+local-data: "bestdecorativemirrors.com A 255.255.255.255"
+local-zone: "bestgroupqatar.com" redirect
+local-data: "bestgroupqatar.com A 255.255.255.255"
+local-zone: "bgoodideas.com" redirect
+local-data: "bgoodideas.com A 255.255.255.255"
+local-zone: "bhakkarrishtey.com" redirect
+local-data: "bhakkarrishtey.com A 255.255.255.255"
+local-zone: "bhft.org.uk" redirect
+local-data: "bhft.org.uk A 255.255.255.255"
+local-zone: "big-bang.ae" redirect
+local-data: "big-bang.ae A 255.255.255.255"
+local-zone: "bioforgehealth.org" redirect
+local-data: "bioforgehealth.org A 255.255.255.255"
+local-zone: "biolifeenterprises.com" redirect
+local-data: "biolifeenterprises.com A 255.255.255.255"
+local-zone: "biosetinlabs.com" redirect
+local-data: "biosetinlabs.com A 255.255.255.255"
+local-zone: "bitstream.pk" redirect
+local-data: "bitstream.pk A 255.255.255.255"
+local-zone: "bizbranding.net" redirect
+local-data: "bizbranding.net A 255.255.255.255"
+local-zone: "bizxess.com" redirect
+local-data: "bizxess.com A 255.255.255.255"
+local-zone: "blaahblaah.com" redirect
+local-data: "blaahblaah.com A 255.255.255.255"
+local-zone: "blackstar.com.pk" redirect
+local-data: "blackstar.com.pk A 255.255.255.255"
+local-zone: "blattoamsterdam.com" redirect
+local-data: "blattoamsterdam.com A 255.255.255.255"
+local-zone: "blockdos.net" redirect
+local-data: "blockdos.net A 255.255.255.255"
+local-zone: "bloggerfreak.com" redirect
+local-data: "bloggerfreak.com A 255.255.255.255"
+local-zone: "bloggingscout.com" redirect
+local-data: "bloggingscout.com A 255.255.255.255"
+local-zone: "bloomfieldhall.edu.pk" redirect
+local-data: "bloomfieldhall.edu.pk A 255.255.255.255"
+local-zone: "blubaytrading.com" redirect
+local-data: "blubaytrading.com A 255.255.255.255"
+local-zone: "bmcars.nl" redirect
+local-data: "bmcars.nl A 255.255.255.255"
+local-zone: "boardexeter.co.uk" redirect
+local-data: "boardexeter.co.uk A 255.255.255.255"
+local-zone: "bolagsregistrering.eu" redirect
+local-data: "bolagsregistrering.eu A 255.255.255.255"
+local-zone: "boundmix.com" redirect
+local-data: "boundmix.com A 255.255.255.255"
+local-zone: "boutiquesxxx.com" redirect
+local-data: "boutiquesxxx.com A 255.255.255.255"
+local-zone: "brand-stories.gr" redirect
+local-data: "brand-stories.gr A 255.255.255.255"
+local-zone: "brianzashop.it" redirect
+local-data: "brianzashop.it A 255.255.255.255"
+local-zone: "britishasia-equip.co.uk" redirect
+local-data: "britishasia-equip.co.uk A 255.255.255.255"
+local-zone: "brotherthread.com" redirect
+local-data: "brotherthread.com A 255.255.255.255"
+local-zone: "budgetestate.pk" redirect
+local-data: "budgetestate.pk A 255.255.255.255"
+local-zone: "buhlebayoacademy.com" redirect
+local-data: "buhlebayoacademy.com A 255.255.255.255"
+local-zone: "buydocumentonline.com" redirect
+local-data: "buydocumentonline.com A 255.255.255.255"
+local-zone: "california-rehab-directory.com" redirect
+local-data: "california-rehab-directory.com A 255.255.255.255"
+local-zone: "capecrystal.co.za" redirect
+local-data: "capecrystal.co.za A 255.255.255.255"
+local-zone: "cartridgecave.co.za" redirect
+local-data: "cartridgecave.co.za A 255.255.255.255"
+local-zone: "cigercihamza.com" redirect
+local-data: "cigercihamza.com A 255.255.255.255"
+local-zone: "core-techworld.com" redirect
+local-data: "core-techworld.com A 255.255.255.255"
+local-zone: "crissamconsulting.co.za" redirect
+local-data: "crissamconsulting.co.za A 255.255.255.255"
+local-zone: "daleth.co.za" redirect
+local-data: "daleth.co.za A 255.255.255.255"
+local-zone: "difpt.org" redirect
+local-data: "difpt.org A 255.255.255.255"
+local-zone: "diginixtech.com" redirect
+local-data: "diginixtech.com A 255.255.255.255"
+local-zone: "digitalmedia.co.za" redirect
+local-data: "digitalmedia.co.za A 255.255.255.255"
+local-zone: "dingaanassociates.co.za" redirect
+local-data: "dingaanassociates.co.za A 255.255.255.255"
+local-zone: "drug-treatment-directory.com" redirect
+local-data: "drug-treatment-directory.com A 255.255.255.255"
+local-zone: "duotonedigital.co.za" redirect
+local-data: "duotonedigital.co.za A 255.255.255.255"
+local-zone: "easy-home-sales.co.za" redirect
+local-data: "easy-home-sales.co.za A 255.255.255.255"
+local-zone: "edesignz.co.za" redirect
+local-data: "edesignz.co.za A 255.255.255.255"
+local-zone: "elite4print.com" redirect
+local-data: "elite4print.com A 255.255.255.255"
+local-zone: "eloquent.co.za" redirect
+local-data: "eloquent.co.za A 255.255.255.255"
+local-zone: "evoko.ae" redirect
+local-data: "evoko.ae A 255.255.255.255"
+local-zone: "exuberant-group.com" redirect
+local-data: "exuberant-group.com A 255.255.255.255"
+local-zone: "ffc.com.pk" redirect
+local-data: "ffc.com.pk A 255.255.255.255"
+local-zone: "galaxyforwarders.com" redirect
+local-data: "galaxyforwarders.com A 255.255.255.255"
+local-zone: "galwayprimary.co.za" redirect
+local-data: "galwayprimary.co.za A 255.255.255.255"
+local-zone: "geotrading.ae" redirect
+local-data: "geotrading.ae A 255.255.255.255"
+local-zone: "gokhantemiz.com" redirect
+local-data: "gokhantemiz.com A 255.255.255.255"
+local-zone: "goolineb2b.com" redirect
+local-data: "goolineb2b.com A 255.255.255.255"
+local-zone: "gsmmid.com" redirect
+local-data: "gsmmid.com A 255.255.255.255"
+local-zone: "gustomimarlik.com" redirect
+local-data: "gustomimarlik.com A 255.255.255.255"
+local-zone: "handrush.com" redirect
+local-data: "handrush.com A 255.255.255.255"
+local-zone: "harmonyguesthouse.co.za" redirect
+local-data: "harmonyguesthouse.co.za A 255.255.255.255"
+local-zone: "hosthof.com" redirect
+local-data: "hosthof.com A 255.255.255.255"
+local-zone: "humorcarbons.com" redirect
+local-data: "humorcarbons.com A 255.255.255.255"
+local-zone: "iancullen.co.za" redirect
+local-data: "iancullen.co.za A 255.255.255.255"
+local-zone: "icapmecareers.com" redirect
+local-data: "icapmecareers.com A 255.255.255.255"
+local-zone: "igo3.co.il" redirect
+local-data: "igo3.co.il A 255.255.255.255"
+local-zone: "ihlosiqs-pm.co.za" redirect
+local-data: "ihlosiqs-pm.co.za A 255.255.255.255"
+local-zone: "induworld.ae" redirect
+local-data: "induworld.ae A 255.255.255.255"
+local-zone: "ioewjhfdhduiusfh.com" redirect
+local-data: "ioewjhfdhduiusfh.com A 255.255.255.255"
+local-zone: "ipripak.org" redirect
+local-data: "ipripak.org A 255.255.255.255"
+local-zone: "kcnp.or.kr" redirect
+local-data: "kcnp.or.kr A 255.255.255.255"
+local-zone: "kisa.link" redirect
+local-data: "kisa.link A 255.255.255.255"
+local-zone: "koshcreative.co.uk" redirect
+local-data: "koshcreative.co.uk A 255.255.255.255"
+local-zone: "l-n.co.il" redirect
+local-data: "l-n.co.il A 255.255.255.255"
+local-zone: "loansonhomes.co.za" redirect
+local-data: "loansonhomes.co.za A 255.255.255.255"
+local-zone: "logicsfort.com" redirect
+local-data: "logicsfort.com A 255.255.255.255"
+local-zone: "m-3.co.za" redirect
+local-data: "m-3.co.za A 255.255.255.255"
+local-zone: "malboer.co.za" redirect
+local-data: "malboer.co.za A 255.255.255.255"
+local-zone: "mikimaths.com" redirect
+local-data: "mikimaths.com A 255.255.255.255"
+local-zone: "moboradar.com" redirect
+local-data: "moboradar.com A 255.255.255.255"
+local-zone: "mumtazandbrohi.com" redirect
+local-data: "mumtazandbrohi.com A 255.255.255.255"
+local-zone: "mycogentrading.com" redirect
+local-data: "mycogentrading.com A 255.255.255.255"
+local-zone: "nalitravel.co.za" redirect
+local-data: "nalitravel.co.za A 255.255.255.255"
+local-zone: "obaidsaqerbusit.com" redirect
+local-data: "obaidsaqerbusit.com A 255.255.255.255"
+local-zone: "odcpkintranet.org" redirect
+local-data: "odcpkintranet.org A 255.255.255.255"
+local-zone: "olexco.ae" redirect
+local-data: "olexco.ae A 255.255.255.255"
+local-zone: "otprema.hr" redirect
+local-data: "otprema.hr A 255.255.255.255"
+local-zone: "paktechinfo.com" redirect
+local-data: "paktechinfo.com A 255.255.255.255"
+local-zone: "peoplealley.com" redirect
+local-data: "peoplealley.com A 255.255.255.255"
+local-zone: "phoenix.zar.cc" redirect
+local-data: "phoenix.zar.cc A 255.255.255.255"
+local-zone: "popfilms.co.za" redirect
+local-data: "popfilms.co.za A 255.255.255.255"
+local-zone: "printinghub.co.za" redirect
+local-data: "printinghub.co.za A 255.255.255.255"
+local-zone: "proplumbing.co.za" redirect
+local-data: "proplumbing.co.za A 255.255.255.255"
+local-zone: "proxelinternational.co.za" redirect
+local-data: "proxelinternational.co.za A 255.255.255.255"
+local-zone: "qsrimages.co.za" redirect
+local-data: "qsrimages.co.za A 255.255.255.255"
+local-zone: "rcpk.co.za" redirect
+local-data: "rcpk.co.za A 255.255.255.255"
+local-zone: "rjsoftware.com" redirect
+local-data: "rjsoftware.com A 255.255.255.255"
+local-zone: "shamsitech.com" redirect
+local-data: "shamsitech.com A 255.255.255.255"
+local-zone: "simpleks.co.za" redirect
+local-data: "simpleks.co.za A 255.255.255.255"
+local-zone: "snackattack.co.za" redirect
+local-data: "snackattack.co.za A 255.255.255.255"
+local-zone: "soccerkidsdubai.com" redirect
+local-data: "soccerkidsdubai.com A 255.255.255.255"
+local-zone: "sorumvar.net" redirect
+local-data: "sorumvar.net A 255.255.255.255"
+local-zone: "sowetojive.co.za" redirect
+local-data: "sowetojive.co.za A 255.255.255.255"
+local-zone: "superlead.org" redirect
+local-data: "superlead.org A 255.255.255.255"
+local-zone: "tanati.co.za" redirect
+local-data: "tanati.co.za A 255.255.255.255"
+local-zone: "terapine.com" redirect
+local-data: "terapine.com A 255.255.255.255"
+local-zone: "theguitarstudio.co.za" redirect
+local-data: "theguitarstudio.co.za A 255.255.255.255"
+local-zone: "thelightcleaning.co.za" redirect
+local-data: "thelightcleaning.co.za A 255.255.255.255"
+local-zone: "themusicstudio.co.za" redirect
+local-data: "themusicstudio.co.za A 255.255.255.255"
+local-zone: "thusoconsulting.co.za" redirect
+local-data: "thusoconsulting.co.za A 255.255.255.255"
+local-zone: "tntfire.co.za" redirect
+local-data: "tntfire.co.za A 255.255.255.255"
+local-zone: "uniquelook.net" redirect
+local-data: "uniquelook.net A 255.255.255.255"
+local-zone: "vhupo-tours.com" redirect
+local-data: "vhupo-tours.com A 255.255.255.255"
+local-zone: "volleybold.com" redirect
+local-data: "volleybold.com A 255.255.255.255"
+local-zone: "w33588.com" redirect
+local-data: "w33588.com A 255.255.255.255"
+local-zone: "waohost.com" redirect
+local-data: "waohost.com A 255.255.255.255"
+local-zone: "wbdrivingschool.com" redirect
+local-data: "wbdrivingschool.com A 255.255.255.255"
+local-zone: "wdsc.co.za" redirect
+local-data: "wdsc.co.za A 255.255.255.255"
+local-zone: "wmcpk.org" redirect
+local-data: "wmcpk.org A 255.255.255.255"
+local-zone: "yeniinan.com" redirect
+local-data: "yeniinan.com A 255.255.255.255"
+local-zone: "zamilindustrial.com" redirect
+local-data: "zamilindustrial.com A 255.255.255.255"
+local-zone: "xbxxsqmy.wcnv20.cn" redirect
+local-data: "xbxxsqmy.wcnv20.cn A 255.255.255.255"
+local-zone: "xclusivenetwork.com" redirect
+local-data: "xclusivenetwork.com A 255.255.255.255"
+local-zone: "xkvvhypv.wcnv20.cn" redirect
+local-data: "xkvvhypv.wcnv20.cn A 255.255.255.255"
+local-zone: "xrpmposhqoa.wcnv20.cn" redirect
+local-data: "xrpmposhqoa.wcnv20.cn A 255.255.255.255"
+local-zone: "xzimatxwa.wcnv20.cn" redirect
+local-data: "xzimatxwa.wcnv20.cn A 255.255.255.255"
+local-zone: "yaa.im" redirect
+local-data: "yaa.im A 255.255.255.255"
+local-zone: "yavuztrapez.com" redirect
+local-data: "yavuztrapez.com A 255.255.255.255"
+local-zone: "ybuhykmw.wcnv20.cn" redirect
+local-data: "ybuhykmw.wcnv20.cn A 255.255.255.255"
+local-zone: "yeditepeofset.com" redirect
+local-data: "yeditepeofset.com A 255.255.255.255"
+local-zone: "yfedrvkfcqgg.wcnv20.cn" redirect
+local-data: "yfedrvkfcqgg.wcnv20.cn A 255.255.255.255"
+local-zone: "yigitersuurunleri.com" redirect
+local-data: "yigitersuurunleri.com A 255.255.255.255"
+local-zone: "yip.su" redirect
+local-data: "yip.su A 255.255.255.255"
+local-zone: "yjcijumsnsag.wcnv20.cn" redirect
+local-data: "yjcijumsnsag.wcnv20.cn A 255.255.255.255"
+local-zone: "yjqnuxmtgbbo.wcnv20.cn" redirect
+local-data: "yjqnuxmtgbbo.wcnv20.cn A 255.255.255.255"
+local-zone: "ykjozzugpijb.wcnv20.cn" redirect
+local-data: "ykjozzugpijb.wcnv20.cn A 255.255.255.255"
 local-zone: "ylhwcl.com" redirect
 local-data: "ylhwcl.com A 255.255.255.255"
+local-zone: "ylsbvhwzk.wcnv20.cn" redirect
+local-data: "ylsbvhwzk.wcnv20.cn A 255.255.255.255"
+local-zone: "yoma888.com" redirect
+local-data: "yoma888.com A 255.255.255.255"
+local-zone: "yourappyourway.com" redirect
+local-data: "yourappyourway.com A 255.255.255.255"
+local-zone: "yourjavascript.com" redirect
+local-data: "yourjavascript.com A 255.255.255.255"
+local-zone: "ytsdsgqp.wcnv20.cn" redirect
+local-data: "ytsdsgqp.wcnv20.cn A 255.255.255.255"
+local-zone: "yunusbeyasm.gov.tr" redirect
+local-data: "yunusbeyasm.gov.tr A 255.255.255.255"
+local-zone: "yunuso.com" redirect
+local-data: "yunuso.com A 255.255.255.255"
+local-zone: "zafarstocks.com" redirect
+local-data: "zafarstocks.com A 255.255.255.255"
+local-zone: "zamilindustrial.com" redirect
+local-data: "zamilindustrial.com A 255.255.255.255"
+local-zone: "zecuqjkza.wcnv20.cn" redirect
+local-data: "zecuqjkza.wcnv20.cn A 255.255.255.255"
+local-zone: "zentinalmusique.co.uk" redirect
+local-data: "zentinalmusique.co.uk A 255.255.255.255"
+local-zone: "zerenprofessional.com" redirect
+local-data: "zerenprofessional.com A 255.255.255.255"
+local-zone: "zerogov.com" redirect
+local-data: "zerogov.com A 255.255.255.255"
+local-zone: "zfrsgjmghj.wcnv20.cn" redirect
+local-data: "zfrsgjmghj.wcnv20.cn A 255.255.255.255"
+local-zone: "zgjipiao.club" redirect
+local-data: "zgjipiao.club A 255.255.255.255"
+local-zone: "zhqdymmfihju.wcnv20.cn" redirect
+local-data: "zhqdymmfihju.wcnv20.cn A 255.255.255.255"
+local-zone: "zindeinsaat.com" redirect
+local-data: "zindeinsaat.com A 255.255.255.255"
+local-zone: "zndance.com" redirect
+local-data: "zndance.com A 255.255.255.255"
+local-zone: "zpkeclnpguog.wcnv20.cn" redirect
+local-data: "zpkeclnpguog.wcnv20.cn A 255.255.255.255"
+local-zone: "zrxuxbzxr.wcnv20.cn" redirect
+local-data: "zrxuxbzxr.wcnv20.cn A 255.255.255.255"
+local-zone: "zsiqczxvwyx.wcnv20.cn" redirect
+local-data: "zsiqczxvwyx.wcnv20.cn A 255.255.255.255"
+local-zone: "ztrcdbjzha.wcnv20.cn" redirect
+local-data: "ztrcdbjzha.wcnv20.cn A 255.255.255.255"
+local-zone: "zufqjwlu.wcnv20.cn" redirect
+local-data: "zufqjwlu.wcnv20.cn A 255.255.255.255"
+local-zone: "zzb.bz" redirect
+local-data: "zzb.bz A 255.255.255.255"
