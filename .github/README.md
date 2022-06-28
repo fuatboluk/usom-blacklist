@@ -8,7 +8,7 @@ This repository has been created to create and use new blocklists by periodicall
 
 ## Latest check-usom-list output
 
-Last modified : 2022-01-19 06:30:49 
+Last modified : 2022-06-28 04:44:49 
 
 ```
 [fuat@fortress ~]$ git clone https://github.com/fuatboluk/usom-blacklist.git
