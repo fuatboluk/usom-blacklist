@@ -2,8 +2,8 @@
 
 on:
   workflow_dispatch:
-  #schedule:
-  #  - cron: "0 0 * * *"
+    schedule:
+      - cron: "30 03 * * 0"
 
 jobs:
   build:
