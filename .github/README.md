@@ -1,10 +1,10 @@
 # usom-blacklist
 
-Malicious addresses are constantly added to the USOM's list of malicious addresses. Even if there is an address that is no longer accessible, it will not be deleted from the list! It is a suitable list for address-based blocking. But main domains are sufficient for DNS-based blocking.
+Malicious addresses are constantly added to the USOM's list of malicious addresses. Even if there is an address that is no longer accessible, it will not be deleted from the list! It is a suitable list for address-based blocking.
 
 If DNS-based blocking is done with inaccessible addresses, this long list is read for comparison with each incoming DNS query. Therefore, it unnecessarily consumes the processing power and memory of the DNS server. It also causes increased DNS response times and decreased performance.
 
-This repository has been created to create and use new blocklists by periodically checking the accessible addresses of the USOM list and is scheduled to be updated weekly. 
+This repository has been created to create and use new blocklists by periodically checking the accessible addresses of the USOM list and is scheduled to be updated weekly.
 
 ## Latest check-usom-list output
 
@@ -21,464 +21,23 @@ Unpacking objects: 100% (31/31), done.
 [fuat@fortress ~]$ cd usom-blacklist/
 [fuat@fortress usom-blacklist]$ ./check-usom-list 
 
-Start time      : 04:54:51
+Start time      : 03:44:19
 Description     : USOM malicious ip addresses and domains blacklist!
 Original url    : https://www.usom.gov.tr/url-list.txt
 
 
-## Listing all active malicious ips...
-
-  Not connected : 102.165.37.59
-  Not connected : 103.195.7.162
-  Connected     : 103.255.250.133
-  Not connected : 103.60.14.150
-  Not connected : 103.60.14.155
-  Not connected : 103.83.157.41
-  Not connected : 103.83.157.46
-  Connected     : 104.152.168.37
-  Connected     : 104.168.140.207
-  Connected     : 104.168.149.180
-  Connected     : 104.168.157.45
-  Not connected : 104.168.159.201
-  Connected     : 104.168.164.173
-  Not connected : 104.168.170.48
-  Not connected : 104.168.242.192
-  Connected     : 104.168.248.18
-  Not connected : 104.192.1.15
-  Not connected : 104.236.100.5
-  Connected     : 104.243.32.142
-  Not connected : 104.244.76.15
-  Connected     : 104.248.119.49
-  Not connected : 104.248.135.165
-  Not connected : 104.248.158.49
-  Not connected : 104.248.187.115
-  Connected     : 104.248.207.14
-  Not connected : 104.248.215.146
-  Connected     : 104.248.225.71
-  Not connected : 104.248.235.86
-  Connected     : 104.248.243.249
-  Connected     : 104.248.35.11
-  Connected     : 104.248.39.135
-  Not connected : 107.172.41.235
-  Not connected : 107.191.99.230
-  Connected     : 107.6.172.66
-  Not connected : 108.163.233.178
-  Connected     : 108.167.137.27
-  Connected     : 108.167.137.37
-  Connected     : 108.174.194.92
-  Not connected : 108.61.86.94
-  Connected     : 109.234.38.177
-  Connected     : 109.238.6.18
-  Not connected : 109.248.148.42
-  Connected     : 128.199.180.55
-  Connected     : 129.121.23.148
-  Connected     : 134.0.117.224
-  Connected     : 134.209.120.58
-  Connected     : 134.209.210.174
-  Connected     : 134.209.232.24
-  Not connected : 134.209.232.34
-  Not connected : 134.209.255.213
-  Not connected : 134.209.2.99
-  Connected     : 134.209.32.95
-  Connected     : 134.209.43.71
-  Not connected : 134.209.48.14
-  Not connected : 134.209.59.104
-  Connected     : 134.209.71.79
-  Connected     : 134.209.79.98
-  Connected     : 134.209.96.62
-  Not connected : 137.74.218.155
-  Connected     : 138.197.162.98
-  Connected     : 138.197.173.233
-  Connected     : 138.68.11.101
-  Connected     : 138.68.41.47
-  Not connected : 138.68.88.191
-  Not connected : 138.68.94.145
-  Connected     : 139.162.242.206
-  Not connected : 139.59.148.106
-  Connected     : 139.59.25.145
-  Connected     : 139.59.69.41
-  Connected     : 139.59.69.64
-  Not connected : 140.82.43.95
-  Connected     : 142.11.206.115
-  Not connected : 142.93.105.254
-  Connected     : 142.93.120.109
-  Connected     : 142.93.139.125
-  Connected     : 142.93.164.242
-  Connected     : 142.93.211.141
-  Not connected : 142.93.211.204
-  Connected     : 142.93.227.149
-  Not connected : 142.93.24.154
-  Connected     : 142.93.50.9
-  Connected     : 142.93.70.37
-  Connected     : 143.95.233.41
-  Connected     : 143.95.234.31
-  Not connected : 144.48.82.76
-  Not connected : 145.249.105.165
-  Not connected : 146.71.76.191
-  Connected     : 146.71.79.220
-  Connected     : 147.135.116.65
-  Not connected : 147.135.23.230
-  Not connected : 149.248.56.218
-  Not connected : 154.16.3.99
-  Not connected : 154.85.35.82
-  Not connected : 155.138.193.119
-  Connected     : 155.254.33.183
-  Connected     : 157.230.103.246
-  Connected     : 157.230.114.93
-  Not connected : 157.230.136.2
-  Not connected : 157.230.147.62
-  Not connected : 157.230.171.222
-  Connected     : 157.230.179.36
-  Connected     : 157.230.213.59
-  Connected     : 157.230.214.229
-  Not connected : 157.230.218.122
-  Not connected : 157.230.234.69
-  Not connected : 157.230.4.241
-  Not connected : 157.230.84.68
-  Connected     : 157.230.86.42
-  Not connected : 157.230.92.210
-  Not connected : 158.255.5.204
-  Not connected : 159.203.100.152
-  Not connected : 159.203.26.164
-  Connected     : 159.203.69.66
-  Connected     : 159.203.88.124
-  Not connected : 159.65.155.170
-  Connected     : 159.65.157.109
-  Connected     : 159.65.83.240
-  Connected     : 159.89.204.166
-  Not connected : 159.89.32.178
-  Not connected : 162.216.114.40
-  Connected     : 162.219.250.103
-  Not connected : 162.243.162.204
-  Not connected : 162.250.126.36
-  Connected     : 163.172.108.164
-  Connected     : 164.132.213.119
-  Not connected : 165.22.128.80
-  Not connected : 165.22.128.94
-  Connected     : 165.22.136.83
-  Not connected : 165.227.155.252
-  Connected     : 165.227.211.78
-  Not connected : 165.227.5.139
-  Not connected : 165.227.63.166
-  Connected     : 167.114.128.205
-  Not connected : 167.114.44.147
-  Not connected : 167.99.102.191
-  Connected     : 167.99.15.77
-  Connected     : 167.99.166.157
-  Connected     : 167.99.180.153
-  Connected     : 167.99.195.48
-  Connected     : 167.99.222.244
-  Not connected : 167.99.24.159
-  Connected     : 167.99.82.172
-  Not connected : 168.235.103.89
-  Not connected : 168.235.98.135
-  Connected     : 173.212.254.223
-  Connected     : 173.214.162.246
-  Not connected : 173.236.19.82
-  Connected     : 173.254.28.125
-  Connected     : 173.254.28.140
-  Connected     : 173.254.28.151
-  Connected     : 173.254.28.52
-  Not connected : 173.83.200.78
-  Connected     : 174.138.63.151
-  Not connected : 176.119.28.74
-  Connected     : 176.223.139.162
-  Not connected : 176.31.36.47
-  Not connected : 176.32.33.150
-  Not connected : 176.57.70.244
-  Connected     : 178.128.122.4
-  Not connected : 178.128.173.178
-  Connected     : 178.128.194.244
-  Not connected : 178.128.202.28
-  Connected     : 178.128.207.153
-  Connected     : 178.128.214.44
-  Connected     : 178.128.226.79
-  Connected     : 178.128.229.154
-  Not connected : 178.128.245.144
-  Connected     : 178.128.248.18
-  Not connected : 178.128.64.37
-  Connected     : 178.128.76.186
-  Connected     : 178.17.171.207
-  Not connected : 178.33.181.23
-  Not connected : 178.33.83.72
-  Not connected : 178.62.227.13
-  Connected     : 178.62.27.133
-  Not connected : 178.62.90.134
-  Not connected : 184.154.150.66
-  Connected     : 185.101.105.129
-  Connected     : 185.101.105.131
-  Not connected : 185.101.105.162
-  Connected     : 185.101.105.163
-  Connected     : 185.101.105.168
-  Not connected : 185.101.105.189
-  Not connected : 185.101.105.208
-  Not connected : 185.117.22.197
-  Not connected : 185.118.167.120
-  Not connected : 185.126.179.154
-  Not connected : 185.130.227.142
-  Connected     : 185.137.233.126
-  Not connected : 185.145.129.41
-  Not connected : 185.158.248.25
-  Not connected : 185.172.110.226
-  Not connected : 185.17.27.115
-  Not connected : 185.203.118.198
-  Not connected : 185.217.0.124
-  Not connected : 185.220.33.209
-  Not connected : 185.22.152.106
-  Not connected : 185.22.152.122
-  Not connected : 185.22.153.191
-  Not connected : 185.22.153.36
-  Not connected : 185.22.154.206
-  Not connected : 185.236.203.53
-  Not connected : 185.244.25.107
-  Not connected : 185.244.25.109
-  Not connected : 185.244.25.116
-  Not connected : 185.244.25.120
-  Not connected : 185.244.25.134
-  Not connected : 185.244.25.135
-  Not connected : 185.244.25.137
-  Not connected : 185.244.25.149
-  Not connected : 185.244.25.154
-  Not connected : 185.244.25.157
-  Not connected : 185.244.25.164
-  Not connected : 185.244.25.171
-  Not connected : 185.244.25.173
-  Not connected : 185.244.25.176
-  Not connected : 185.244.25.182
-  Not connected : 185.244.25.185
-  Not connected : 185.244.25.198
-  Not connected : 185.244.25.199
-  Not connected : 185.244.25.200
-  Not connected : 185.244.25.202
-  Not connected : 185.244.25.203
-  Not connected : 185.244.25.216
-  Not connected : 185.244.25.231
-  Not connected : 185.244.25.239
-  Not connected : 185.244.25.247
-  Not connected : 185.244.25.253
-  Not connected : 185.244.25.89
-  Not connected : 185.244.25.91
-  Not connected : 185.244.30.156
-  Not connected : 185.246.116.251
-  Not connected : 185.254.121.132
-  Not connected : 185.33.234.76
-  Connected     : 185.52.3.23
-  Not connected : 185.62.188.233
-  Not connected : 185.62.190.191
-  Connected     : 185.99.1.94
-  Not connected : 187.130.251.249
-  Connected     : 188.166.91.186
-  Connected     : 188.166.92.248
-  Not connected : 188.241.58.170
-  Connected     : 190.14.39.239
-  Not connected : 190.97.167.186
-  Connected     : 192.155.85.122
-  Not connected : 192.227.176.100
-  Connected     : 192.236.208.238
-  Not connected : 192.241.143.151
-  Not connected : 192.243.103.52
-  Not connected : 193.148.68.74
-  Not connected : 193.148.69.33
-  Not connected : 193.164.7.60
-  Not connected : 193.23.181.151
-  Connected     : 194.113.107.124
-  Not connected : 194.147.35.54
-  Not connected : 194.182.65.56
-  Not connected : 194.32.78.245
-  Connected     : 194.32.79.50
-  Not connected : 194.36.173.3
-  Not connected : 194.36.173.4
-  Not connected : 195.214.165.188
-  Not connected : 195.231.0.120
-  Not connected : 198.100.119.11
-  Connected     : 198.20.110.126
-  Not connected : 198.23.201.215
-  Not connected : 198.23.201.216
-  Not connected : 198.23.201.217
-  Not connected : 198.23.201.218
-  Not connected : 198.23.201.219
-  Connected     : 198.49.75.130
-  Not connected : 198.98.53.130
-  Not connected : 198.98.59.176
-  Connected     : 198.98.60.232
-  Not connected : 199.231.191.254
-  Not connected : 199.38.244.114
-  Not connected : 199.38.245.221
-  Not connected : 199.38.245.234
-  Not connected : 199.38.245.235
-  Not connected : 205.185.120.241
-  Connected     : 205.185.121.51
-  Not connected : 205.185.122.240
-  Connected     : 205.185.122.52
-  Connected     : 205.185.124.89
-  Not connected : 205.185.127.140
-  Connected     : 206.189.112.94
-  Not connected : 206.189.118.55
-  Not connected : 206.189.173.187
-  Connected     : 206.81.11.102
-  Connected     : 207.246.104.27
-  Not connected : 207.246.87.34
-  Not connected : 209.141.33.119
-  Connected     : 209.141.33.126
-  Connected     : 209.141.34.89
-  Not connected : 209.141.35.236
-  Not connected : 209.141.39.101
-  Not connected : 209.141.40.213
-  Not connected : 209.141.40.80
-  Connected     : 209.141.40.86
-  Connected     : 209.141.40.93
-  Not connected : 209.141.45.120
-  Not connected : 209.141.46.124
-  Not connected : 209.141.46.133
-  Not connected : 209.141.62.19
-  Not connected : 209.250.239.152
-  Connected     : 209.97.182.204
-  Connected     : 212.159.9.151
-  Not connected : 212.33.237.86
-  Not connected : 213.155.126.34
-  Not connected : 213.155.126.36
-  Not connected : 213.166.68.138
-  Not connected : 213.166.68.182
-  Not connected : 213.166.68.24
-  Connected     : 213.183.45.190
-  Not connected : 213.183.53.124
-  Connected     : 213.252.244.174
-  Connected     : 217.163.28.160
-  Not connected : 217.171.86.137
-  Connected     : 217.23.12.146
-  Not connected : 217.61.5.226
-  Connected     : 23.130.192.132
-  Not connected : 23.238.17.182
-  Connected     : 23.254.130.113
-  Not connected : 23.254.164.185
-  Connected     : 23.254.217.254
-  Connected     : 23.254.243.83
-  Not connected : 31.13.195.251
-  Connected     : 31.220.40.22
-  Not connected : 34.65.206.1
-  Not connected : 34.66.210.226
-  Not connected : 34.80.131.135
-  Not connected : 34.94.205.91
-  Not connected : 35.193.100.7
-  Not connected : 35.193.235.224
-  Not connected : 35.201.239.208
-  Not connected : 35.204.200.171
-  Not connected : 35.221.169.248
-  Connected     : 35.231.216.11
-  Not connected : 35.231.239.228
-  Not connected : 35.235.102.123
-  Connected     : 37.140.198.214
-  Not connected : 37.187.174.174
-  Not connected : 37.230.210.84
-  Not connected : 37.59.182.181
-  Not connected : 45.119.210.135
-  Not connected : 45.32.113.130
-  Connected     : 45.55.48.168
-  Connected     : 45.63.59.67
-  Not connected : 45.67.14.171
-  Connected     : 45.76.244.144
-  Connected     : 45.80.37.152
-  Not connected : 45.80.39.242
-  Not connected : 45.95.168.161
-  Connected     : 46.101.156.58
-  Connected     : 46.101.176.74
-  Connected     : 46.101.18.241
-  Connected     : 46.101.220.88
-  Not connected : 46.101.229.141
-  Not connected : 46.101.232.155
-  Not connected : 46.101.97.72
-  Not connected : 46.17.42.130
-  Not connected : 46.17.42.154
-  Connected     : 46.17.43.229
-  Not connected : 46.17.47.210
-  Not connected : 46.29.166.125
-  Not connected : 46.29.166.83
-  Not connected : 46.36.37.3
-  Connected     : 49.212.208.249
-  Not connected : 51.158.115.20
-  Connected     : 51.158.122.91
-  Connected     : 51.38.71.70
-  Not connected : 51.68.214.116
-  Not connected : 51.75.163.170
-  Not connected : 51.75.35.174
-  Connected     : 51.75.94.135
-  Connected     : 51.79.53.247
-  Connected     : 51.79.54.106
-  Connected     : 51.81.7.102
-  Not connected : 5.196.252.11
-  Not connected : 54.201.254.34
-  Not connected : 54.36.117.1
-  Not connected : 63.250.37.44
-  Not connected : 64.44.51.107
-  Not connected : 64.52.23.27
-  Connected     : 66.133.129.5
-  Not connected : 68.183.111.251
-  Not connected : 68.183.122.111
-  Not connected : 68.183.128.219
-  Not connected : 68.183.157.144
-  Connected     : 68.183.170.67
-  Connected     : 68.183.35.95
-  Connected     : 68.183.60.238
-  Connected     : 68.183.65.178
-  Connected     : 68.183.66.143
-  Connected     : 69.160.38.10
-  Connected     : 69.160.38.3
-  Not connected : 69.160.44.100
-  Not connected : 69.160.44.118
-  Not connected : 77.73.67.158
-  Not connected : 78.128.114.66
-  Connected     : 78.46.212.52
-  Not connected : 80.211.112.216
-  Not connected : 80.211.11.81
-  Connected     : 80.211.239.144
-  Not connected : 80.211.36.92
-  Connected     : 80.211.92.62
-  Not connected : 80.240.20.151
-  Connected     : 80.87.196.41
-  Not connected : 81.2.240.140
-  Connected     : 86.106.93.230
-  Not connected : 88.212.244.4
-  Not connected : 88.99.169.125
-  Not connected : 89.248.174.219
-  Not connected : 89.34.237.215
-  Not connected : 89.34.26.204
-  Not connected : 89.37.226.123
-  Not connected : 89.37.226.148
-  Not connected : 89.46.223.195
-  Not connected : 89.46.223.247
-  Not connected : 89.46.223.70
-  Connected     : 91.121.50.19
-  Connected     : 91.209.70.174
-  Not connected : 91.214.124.126
-  Not connected : 91.236.239.91
-  Not connected : 91.241.19.223
-  Not connected : 91.245.226.26
-  Connected     : 92.242.62.156
-  Not connected : 92.38.135.134
-  Not connected : 92.63.197.103
-  Not connected : 93.104.209.253
-  Connected     : 93.123.73.146
-  Connected     : 93.188.163.62
-  Not connected : 94.102.63.83
-  Not connected : 94.102.75.66
-  Not connected : 94.177.123.102
-  Not connected : 95.179.228.206
-  Connected     : 95.183.13.46
-  Not connected : 95.213.228.205
-
-
 ## Listing all active malicious domains...
 
-  Not connected : a2zcentre.com
+  Connected     : a2zcentre.com
   Not connected : a2zwebit.com
-  Connected     : a4animation.com
+  Not connected : a4animation.com
   Not connected : a4handyservice.de
   Not connected : aaabulbandlighting.com
   Connected     : aaaglobalint.com
   Connected     : aacca.com.pk
   Connected     : aafh.org
   Connected     : aahung.org
-  Not connected : aaidas.com
+  Connected     : aaidas.com
   Connected     : aairveerz.com
   Connected     : aalanguageservices.eu
   Connected     : aalens.net
@@ -487,7 +46,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : aamirshahzad.net
   Connected     : aandacompany.com
   Not connected : aandhconsultants.com
-  Connected     : aapetstore.com
+  Not connected : aapetstore.com
   Connected     : aarchimylove.com
   Not connected : aaspex.com
   Connected     : aatravelexperts.com
@@ -499,13 +58,13 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : abbasiwelfare.org
   Connected     : abbeyrichard.com
   Not connected : abbottabadschool.com
-  Not connected : ab-building.com
+  Connected     : ab-building.com
   Not connected : abbyblackart.com
   Not connected : abcsave.info
   Connected     : abdullahandco.com
   Not connected : abdullahsleather.com
   Not connected : abdulmannan.com.pk
-  Not connected : abeehatech.com
+  Connected     : abeehatech.com
   Not connected : abelka.in
   Connected     : abeonatravel.ge
   Not connected : aberdarehorticulture.com
@@ -514,11 +73,11 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : ablasia-silver.com
   Not connected : ablazasolution.com
   Not connected : ablicointernational.com
-  Connected     : aboserver.xyz
+  Not connected : aboserver.xyz
   Connected     : abosict.nl
   Not connected : abosolutelyvindictive.com
   Not connected : aboutbodybuildingworkout.com
-  Not connected : aboutduvetcovers.com
+  Connected     : aboutduvetcovers.com
   Connected     : aboutephesus.com
   Connected     : aboutswiss.ch
   Connected     : abovepromo.com
@@ -532,10 +91,10 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : acaciainvestigations.com
   Not connected : academiadz.net
   Not connected : academiafirst.co.uk
-  Not connected : academi.bike
+  Connected     : academi.bike
   Connected     : academicwritingbrokers.com
   Connected     : academy-khi.com
-  Not connected : academyla.store
+  Connected     : academyla.store
   Not connected : acbtronicscorp.com
   Connected     : accc.planso.de
   Not connected : accesototalinghseq.com
@@ -546,7 +105,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : accountingpulpit.com
   Connected     : accuratescaleplus.com
   Not connected : acdm.online
-  Connected     : acer-parts.co.za
+  Not connected : acer-parts.co.za
   Connected     : achanesman.com
   Connected     : achatcommercefloride.com
   Connected     : achimugu.com
@@ -578,7 +137,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : addictdkp.com
   Not connected : addikdugratis.ca
   Not connected : addmazon.com
-  Connected     : addorg.org
+  Not connected : addorg.org
   Connected     : addrealbass.com
   Connected     : addsaintgaudens.com
   Connected     : addysworld.com
@@ -622,14 +181,14 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : advertisehub.info
   Not connected : advertiseyourcompany.org
   Not connected : advertoz.com
-  Connected     : advocatetn.com
+  Not connected : advocatetn.com
   Not connected : advss.co.za
   Connected     : adwheelers.com
   Not connected : adw-portfolio.com
-  Connected     : aeaccting.com
+  Not connected : aeaccting.com
   Not connected : aeconafrica.com
   Not connected : aecssolution.com
-  Not connected : aedelavenir.com
+  Connected     : aedelavenir.com
   Connected     : aedlifepower.com
   Not connected : aescollege.edu.pk
   Not connected : aestheticsbysanjeev.com
@@ -645,13 +204,13 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : affiliatemarketingquest.com
   Connected     : affixforex.com
   Connected     : affordable-35mm-slide-scanning.com
-  Connected     : affordable-movers.net
+  Not connected : affordable-movers.net
   Connected     : affordablesandiegomovers.com
   Not connected : afftrack.best
   Not connected : afiaa-q.com
-  Not connected : afikagroup.com
-  Not connected : afikapower.com
-  Not connected : afikaquadpro.com
+  Connected     : afikagroup.com
+  Connected     : afikapower.com
+  Connected     : afikaquadpro.com
   Connected     : afiyahealth.com
   Connected     : afjdqhrj.wcnv20.cn
   Not connected : afmance.it
@@ -694,7 +253,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : ahdaaf.ae
   Connected     : ahelicoptermom.com
   Not connected : ahengineers.com.pk
-  Not connected : ahero-resource-center.org
+  Connected     : ahero-resource-center.org
   Not connected : ahknivesindustry.com
   Not connected : ahmaddawakhana.com
   Not connected : ahmadfoodspk.com
@@ -714,16 +273,16 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : aidat.iade-basvurusu-bireysel.online
   Not connected : aidatkanun.com
   Connected     : aigroupofcompany.com
-  Connected     : aiko.pro
+  Not connected : aiko.pro
   Not connected : aikurdunews.com
-  Not connected : aileeshop.com
+  Connected     : aileeshop.com
   Connected     : ailiaenterprises.com
   Connected     : aimalproduction.com
   Connected     : aimmop.pk
   Not connected : aimonino.info
-  Not connected : aimsagro.com
+  Connected     : aimsagro.com
   Connected     : aims-corp.com
-  Not connected : aimswelfare.org
+  Connected     : aimswelfare.org
   Connected     : aimth.pk
   Connected     : aiofotoevideo.com
   Not connected : aipa.ca
@@ -743,10 +302,10 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : aisp74.asso.fr
   Connected     : aitech.com.tr
   Not connected : aizaportfolio.com
-  Connected     : ajagayrimenkul.com.tr
+  Not connected : ajagayrimenkul.com.tr
   Connected     : ajajxcjexue.wcnv20.cn
   Not connected : ajans362.com
-  Not connected : ajepcoin.com
+  Connected     : ajepcoin.com
   Connected     : ajipnsfv.wcnv20.cn
   Not connected : ajmery-world.com
   Not connected : ajwatraveltour.com
@@ -776,7 +335,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : alahlasi.com
   Connected     : alainsaffel.com
   Not connected : alanrori.com
-  Connected     : alaqaba.com
+  Not connected : alaqaba.com
   Connected     : alarabtents.com
   Connected     : alaskamaterials.com
   Connected     : alaskanharvestseafood.com
@@ -814,13 +373,13 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : alexcelts.com
   Not connected : alexelgy.com
   Not connected : alex-frost.com
-  Not connected : alexrocchi.com
+  Connected     : alexrocchi.com
   Not connected : alfahadmedia.ae
   Connected     : alfatek-intelligence.com
   Not connected : alfredocifuentes.com
   Not connected : alfredoposada.com
   Connected     : algarvesup.com
-  Connected     : algihad.com
+  Not connected : algihad.com
   Connected     : algom-law.com
   Connected     : alhidayahfoundation.co.uk
   Connected     : aliacan.com
@@ -831,31 +390,31 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : alissanicolai.com
   Not connected : aliydshoyow.com
   Connected     : alizemimarlik.com.tr
-  Connected     : aljaadi.com
+  Not connected : aljaadi.com
   Connected     : aljasar.com
   Connected     : alkousy.com
   Not connected : all2wedding.com
-  Not connected : allaboutblockchain.net
+  Connected     : allaboutblockchain.net
   Connected     : allamwith.com
   Connected     : allday.gr
   Connected     : alldomains-crm.com
   Not connected : allegiancesecurity.org
   Not connected : allhandshygiene.co.za
-  Connected     : allhsgz.com
+  Not connected : allhsgz.com
   Not connected : allianz.com.pe
   Connected     : allinonebusinessresources.com
   Connected     : allisonplumbing.com
   Connected     : allkidsworld.com
   Not connected : allmantravel.com
   Connected     : all-reseller.com
-  Not connected : allsporthealthandfitness.com
+  Connected     : allsporthealthandfitness.com
   Not connected : allthat.social
-  Not connected : alluhaybi.com.sa
+  Connected     : alluhaybi.com.sa
   Connected     : allusdoctors.com
   Connected     : almahaconsultants.com
-  Connected     : almaqsd.com
+  Not connected : almaqsd.com
   Connected     : almarjantobacco.com
-  Connected     : almashrooglobal.com
+  Not connected : almashrooglobal.com
   Connected     : almatours.gr
   Connected     : almeriahotelja.com
   Not connected : almirayapim.com
@@ -880,7 +439,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : altcoinaddict.com
   Connected     : alterwebhost.com
   Connected     : althurayaa.com
-  Not connected : altinoluk-akcay.com
+  Connected     : altinoluk-akcay.com
   Connected     : altosdefontana.com
   Not connected : altrablog.com
   Connected     : alvesajewellery.com
@@ -889,7 +448,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : always-beauty.ch
   Connected     : alxcorp.com
   Connected     : am1int.fcomet.com
-  Connected     : amari.ro
+  Not connected : amari.ro
   Connected     : amashop.ir
   Connected     : amateurastronomy.org
   Connected     : amatikulutours.com
@@ -899,7 +458,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : amazingtour.pk
   Connected     : ambiances-toiles.fr
   Connected     : ambientmoon.co.za
-  Not connected : ambrogiauto.com
+  Connected     : ambrogiauto.com
   Connected     : ambulatorioveterinariocalusco.com
   Connected     : ambyenta.hr
   Connected     : amcscomputer.com
@@ -928,14 +487,14 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : amordegato.es
   Connected     : amphibiblechurch.com
   Not connected : ampleadminservices.com
-  Connected     : ampli5yd.com
+  Not connected : ampli5yd.com
   Connected     : ampvita.com
   Connected     : amruthavana.com
   Connected     : anahera.biz
   Not connected : analternatif.com
-  Not connected : analystcnwang.com
+  Connected     : analystcnwang.com
   Not connected : analyticalfootball.com
-  Connected     : anastasovsworkshop.com
+  Not connected : anastasovsworkshop.com
   Connected     : anbinni.ba
   Connected     : ancient-wisdoms.com
   Connected     : ancoeng.co.za
@@ -952,8 +511,8 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : and4.junglebeariwtc1.com
   Connected     : and4.junglebeariwtc2.com
   Connected     : and9.themainnotmainstreet2.com
-  Not connected : andihaas.at
-  Not connected : ando.co.kr
+  Connected     : andihaas.at
+  Connected     : ando.co.kr
   Connected     : andrasadam.com
   Connected     : andreabelfi.com
   Connected     : andrebruton.com
@@ -965,7 +524,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : androidpt01.asia
   Not connected : androidpt02.asia
   Connected     : androidwikihow.com
-  Connected     : anet-international-group.com
+  Not connected : anet-international-group.com
   Connected     : anf.gov.pk
   Not connected : angar68.com
   Connected     : angel-blanco.net
@@ -978,7 +537,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : animationinisrael.org
   Not connected : animationpulse.net
   Not connected : animationshowreel.co.il
-  Connected     : animeok.co.il
+  Not connected : animeok.co.il
   Not connected : aniroleplay.net
   Connected     : ankamesrubat.com
   Not connected : ankara24saatacikcicekci.com
@@ -988,16 +547,16 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : ankarakiralikvinc.web.tr
   Connected     : ankaramehteri.com
   Not connected : ankaraotokurtarici.web.tr
-  Not connected : ankaratemizliksirketleri.web.tr
+  Connected     : ankaratemizliksirketleri.web.tr
   Connected     : ankaratemizlik.web.tr
   Not connected : ankus.es
   Connected     : annabelle.nl
   Not connected : annaplebanek.com
   Connected     : anngrigphoto.com
-  Connected     : annodle.com
+  Not connected : annodle.com
   Not connected : anora71.uz
   Connected     : anotherdayinparadise.ca
-  Connected     : anotherpartofme.com
+  Not connected : anotherpartofme.com
   Connected     : anphmhqf.wcnv20.cn
   Connected     : ansetech.co.kr
   Connected     : answerstoprayer.org
@@ -1024,7 +583,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : apalawyers.pt
   Not connected : aperta-armis.org
   Connected     : apidubai.ae
-  Not connected : apiiination.com
+  Connected     : apiiination.com
   Not connected : apironco.com
   Connected     : apkglobe.net
   Connected     : apobiomedix.ca
@@ -1044,14 +603,14 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : aqualogicwc.co.uk
   Not connected : aquamasaj.com
   Not connected : aquaneeka.co.uk
-  Connected     : aquo.in
+  Not connected : aquo.in
   Connected     : arabelaholdings.com
-  Connected     : arabellajo.com
-  Not connected : arabsdeals.com
+  Not connected : arabellajo.com
+  Connected     : arabsdeals.com
   Connected     : aracexpress.com
   Not connected : aradhana.faith
   Not connected : arar-musique.fr
-  Connected     : arasbg.com
+  Not connected : arasbg.com
   Not connected : araskargo.online
   Not connected : arasotokiralama.net
   Not connected : arbeidsrechtcentrum.nl
@@ -1067,11 +626,11 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : arc-sec.net
   Not connected : arctistrade.de
   Connected     : arctkrmxjscg.wcnv20.cn
-  Not connected : arcusautomatika.ba
-  Connected     : ardatur.com
+  Connected     : arcusautomatika.ba
+  Not connected : ardatur.com
   Connected     : ardvessels.com
   Connected     : aresebetseng.co.za
-  Not connected : arestihome.com
+  Connected     : arestihome.com
   Not connected : arhidsfderm.pw
   Connected     : arhiepiscopiabucurestilor.ro
   Not connected : ariturkklima.com
@@ -1080,6 +639,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : armadakizyurdu.com
   Connected     : armator.info
   Connected     : arm.net.pk
+  Connected     : armtheprofileoriginals.com
   Connected     : arpid.ru
   Connected     : a.rrbxn.com
   Connected     : ar-rihla.com
@@ -1087,7 +647,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : artibilisim.xyz
   Not connected : artibirinsaat.com.tr
   Not connected : artikainsaat.com
-  Connected     : artikhazirsin.remingtonturkiye.com
+  Not connected : artikhazirsin.remingtonturkiye.com
   Connected     : artistanbul.tv
   Not connected : artistlogistics.net
   Not connected : artumus.co.za
@@ -1097,7 +657,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : asduru.com.tr
   Connected     : aseltech.com.tr
   Not connected : aseltech.dental
-  Not connected : asesoriastepual.cl
+  Connected     : asesoriastepual.cl
   Not connected : asgaage.pw
   Connected     : asgen.org
   Connected     : ashapeforlife.com
@@ -1117,7 +677,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : astrumtechnologies.co.za
   Not connected : asturkgrup.com
   Not connected : asturkkimya.com
-  Not connected : asturkmadencilik.com
+  Connected     : asturkmadencilik.com
   Not connected : asvip2.top
   Connected     : ataglobal.com.tr
   Connected     : atakan.com
@@ -1134,7 +694,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : attilabalogh.com
   Connected     : atxvfhoklmo.wcnv20.cn
   Not connected : auburnhomeinspectionohio.com
-  Not connected : auctionify.com.ng
+  Connected     : auctionify.com.ng
   Connected     : audio-pa-service.de
   Connected     : auditlater.top
   Connected     : aujmgfpl.wcnv20.cn
@@ -1143,7 +703,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : autoecoleathena.com
   Connected     : autoecoleboisdesroches.com
   Connected     : autoecole-jeanpierre.com
-  Not connected : auto-ecole-lecastelet.com
+  Connected     : auto-ecole-lecastelet.com
   Connected     : automattenonline.com
   Connected     : auxilia-fr.com
   Connected     : avaagriculture.com
@@ -1164,15 +724,15 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : aygunotomasyon.com
   Not connected : ayinfirsatigunleridenizle.com
   Connected     : aymuhendislik.com
-  Not connected : aypir.com
+  Connected     : aypir.com
   Connected     : aysamturizm.com.tr
-  Connected     : aysekaya.com.tr
+  Not connected : aysekaya.com.tr
   Connected     : ayterm.com
   Connected     : azadpattanhpp.com
   Connected     : azedizayn.com
   Not connected : azermaral.com
   Connected     : azim.co.il
-  Connected     : azizinsaat.com
+  Not connected : azizinsaat.com
   Not connected : azlinshaharbi.com
   Not connected : azracateringme.ae
   Not connected : b4bios.com
@@ -1187,7 +747,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : backoffice-me.com
   Not connected : badlaretinaclinic.com
   Connected     : bafflethink.com
-  Connected     : bagadesign.pt
+  Not connected : bagadesign.pt
   Not connected : bagherehman.com
   Not connected : bahadirsahinoglu.com
   Connected     : bahaosgb.com
@@ -1205,10 +765,10 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : bakhshirealestate.com
   Connected     : bakiroglu.com.tr
   Not connected : bakron.co.za
-  Not connected : baksapk.com
+  Connected     : baksapk.com
   Connected     : balaateen.co.za
   Not connected : balcidede.com.tr
-  Not connected : baldatca.com
+  Connected     : baldatca.com
   Connected     : balkonresidence.com
   Connected     : balzantruck.com
   Not connected : bamex.com.pk
@@ -1219,30 +779,30 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : bansko-furniture.co.uk
   Not connected : baranakinturk.com.tr
   Not connected : baranhotel.com
-  Not connected : barberink.biz
+  Connected     : barberink.biz
   Not connected : baresiconstrucoes.com
   Not connected : barrobaseerogroup.com
-  Not connected : bartabee.com
+  Connected     : bartabee.com
   Connected     : basarteks.com
   Connected     : bashancorp.co.za
   Not connected : bashirengineeringservices.com
   Not connected : baskale.bel.tr
   Connected     : basketballkungfu.com
-  Connected     : baskisanati.com
+  Not connected : baskisanati.com
   Not connected : baspinarlartulumpeyniri.com
   Connected     : bat99-11611.co
   Not connected : batalabalochihandicraft.com
   Connected     : batistadopovosjc.org.br
-  Connected     : batthiqbal.com
-  Connected     : batuhandugunsalonu.com
-  Connected     : bayenat.pk
+  Not connected : batthiqbal.com
+  Not connected : batuhandugunsalonu.com
+  Not connected : bayenat.pk
   Not connected : bayiers.com
   Connected     : bayimpex.be
   Connected     : baynetins.com
   Not connected : bayrampasabocekilaclama.net
   Not connected : baytech.pk
   Not connected : bazar247.pk
-  Connected     : bazinga-shop.eu
+  Not connected : bazinga-shop.eu
   Not connected : bbc11tv.com
   Connected     : bbtravels.net
   Connected     : bckkaucuk.com
@@ -1271,17 +831,17 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : beehiveholdingszar.co.za
   Not connected : beesolutions.co
   Not connected : beesrenovations.co.za
-  Not connected : behealthier.eu
+  Connected     : behealthier.eu
   Connected     : bek.ae
   Not connected : bekkersweldingservice.nl
   Connected     : belfortsecurity.com
   Not connected : bella-yfaceandbodyproduct.com
   Not connected : belvasports.com
-  Not connected : bench-mark.org
+  Connected     : bench-mark.org
   Not connected : benonicoc.co.za
   Connected     : bentivegna.es
   Connected     : benztechsolutions.com
-  Not connected : bepovoblago.com
+  Connected     : bepovoblago.com
   Connected     : berds.org.pk
   Not connected : berkahbajamakmur.com
   Not connected : berkataman.com
@@ -1295,8 +855,8 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : bestbedrails.reviews
   Not connected : bestcoolingtowels.reviews
   Connected     : bestcoverpix.com
-  Connected     : bestdamascusknives.com
-  Not connected : bestdecorativemirrors.com
+  Not connected : bestdamascusknives.com
+  Connected     : bestdecorativemirrors.com
   Not connected : best-digital-slr-cameras.com
   Connected     : best-dreams.com
   Connected     : bestencouragementwords.com
@@ -1307,7 +867,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : bestsheepleather.com
   Not connected : besttweezers.reviews
   Not connected : betandbeer.tips
-  Connected     : betatechnologiesme.com
+  Not connected : betatechnologiesme.com
   Connected     : beta.wally02.org
   Not connected : bethlehemcarving.com
   Not connected : beti.pk
@@ -1322,7 +882,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : bgpsouthasia.com
   Not connected : bg-tal.com
   Connected     : bhakkarrishtey.com
-  Not connected : bhekiguru.co.za
+  Connected     : bhekiguru.co.za
   Not connected : bhg-tech.com
   Not connected : bhic-group.com
   Connected     : bhlslctlmcf.wcnv20.cn
@@ -1357,13 +917,13 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : binhamgroup.com
   Connected     : binitelecom.com
   Not connected : bintemustafa.com
-  Not connected : binuq.gob.pk
+  Connected     : binuq.gob.pk
   Not connected : binzaq.com
   Connected     : biodogacevre.com
   Connected     : biondi.co
-  Connected     : bios-chip.co.za
+  Not connected : bios-chip.co.za
   Connected     : bioservepharma.com
-  Connected     : biotechreview.net
+  Not connected : biotechreview.net
   Not connected : biotechtoday.co.uk
   Not connected : birds.org.pk
   Not connected : bireyselhizmetnoktasiii.com
@@ -1380,7 +940,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : bit.do
   Connected     : bitekservis.com
   Not connected : bitisd.com
-  Not connected : bit.ly
+  Connected     : bit.ly
   Connected     : bitsym.com
   Not connected : bitteeth.com
   Connected     : biyanyapi.com
@@ -1388,7 +948,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : bizimbag.com
   Connected     : bizimnalbur.com
   Not connected : bizlikebiz.biz
-  Not connected : bizxess.com
+  Connected     : bizxess.com
   Connected     : bkconsultants.com.pk
   Connected     : bkembroidery.com
   Connected     : bkmzvkaoi.wcnv20.cn
@@ -1411,7 +971,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : blog.kobisi.com
   Connected     : blog.openthefar.com
   Connected     : blog.sefaireaider.com
-  Not connected : bloorco.com
+  Connected     : bloorco.com
   Connected     : bluebayauto.com
   Not connected : blueberrygroup.com.ar
   Connected     : bluecrome.com
@@ -1423,22 +983,22 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : blushagency.com
   Connected     : bluvgkcs.wcnv20.cn
   Connected     : bm360.com.pk
-  Connected     : bmasokaprojects.co.za
+  Not connected : bmasokaprojects.co.za
   Connected     : bmc.edu.pk
   Connected     : bmctelecom.ae
-  Connected     : bmenerji.com.tr
+  Not connected : bmenerji.com.tr
   Not connected : bmindctech.com
-  Not connected : bmorecleaning.com
+  Connected     : bmorecleaning.com
   Connected     : bmscissors.com
-  Not connected : bnboutlet.com
-  Connected     : bnf.org.pk
+  Connected     : bnboutlet.com
+  Not connected : bnf.org.pk
   Connected     : bntlaminates.com
   Connected     : boardaffairs.com
   Connected     : boatwif.co.uk
   Not connected : boaze.de
   Connected     : bocekilaclama.gen.tr
-  Connected     : bocekilaclamahizmeti.com
-  Not connected : bocekilaclamazeytinburnu.net
+  Not connected : bocekilaclamahizmeti.com
+  Connected     : bocekilaclamazeytinburnu.net
   Not connected : bo-crm.com
   Not connected : bodemeo2.sg-host.com
   Not connected : bodemeo4.sg-host.com
@@ -1450,7 +1010,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : bojibanf.wcnv20.cn
   Connected     : bokkeriejesj.nl
   Not connected : bolgemuhabirligi.com
-  Connected     : bollywood-circle.com
+  Not connected : bollywood-circle.com
   Not connected : bolumutluturizm.com
   Not connected : bommgrest.ru
   Not connected : bonasfalogtrans.com
@@ -1489,8 +1049,8 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : bradleysherrer.com
   Not connected : brainiac.edu.pk
   Connected     : brainlight.me
-  Not connected : bramloosveld.be
-  Connected     : brandcaresolutions.co
+  Connected     : bramloosveld.be
+  Not connected : brandcaresolutions.co
   Connected     : brand-key.com
   Connected     : brandosol.com
   Connected     : brandr.ge
@@ -1503,11 +1063,11 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : breakbyte.com
   Not connected : breakoutmonitor.info
   Connected     : breastfeedingbra.co.za
-  Connected     : breathehope4maira.com
-  Connected     : bridgepakistan.org
+  Not connected : breathehope4maira.com
+  Not connected : bridgepakistan.org
   Connected     : bridgewaybpo.com
   Connected     : briskfm.co.uk
-  Connected     : briskid.com
+  Not connected : briskid.com
   Connected     : briskways.net
   Connected     : britishasia-equip.co.uk
   Not connected : britishofficefitout.com
@@ -1515,7 +1075,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : broadstone.com.pk
   Not connected : brokedudepodcast.com
   Connected     : broken-arrow.co.za
-  Connected     : brosen.com.pk
+  Not connected : brosen.com.pk
   Not connected : brussellstribunal.com
   Connected     : bshconglobal.com
   Not connected : bsmtrans.com
@@ -1540,14 +1100,14 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : bundesgloballogisticssa.com
   Not connected : bunyadwelfare.org
   Connected     : buqsrpfh.wcnv20.cn
-  Connected     : burakdoseme.com
+  Not connected : burakdoseme.com
   Connected     : burgercoetzeeattorneys.co.za
   Not connected : burgeystikihut.com
-  Connected     : burhanitradinglimited.co.uk
+  Not connected : burhanitradinglimited.co.uk
   Not connected : burhanulhaqq.com
   Connected     : burkertparts.com
   Connected     : burlesonlelas.com
-  Not connected : burnout.com.pk
+  Connected     : burnout.com.pk
   Not connected : burqaapp.com
   Connected     : bursabitkisel.com
   Not connected : bursadanilan.com
@@ -1562,38 +1122,38 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : buyboxlabs.com
   Connected     : buynow.com.pk
   Not connected : buzzertv.xyz
-  Not connected : buzzfeedhealth.com
+  Connected     : buzzfeedhealth.com
   Connected     : bvzfrjmghu.wcnv20.cn
   Not connected : bwtest1.apps.ae
   Not connected : bykashifhussain.com
   Connected     : bzwslxbo.wcnv20.cn
   Connected     : c3pconsulting.com
-  Connected     : c3pw.com
+  Not connected : c3pw.com
   Not connected : caacademicforum.com
-  Connected     : cablenetproviders.com
-  Connected     : cadcomputeracademy.com
+  Not connected : cablenetproviders.com
+  Not connected : cadcomputeracademy.com
   Connected     : cafawelding.co.za
   Not connected : cafeaulait.co
   Connected     : cafebistrovia.com
   Not connected : cafeliquiteria.pk
   Connected     : cagliaricity.it
   Not connected : cakirgranitinsaat.com
-  Connected     : calculactcal.org
+  Not connected : calculactcal.org
   Not connected : callcar.com.pk
   Not connected : calzature.com.pk
   Connected     : camasirhaneistanbul.com
   Not connected : camasirhaneyalova.com
   Not connected : cambridgeeducationalservices.info
-  Not connected : cambridgetuts.com
+  Connected     : cambridgetuts.com
   Not connected : camefe.com.mx
   Connected     : camkutezyinat.com
   Connected     : camlikkamping.com
-  Not connected : campet.com.tr
-  Not connected : camps.pk
-  Not connected : campusvoltaire.com
+  Connected     : campet.com.tr
+  Connected     : camps.pk
+  Connected     : campusvoltaire.com
   Connected     : canadianvc.com
   Connected     : canaldeal.top
-  Not connected : canbeginsaat.com
+  Connected     : canbeginsaat.com
   Connected     : candidsourcing.com
   Connected     : capetownway.co.za
   Not connected : capewindstrading.co.za
@@ -1618,7 +1178,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : cdn.funckgroup-server.com
   Connected     : cds.org.pk
   Not connected : cdxtrading.co.za
-  Connected     : celasllc.com
+  Not connected : celasllc.com
   Connected     : cemsolutions.org
   Connected     : centraldispatchinc.com
   Not connected : centreforgovernance.uk
@@ -1627,7 +1187,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : centurythis.com
   Connected     : ceramica.co.za
   Connected     : cerkezkoytakograf.com
-  Not connected : cevahirogludoner.com
+  Connected     : cevahirogludoner.com
   Connected     : ceylaninruyasi.com
   Connected     : ceylanmobilya.com.tr
   Connected     : cfm.com.pk
@@ -1652,7 +1212,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : cipemiliaromagna.cateterismo.it
   Connected     : cittaslowturkiye.org
   Connected     : clandecor.co.za
-  Connected     : cle.ae
+  Not connected : cle.ae
   Connected     : clientcare.co.ls
   Not connected : clientenovoacesso.com
   Not connected : clinetea62bnhuc2.onion.link
@@ -1667,8 +1227,8 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : cns.com.pk
   Not connected : co-appidsrcvinc.com
   Connected     : cocobooter.com
-  Connected     : colenesphotography.co.za
-  Connected     : coloradofootinstitute.com
+  Not connected : colenesphotography.co.za
+  Not connected : coloradofootinstitute.com
   Connected     : colorglobe.in
   Connected     : comecomefindme.ru
   Connected     : cometnet.biz
@@ -1687,9 +1247,9 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : controleng.com
   Not connected : convitek.com
   Not connected : cookiesdough.tk
-  Not connected : cookncash.com
+  Connected     : cookncash.com
   Connected     : cooldoctor.ae
-  Connected     : cool-group.ae
+  Not connected : cool-group.ae
   Connected     : cool-group.net
   Connected     : coolguys.ae
   Connected     : coolingdubai.com
@@ -1697,14 +1257,14 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : copansrl.it
   Not connected : corludiyetyemekleri.com
   Not connected : corporategiftbranding.co.za
-  Not connected : cortaestanciapolanco.com
+  Connected     : cortaestanciapolanco.com
   Connected     : cosmeticsurgeryisb.pk
   Not connected : cosmetify.pk
   Not connected : cosmosholidays.pk
   Not connected : cothmisb.com
   Not connected : coupon-online.fr
   Not connected : courtesydriving.co.za
-  Connected     : coverpixs.com
+  Not connected : coverpixs.com
   Connected     : cowp.or.kr
   Not connected : cpecsol.com
   Not connected : cpsxz1.at
@@ -1714,13 +1274,13 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : createch.solutions
   Not connected : create-creative.com
   Not connected : creativeloog.co
-  Connected     : creativenex.com
+  Not connected : creativenex.com
   Not connected : creativesvisions.com
   Connected     : creative-things.com
   Connected     : creativetiers.com
   Connected     : creditformula.org
   Not connected : cresoulsmarketing.com
-  Connected     : cresthill.co.uk
+  Not connected : cresthill.co.uk
   Connected     : crissamconsulting.co.za
   Connected     : crna-macka.com
   Connected     : crystaltidings.co.za
@@ -1728,26 +1288,26 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : ctmgdurbsuin.wcnv20.cn
   Connected     : ctmnqkkpznj.wcnv20.cn
   Connected     : cugaituoianthai.com
-  Not connected : cultofmobile.com
+  Connected     : cultofmobile.com
   Connected     : cumflbsuut.wcnv20.cn
   Not connected : cuneytugur.com.tr
   Not connected : cupboardcure.co.za
   Connected     : curb-food-cravings.com
-  Not connected : cutt.ly
+  Connected     : cutt.ly
   Connected     : cwzjfzwvkyx.wcnv20.cn
   Connected     : cxzxzxzxzzxzx.s3.eu-central-1.amazonaws.com
   Connected     : cybercraft.biz
   Connected     : cynoedrabpcp.wcnv20.cn
   Connected     : cy.tc
-  Not connected : d11295.top
+  Connected     : d11295.top
   Connected     : d6tim2wp6ynyd5gvmqgtrqhpl4-adwhj77lcyoafdy-vakifbank.translate.goog
   Not connected : dagwile.org
-  Connected     : dailyqadamat.com
+  Not connected : dailyqadamat.com
   Not connected : dailysportsgossips.com
   Not connected : dapoerwedding.com
   Not connected : datadigm.co.za
   Connected     : dataseek.com.br
-  Connected     : datasoft-sa.com
+  Not connected : datasoft-sa.com
   Connected     : datenhaus.info
   Not connected : davetyaymak.com
   Not connected : davidstephensbanjo.com
@@ -1761,6 +1321,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : dealmaterial.top
   Connected     : debnoch.com
   Connected     : dedeyumurtaciftligi.net
+  Connected     : dedicatematch.top
   Connected     : deepgraphics.co.za
   Not connected : deereebee.info
   Connected     : degdiwixj.wcnv20.cn
@@ -1772,10 +1333,10 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : democuk.tk
   Connected     : demopowerindo.com
   Connected     : demo.scd.network
-  Connected     : demo.wearemedia.us
+  Not connected : demo.wearemedia.us
   Not connected : denizbank-xrcekilis.com
   Not connected : derainlay.info
-  Connected     : derinyapiinsaat.com
+  Not connected : derinyapiinsaat.com
   Not connected : desarrolloprueba.xyz
   Not connected : designordie.ca
   Not connected : desirablehair.co.za
@@ -1793,6 +1354,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : digitalblue.co.za
   Not connected : digital-cameras-south-africa.co.za
   Connected     : digitalteknik.com.tr
+  Not connected : dijitalbasvurumobildenizgiris.co.vu
   Not connected : dikon.com.tr
   Connected     : dimer-group.com
   Connected     : dingaanassociates.co.za
@@ -1805,7 +1367,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : dlgfuarcilik.com
   Connected     : dlomdhfoq.wcnv20.cn
   Not connected : dl.wizzuniquify.com
-  Connected     : dmc.gov.pk
+  Not connected : dmc.gov.pk
   Not connected : dndzh457thdhjk.at
   Not connected : dodoi.cc
   Connected     : dogadanderman.com
@@ -1815,11 +1377,11 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : domesticguardians.co.za
   Connected     : domusgroup.ae
   Connected     : donmezhidrolik.com
-  Not connected : doomed.cf
+  Connected     : doomed.cf
   Not connected : doorboss.co.za
   Connected     : dorakiletisim.com
   Connected     : dorjenmar.com
-  Connected     : doseoul.com
+  Not connected : doseoul.com
   Not connected : downlooter.net
   Not connected : dp4kb.magelangkota.go.id
   Not connected : dpscdgkhan.edu.pk
@@ -1832,7 +1394,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : dubaigip.com
   Connected     : dubaihelishow.com
   Not connected : dubaistars.ae
-  Connected     : dublindriveways.ie
+  Not connected : dublindriveways.ie
   Connected     : duckiesplumbing.com.au
   Not connected : duffle.at
   Not connected : dummy.celerosnetworks.com
@@ -1862,34 +1424,33 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : edgeforensic.co.za
   Connected     : edgesecurity.co.za
   Not connected : ednpk.com
-  Not connected : edu4.co.kr
-  Connected     : efbirbilgisayar.com
+  Connected     : edu4.co.kr
+  Not connected : efbirbilgisayar.com
   Connected     : eforas.com.tr
   Connected     : eforgaraj.com.tr
   Connected     : egedenmesrubat.com
   Connected     : egzotikshop.com
   Connected     : ejopeshot.wcnv20.cn
-  Connected     : ekayapi.org
+  Not connected : ekayapi.org
   Connected     : ekerticaret.com
-  Not connected : e-kisa.com
+  Connected     : e-kisa.com
   Not connected : e-kisalt.com
   Connected     : ekrembahcekapili.com
   Not connected : ekremmutlu.com
   Connected     : elan.com.pk
   Connected     : elektroniksigaralab.com
   Not connected : elemech.com.pk
-  Connected     : elev8tor.com
   Not connected : elevate.ae
   Not connected : elitbizopa.info
   Connected     : elitecaptains.ae
   Connected     : eloquent.co.za
   Not connected : elvantente.com
   Connected     : embali.co.za
-  Connected     : emeryconsult.com
+  Not connected : emeryconsult.com
   Connected     : eminelleranaokulu-etut.com
-  Connected     : emiratesbuilders.net
+  Not connected : emiratesbuilders.net
   Connected     : emmabeckerle.com
-  Not connected : empowerbridge.com
+  Connected     : empowerbridge.com
   Connected     : emware.co.za
   Not connected : en-content.com
   Connected     : encontrosmaracatu.com.br
@@ -1897,10 +1458,10 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : engeltjieakademie.co.za
   Not connected : enginatalay.com
   Not connected : engpro.xyz
-  Connected     : enka.blue
+  Not connected : enka.blue
   Not connected : enmee.net
   Not connected : enpara.link
-  Not connected : enpara.xyz
+  Connected     : enpara.xyz
   Not connected : enterpriseunknown.top
   Not connected : entertaintoyou.com
   Connected     : entracorntrading.co.za
@@ -1909,7 +1470,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : envoysoft.net
   Not connected : epandemindestekuygulamasi0101.com
   Not connected : epandemindestekuygulamasi03.com
-  Not connected : epcb.it
+  Connected     : epcb.it
   Not connected : e-plakabakiyeyukleme.live
   Not connected : eplakasubemizi.com
   Connected     : epss.ae
@@ -1963,12 +1524,13 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : files2.codecguide.com
   Connected     : files6.uludagbilisim.com
   Connected     : files.constantcontact.com
-  Not connected : filllfoll.biz
+  Connected     : filllfoll.biz
   Not connected : finalnewstv.com
   Not connected : fincasoroel.es
-  Not connected : findfree-people-friends.com
-  Connected     : findinfo-more.com
+  Connected     : findfree-people-friends.com
+  Not connected : findinfo-more.com
   Connected     : fiqnqspwcw.wcnv20.cn
+  Connected     : firebasestorage.googleapis.com
   Not connected : firebug.online
   Not connected : firsatdenizim.com
   Connected     : firstalliance.church
@@ -1978,7 +1540,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : fkqmbizmh.wcnv20.cn
   Not connected : flashardreset.com
   Connected     : flashroms.com
-  Not connected : flooringforyou.co.uk
+  Connected     : flooringforyou.co.uk
   Not connected : floratend.com
   Connected     : fltduty.ca
   Connected     : fmmakuwxomb.wcnv20.cn
@@ -2009,7 +1571,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : gabrio.it
   Connected     : galaxyforwarders.com
   Connected     : galwayprimary.co.za
-  Connected     : gamevila.com
+  Not connected : gamevila.com
   Connected     : ganitis.gr
   Connected     : ganoset.com
   Not connected : garanti-bonus-flash-kart-islemleri-33808.portmap.io
@@ -2040,7 +1602,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : gg.gg
   Not connected : giadinhvabe.net
   Not connected : gib.intvrg.org
-  Not connected : gideonitesprojects.com
+  Connected     : gideonitesprojects.com
   Connected     : giginsulation.com
   Connected     : gildhroge.wcnv20.cn
   Not connected : gilforsenate.com
@@ -2066,21 +1628,21 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : gooddns.ir
   Connected     : goodproject.xyz
   Connected     : goo.gl
-  Not connected : goojoo.net
+  Connected     : goojoo.net
   Connected     : goolineb2b.com
-  Not connected : goolinegaming.com
+  Connected     : goolinegaming.com
   Not connected : gooline.net
   Not connected : gooline.pk
-  Connected     : goolinespace.com
+  Not connected : goolinespace.com
   Connected     : grainsandmore.com.pk
-  Not connected : great.social
+  Connected     : great.social
   Not connected : greebo.co.za
   Not connected : greenacrestf.co.za
   Connected     : greenedus.com
-  Connected     : greenerlivingca.com
+  Not connected : greenerlivingca.com
   Not connected : greenitylogistics.com
   Not connected : groblersdalprimecircle.co.za
-  Not connected : gsmmid.com
+  Connected     : gsmmid.com
   Not connected : gsnconsulting.co.za
   Not connected : gtrans.com.pk
   Connected     : gulenapart.com
@@ -2107,9 +1669,9 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : hannanaslan.com.tr
   Not connected : haraticarpet.com
   Connected     : harmonyguesthouse.co.za
-  Not connected : harryandbell.com
+  Connected     : harryandbell.com
   Connected     : hartenboswaterpark.co.za
-  Connected     : hashtag.com.pk
+  Not connected : hashtag.com.pk
   Not connected : haveytv.com
   Connected     : havilahglo.co.za
   Connected     : hawk-lines.com
@@ -2129,18 +1691,18 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : hfhl.org.ls
   Connected     : hfvpylrssnbg.wcnv20.cn
   Not connected : hgs-online.net
-  Connected     : hhrgdsmylyp.wcnv20.cn
-  Connected     : highschoolsuperstar.co.za
+  Not connected : hhrgdsmylyp.wcnv20.cn
+  Not connected : highschoolsuperstar.co.za
   Not connected : hintdeals.com
   Not connected : hiperbolicus.com
-  Not connected : hisabati.com
+  Connected     : hisabati.com
   Connected     : hisandherskennels.co.za
   Connected     : hitec-sa.com
   Not connected : hitupfitness.com
   Not connected : hivekorea.com
   Not connected : hizliy.sg-host.com
   Connected     : hjb-racing.co.za
-  Not connected : hkwatercolors.com
+  Connected     : hkwatercolors.com
   Connected     : hmholdings360.co.za
   Connected     : hmp.me
   Not connected : hmtal.ml
@@ -2159,7 +1721,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : hotnews.16mb.com
   Connected     : hsbutton.co.kr
   Connected     : hsshivling.com
-  Connected     : hstudymall.co.kr
+  Not connected : hstudymall.co.kr
   Not connected : h-u-i.co.za
   Connected     : huknkwhx.wcnv20.cn
   Connected     : hukukportal.com
@@ -2170,7 +1732,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : hygienix.com.tr
   Not connected : hypr.ink
   Not connected : hyunda-ce.com
-  Connected     : hz11.cn
+  Not connected : hz11.cn
   Not connected : iadenedevlette.com
   Connected     : iancullen.co.za
   Not connected : i-app1.online
@@ -2178,22 +1740,23 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : i-app5.online
   Not connected : ibcvyqxbe3g2xwpc.onion.link
   Connected     : ibrahimtoruk.com
-  Not connected : icapmecareers.com
+  Connected     : icapmecareers.com
   Connected     : icerike.com
   Not connected : iclikoftesiparisalinir.com
   Connected     : iconicciti.com
   Connected     : iconnectuae.com
-  Connected     : icsswaziland.com
-  Connected     : ieced.com.pk
+  Not connected : icsswaziland.com
+  Not connected : ieced.com.pk
   Connected     : iewa.sk
   Connected     : iggleconsulting.com
-  Connected     : iglesiaciudaddedios.com
+  Not connected : iglesiaciudaddedios.com
+  Connected     : igstalk.com
   Connected     : ihlosiqs-pm.co.za
   Connected     : iida-sevensuns.com
   Connected     : iiee.edu.pk
   Not connected : iilii.site
   Not connected : iinvest4u.co.za
-  Not connected : iklimlendirmekonferansi.com
+  Connected     : iklimlendirmekonferansi.com
   Connected     : ikrea.or.kr
   Not connected : ikusasatrainingprovider.co.za
   Connected     : ilaydapromosyon.com
@@ -2243,10 +1806,10 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : irshadfoundation.co.za
   Connected     : iscm.edu.ar
   Connected     : isgs.com.pk
-  Connected     : isibaniedu.co.za
+  Not connected : isibaniedu.co.za
   Connected     : islemn.com
   Not connected : isorgula.org
-  Not connected : isound.co.za
+  Connected     : isound.co.za
   Connected     : istanbulteknikhirdavat.com
   Not connected : iswellwithme.com
   Connected     : itengineering.co.za
@@ -2261,7 +1824,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : jamia-asria.org
   Connected     : jannahqu.org
   Connected     : jannatkhah.ir
-  Connected     : jaysonmorrison.com
+  Not connected : jaysonmorrison.com
   Not connected : jaytagprojects.co.za
   Connected     : jdcorporate.co.za
   Not connected : jeanetteproperties.co.za
@@ -2271,7 +1834,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : jjs.com.pk
   Connected     : joojlee.com
   Connected     : joyngroup.com
-  Not connected : jozipainters.co.za
+  Connected     : jozipainters.co.za
   Connected     : jsonstore.io
   Connected     : judo59.com
   Connected     : juelgkbeo.wcnv20.cn
@@ -2291,11 +1854,11 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : kayalarmobilya.com.tr
   Connected     : kcdryervents.com
   Not connected : kedidirkedi.com
-  Connected     : kencebaydenizcilik.com
+  Not connected : kencebaydenizcilik.com
   Not connected : kennynguyen.esy.es
   Not connected : kenzmedical.com
   Connected     : kernsmee.ru
-  Not connected : kesanlazerepilasyon.com
+  Connected     : kesanlazerepilasyon.com
   Not connected : ketabnema.com
   Connected     : keyzone.ws
   Not connected : khotsonglodge.co.ls
@@ -2306,28 +1869,28 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : kisa.link
   Not connected : kisalt.cc
   Not connected : kisalt.ru
-  Not connected : kisalt.space
-  Connected     : kisaltt.com
+  Connected     : kisalt.space
+  Not connected : kisaltt.com
   Not connected : kisatr.link
-  Connected     : kisa-url.com
+  Not connected : kisa-url.com
   Not connected : kisharzoni.ir
   Connected     : kjdnc.gp114.net
   Not connected : kjsalmska.com
   Connected     : kkattorneys.com.pk
   Connected     : kkindonesia.com
-  Not connected : k-kiosk.com
+  Connected     : k-kiosk.com
   Not connected : klasjna.com
   Not connected : klen.cc
   Not connected : klex.cc
-  Connected     : klix.cc
+  Not connected : klix.cc
   Not connected : kmannsjakpo.com
   Connected     : kne.co.kr
   Not connected : koldpressjuice.com
   Connected     : komatireddy.net
-  Connected     : kooshesh-co.com
+  Not connected : kooshesh-co.com
   Connected     : kopfkorea.com
   Connected     : kopilka.io
-  Not connected : kopkarla.co.id
+  Connected     : kopkarla.co.id
   Connected     : korajans.com
   Not connected : korea-tax.info
   Connected     : korhanplastik.com.tr
@@ -2355,7 +1918,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : ladiescircle.co.za
   Not connected : lahorecoolingtower.com
   Not connected : lahorewholesalemarket.com
-  Connected     : lamaggiora.it
+  Not connected : lamaggiora.it
   Connected     : lanamakotrue.com
   Connected     : laraibgroup.com
   Connected     : laserswat.com
@@ -2366,7 +1929,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : ldams.org.ls
   Not connected : ldfghvcxsadfgr.at
   Not connected : LeadingWare.us
-  Not connected : learnuxid.com
+  Connected     : learnuxid.com
   Not connected : legacybeautysalon.com
   Not connected : legalpath.in
   Connected     : leholluwma.wcnv20.cn
@@ -2408,7 +1971,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : ltcxtseayai.wcnv20.cn
   Connected     : ltirqcmrseuq.wcnv20.cn
   Not connected : luleburgazlazerepilasyon.com
-  Connected     : luleburgazyasamveteriner.com
+  Not connected : luleburgazyasamveteriner.com
   Connected     : luminix.kr
   Connected     : luminix.openhaja.com
   Connected     : luxconprojects.co.za
@@ -2435,9 +1998,9 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : maskotmeyvepresi.com
   Connected     : matern-eger.de
   Connected     : maymaychihai.com
-  Not connected : mayoorschoolabudhabi.com
+  Connected     : mayoorschoolabudhabi.com
   Connected     : mbrainingevents.com
-  Not connected : mcwhorterdesign.com
+  Connected     : mcwhorterdesign.com
   Not connected : mddesign.co.il
   Not connected : meaninurdu.com
   Not connected : mediaology.com.pk
@@ -2445,7 +2008,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : medicalfarmitalia.it
   Not connected : medikalayak.com
   Not connected : medikalduru.com.tr
-  Not connected : medipedics.com
+  Connected     : medipedics.com
   Not connected : meistermv.com
   Not connected : melting-potes.com
   Connected     : memosigla.su
@@ -2474,7 +2037,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : mobiextend.com
   Connected     : mobilsube.github.io
   Not connected : mobil-sube-islemleri-53078.portmap.io
-  Connected     : mobilyacihan.com
+  Not connected : mobilyacihan.com
   Not connected : moboradar.com
   Connected     : mohamedbinham.com
   Connected     : mokawafm.com
@@ -2485,7 +2048,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : moriarty.pw
   Not connected : moribelelab.co.za
   Not connected : motifahsap.com
-  Not connected : mountsinaischool.edu.pk
+  Connected     : mountsinaischool.edu.pk
   Not connected : mpsoren.cc
   Not connected : mrscrowe.net
   Connected     : mrveggy.com
@@ -2496,7 +2059,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : muallematsela.com
   Not connected : muaxuanmedia.com
   Connected     : mukhtarfeeds.com
-  Not connected : multichoice.com.pk
+  Connected     : multichoice.com.pk
   Connected     : mumeizama.com
   Connected     : mumtazandbrohi.com
   Not connected : murtazaengin.com
@@ -2506,14 +2069,14 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : mycar.ge
   Connected     : myhealthmedical.ae
   Not connected : myposte-aggiornamenti-online-bpol.ddns.mobi
-  Connected     : mysushi.it
+  Not connected : mysushi.it
   Connected     : mytechgo.com
   Not connected : mywishlistapp.com
   Not connected : mzansicompanies.co.za
   Not connected : mzuzulionsclub.org
   Connected     : nabtires.com
   Connected     : nacindia.in
-  Not connected : nakoserum.com
+  Connected     : nakoserum.com
   Connected     : nalitravel.co.za
   Not connected : namplus.com.tr
   Not connected : narcolepsy-symptom-treatment.org
@@ -2544,15 +2107,15 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : nkmvrbluxbwy.wcnv20.cn
   Connected     : nkpztjnhl.wcnv20.cn
   Connected     : nodihyzv.wcnv20.cn
-  Connected     : nolandsintl.com
+  Not connected : nolandsintl.com
   Connected     : nonyunzfgiac.wcnv20.cn
   Not connected : novaworld-novaland.vn
   Not connected : novusglobal.us
-  Not connected : nowayright.biz
+  Connected     : nowayright.biz
   Not connected : nowley-rus.ru
   Connected     : npfiamloyhc.wcnv20.cn
-  Connected     : nrsp.org.pk
-  Not connected : nsfund.mn
+  Not connected : nrsp.org.pk
+  Connected     : nsfund.mn
   Not connected : ntombizenhloso.co.za
   Not connected : ntvergidaireodeme.com
   Not connected : oas.gecmultan.edu.pk
@@ -2563,7 +2126,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : odehnallzev.wcnv20.cn
   Connected     : odjhnbvb.wcnv20.cn
   Not connected : offficebox.com
-  Connected     : office365onlinehome.com
+  Not connected : office365onlinehome.com
   Not connected : officemysuppbox.com
   Connected     : officialdivinea.com
   Connected     : oftheearthphotography.com
@@ -2571,7 +2134,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : o.lauraflower.info
   Connected     : olexco.ae
   Not connected : olimpogods.at
-  Not connected : olymposarmy.com
+  Connected     : olymposarmy.com
   Connected     : ommjlanceacu.wcnv20.cn
   Connected     : omniaconsultingparma.it
   Connected     : oneway.clientresultsnow.com
@@ -2588,7 +2151,8 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : opzhjcusgw.wcnv20.cn
   Not connected : orderchina.com.vn
   Not connected : organisejournalise.co.za
-  Connected     : orsiniconsulting.co.za
+  Connected     : organmelody.top
+  Not connected : orsiniconsulting.co.za
   Not connected : osim-heshbon.co.il
   Not connected : oursort.co.za
   Connected     : outdoorheater.ae
@@ -2601,7 +2165,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : paadasala.com.au
   Not connected : pacalik.net
   Connected     : pacificprime.ae
-  Connected     : paimantrust.org
+  Not connected : paimantrust.org
   Connected     : pakial.com
   Connected     : paksteel.com
   Connected     : paktechinfo.com
@@ -2612,6 +2176,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : panathimaids.co.za
   Not connected : pandemiyardimlari14.online
   Not connected : panfam.co.za
+  Not connected : paribdunya.destekparibe.click
   Not connected : passright.co.za
   Connected     : paste.ee
   Not connected : pastree.com.br
@@ -2619,10 +2184,10 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : patrickreeves.com
   Not connected : paypal-resolving-case-limited.com
   Connected     : pazazta.com
-  Not connected : pbcenter.home.pl
+  Connected     : pbcenter.home.pl
   Connected     : pcdesk.co.kr
   Not connected : pearse.gq
-  Connected     : pegas56.ru
+  Not connected : pegas56.ru
   Connected     : pelinfidancilik.com
   Not connected : peluqueriacaninaencordoba.com
   Connected     : pembegozluk.com
@@ -2639,7 +2204,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : pgazefabrics.com
   Connected     : pgkhi.com
   Not connected : pgpaltex.co.za
-  Connected     : phmetreci.com
+  Not connected : phmetreci.com
   Not connected : phoenixdevs.ir
   Connected     : phoenix.zar.cc
   Connected     : photobookexpress.com
@@ -2649,7 +2214,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : pinnacleweld.co.za
   Connected     : pkix.pk
   Connected     : pkproud.com
-  Connected     : placecomp.com
+  Not connected : placecomp.com
   Connected     : plantconsultants.co.za
   Connected     : plantengineering.com
   Not connected : plataoplomoo.com
@@ -2666,11 +2231,12 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : popfilms.co.za
   Not connected : poste-banking-online.it
   Connected     : ppe4u.co.za
-  Connected     : pragatihr.in
+  Not connected : pragatihr.in
   Not connected : praisethey.top
   Connected     : prestbusiness.co.za
   Not connected : printernet.co.za
-  Not connected : printinghub.co.za
+  Connected     : printinghub.co.za
+  Connected     : priortable.top
   Connected     : privategallerie.info
   Not connected : privatlux.pw
   Connected     : procarsrl.com.ar
@@ -2713,7 +2279,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : ragazzemessenger.com
   Connected     : ramzcapital.com
   Not connected : ranionjgot5cud3p.onion.link
-  Connected     : rapistindia.com
+  Not connected : rapistindia.com
   Not connected : rashidalinawabshahi.com
   Connected     : rcivnzlvbj.wcnv20.cn
   Connected     : rcpk.co.za
@@ -2723,15 +2289,15 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : real-websolutions.nl
   Connected     : reatlegile.com
   Not connected : rebel.ae
-  Not connected : rebrand.ly
+  Connected     : rebrand.ly
   Not connected : rec-tec-ccr.nl
   Connected     : reesconsulting.co.za
   Connected     : refikengin.com
-  Not connected : regionprinters.com
+  Connected     : regionprinters.com
   Not connected : rejoicetheatre.com
   Connected     : ren7oaks.co.uk
   Not connected : reniko.co.za
-  Connected     : rentwestq.com
+  Not connected : rentwestq.com
   Not connected : resmibasvuru.org
   Not connected : retracepackage.com
   Not connected : revistadaybynight.com.br
@@ -2746,7 +2312,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : rma-law.co.za
   Not connected : rmbmanufacturers.co.za
   Not connected : rmbmanufactures.co.za
-  Connected     : rmmun.org.pk
+  Not connected : rmmun.org.pk
   Connected     : robertwatton.co.uk
   Connected     : rocknsoulamerica.com
   Not connected : rockybalboa.at
@@ -2762,7 +2328,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : royalhijyen.com
   Connected     : roycolemandds.com
   Not connected : rsbholdings.co.za
-  Connected     : rsmaluminium.co.za
+  Not connected : rsmaluminium.co.za
   Not connected : rss.nbcpost.com
   Not connected : rstextilesourcing.com
   Connected     : rtaep.org
@@ -2773,19 +2339,19 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : ru.tc
   Not connected : rutor.space
   Connected     : rvnstudios.co.za
-  Connected     : ryanchristiefurniture.co.za
+  Not connected : ryanchristiefurniture.co.za
   Connected     : rydezbfgc.wcnv20.cn
   Connected     : s3.amazonaws.com
   Connected     : s3-eu-west-1.amazonaws.com
   Connected     : s3.us-east-2.amazonaws.com
-  Connected     : s5ncertificationservices.co.za
+  Not connected : s5ncertificationservices.co.za
   Connected     : saacma.co.za
-  Not connected : sabinaengineering.com
+  Connected     : sabinaengineering.com
   Connected     : sabines-marmeladen.de
   Not connected : sadcta-client.co.za
   Connected     : saemaeul.mireene.com
   Not connected : safakgazetesi.com.tr
-  Connected     : sahandlanguageservices.com
+  Not connected : sahandlanguageservices.com
   Not connected : sahinhurdageridonusum.net
   Not connected : sajidenterprises.com
   Connected     : sallyscott.co.za
@@ -2802,8 +2368,8 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : sarahtame.at
   Connected     : sarilartarim.com
   Connected     : saritohum.com
-  Connected     : satcomputers.co.za
-  Not connected : satuwrite.com
+  Not connected : satcomputers.co.za
+  Connected     : satuwrite.com
   Connected     : satwa.ae
   Not connected : saunaesofmansatis.net
   Not connected : schaye.net
@@ -2818,13 +2384,13 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : secure-ingdirect.top
   Not connected : securitybitches1.at
   Not connected : securitybitches3.at
-  Not connected : seffafkartvizitim.com
+  Connected     : seffafkartvizitim.com
   Not connected : sefikengfarm.co.ls
   Not connected : sefukaletrading.co.za
   Connected     : seismicfactory.co.za
   Not connected : seler.cc
   Not connected : seloanaholdings.co.za
-  Connected     : selvitarim.com.tr
+  Not connected : selvitarim.com.tr
   Not connected : senaryolarim.com
   Not connected : seoforecommerce.org
   Connected     : seoinlahorepakistan.com
@@ -2843,28 +2409,28 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : sexex.co.il
   Not connected : seyidesen.com.tr
   Not connected : sghee.pw
-  Connected     : sg-host.com
+  Not connected : sg-host.com
   Connected     : shahkara.com.tr
   Connected     : shejipxw.com
   Not connected : sheqworld.co.za
   Not connected : sherylbro.net
-  Not connected : shgida.com
+  Connected     : shgida.com
   Connected     : shineindian.com
   Not connected : shinestars-lifestyle.com
   Not connected : shopsshops.de
   Not connected : shopstation.com.au
   Connected     : short.pe
-  Connected     : short-url.net
+  Not connected : short-url.net
   Connected     : shortygram.com
   Connected     : shreeconstructions.co.in
-  Not connected : shullen.co.za
+  Connected     : shullen.co.za
   Connected     : shurabura.org
   Connected     : shurt.pw
-  Connected     : sicakgelismeler.com
+  Not connected : sicakgelismeler.com
   Not connected : sieqwarteg.com
   Connected     : sightselect.top
-  Not connected : sigmahydraulics.com
-  Not connected : signo-comunicacion.com.ar
+  Connected     : sigmahydraulics.com
+  Connected     : signo-comunicacion.com.ar
   Not connected : signsoftime.co.za
   Connected     : sikanderajam.com
   Not connected : silivrisonmezemlak.com
@@ -2873,7 +2439,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : simpexbpo.com
   Not connected : simplecreative.design
   Connected     : simpleks.co.za
-  Connected     : simplyplumbing.co.za
+  Not connected : simplyplumbing.co.za
   Not connected : simpowerlogistics.co.za
   Connected     : sinebar.co.za
   Not connected : sipambi-projects.co.za
@@ -2901,9 +2467,9 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : smartoools.co.za
   Connected     : smart-sense.co.il
   Not connected : smartwashingtonhomebuyers.com
-  Not connected : smpinsankamil.sch.id
+  Connected     : smpinsankamil.sch.id
   Connected     : snackattack.co.za
-  Not connected : snip.ly
+  Connected     : snip.ly
   Connected     : snum.or.kr
   Not connected : soatti2.com
   Not connected : soccertotsuae.com
@@ -2912,7 +2478,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : softxstech.com
   Not connected : sohoort.p
   Connected     : solartree.pk
-  Not connected : soligro.com
+  Connected     : soligro.com
   Not connected : solomedikal.com
   Connected     : sonafoundation.org.pk
   Connected     : sonneteck.com
@@ -2929,7 +2495,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : sparepartiran.com
   Not connected : spazioireos.it
   Not connected : speedmasterprinters.co.za
-  Connected     : speranza2000.com
+  Not connected : speranza2000.com
   Not connected : spitbraaihire.co.za
   Connected     : spoyfydyq.wcnv20.cn
   Not connected : sprintpackersnmovers.com
@@ -2963,12 +2529,12 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : sunnyinteractive.com.au
   Connected     : sunnypalour.com
   Not connected : superdelight.co.za
-  Connected     : supersavari.com
+  Not connected : supersavari.com
   Not connected : support-apple-myapple.com
   Connected     : support-ip.com
   Connected     : susinternational.com
-  Connected     : suzzyshuttles.co.za
-  Connected     : svrwood.com
+  Not connected : suzzyshuttles.co.za
+  Not connected : svrwood.com
   Connected     : swarm-solutions.com
   Connected     : symergy.co.za
   Not connected : systemaraba.com
@@ -2999,17 +2565,17 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : tees321.com
   Not connected : tekfordummies.com
   Connected     : tek.link
-  Connected     : telesolutionsconsultants.com
+  Not connected : telesolutionsconsultants.com
   Connected     : telete.in
   Connected     : teonxtpsfs.wcnv20.cn
   Not connected : teorija.rs
-  Connected     : tepsecurity.co.za
+  Not connected : tepsecurity.co.za
   Connected     : terapine.com
   Not connected : test136.siteholder.ru
-  Connected     : thanlwintimes.com
+  Not connected : thanlwintimes.com
   Connected     : thealtarofworship.co.za
-  Not connected : thebedspace.com
-  Not connected : theblackout.fr
+  Connected     : thebedspace.com
+  Connected     : theblackout.fr
   Not connected : thecommunicator.icu
   Not connected : thecompasssolutions.co.za
   Connected     : thedailymusicshow.com
@@ -3022,14 +2588,14 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : themusicstudio.co.za
   Connected     : thepandoinitiative.org
   Connected     : thepianostudio.co.za
-  Connected     : thietkewebantuong.com
+  Not connected : thietkewebantuong.com
   Connected     : thiscouldbeyourluckyday.net
   Not connected : thoughtsandthings.co.za
   Connected     : threelivingprojects.co.za
   Not connected : tiaragroup.es
   Connected     : ticketstekoop.nl
   Connected     : tiendatresort.com.vn
-  Not connected : tilbemarket.com
+  Connected     : tilbemarket.com
   Connected     : tiny.cc
   Connected     : tinycc.com
   Connected     : tiny.ie
@@ -3042,7 +2608,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : tngjihyzcqs.wcnv20.cn
   Connected     : tombstonedesigns.co.za
   Not connected : tomcat-king.pw
-  Connected     : tonaro.co.za
+  Not connected : tonaro.co.za
   Connected     : tootco.ir
   Not connected : topanswertips.info
   Not connected : topgiftsrewards.com
@@ -3054,7 +2620,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : tqyketpmooe.wcnv20.cn
   Not connected : track-google.at
   Not connected : trackgoogle.at
-  Not connected : tracklink.top
+  Connected     : tracklink.top
   Connected     : tradernews.xyz
   Connected     : tradernox.com
   Connected     : traders-forum.com
@@ -3080,6 +2646,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : tuules.com
   Not connected : twickenhamsa.co.za
   Not connected : twinnovations.co.za
+  Not connected : twittetakip.com
   Connected     : twocups.io
   Connected     : u.24d.ir
   Connected     : ucarecdn.com
@@ -3090,13 +2657,13 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : uniteddatabase.net
   Not connected : unitypestcontrolandservices.com
   Connected     : unlimit517.co.jp
-  Not connected : unveilmimic.top
+  Connected     : unveilmimic.top
   Connected     : upfxunlvuvud.wcnv20.cn
   Connected     : uptown-trading.zar.cc
-  Not connected : urbaniak.waw.pl
+  Connected     : urbaniak.waw.pl
   Connected     : urorccqbcgo.wcnv20.cn
-  Not connected : usasecurefiles.com
-  Not connected : uselessshoot.top
+  Connected     : usasecurefiles.com
+  Connected     : uselessshoot.top
   Not connected : ushostinc.com
   Connected     : utka.su
   Not connected : utl-ae.ml
@@ -3106,8 +2673,8 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : uxzxyheama.wcnv20.cn
   Connected     : uybgklxze.wcnv20.cn
   Connected     : uyvpnljii.wcnv20.cn
-  Not connected : vakifmobil.com
-  Not connected : vaner.com.sg
+  Connected     : vakifmobil.com
+  Connected     : vaner.com.sg
   Connected     : vantuwer.sakura.ne.jp
   Connected     : vatmiddleeast.com
   Not connected : vayvonvietcombank24h.net
@@ -3116,7 +2683,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : venturemeets.com
   Not connected : verifiedseller.co.za
   Connected     : versal.media
-  Connected     : vesecase.com
+  Not connected : vesecase.com
   Connected     : veytrmzdp.wcnv20.cn
   Connected     : vfrrroatad.wcnv20.cn
   Not connected : vhuenilodge.co.za
@@ -3152,10 +2719,10 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : wavecafe.co.za
   Connected     : wbdrivingschool.com
   Not connected : wcop.site
-  Connected     : wdsc.co.za
-  Not connected : web28tech.co.za
+  Not connected : wdsc.co.za
+  Connected     : web28tech.co.za
   Not connected : web.cloudfront.kz
-  Not connected : web.eng.ubu.ac.th
+  Connected     : web.eng.ubu.ac.th
   Connected     : webfuari.com
   Not connected : webhostinc.net
   Not connected : webseorank.org
@@ -3166,7 +2733,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : weinvest.co.za
   Not connected : weituweritoiwetzer.at
   Connected     : welcomecaters.com
-  Not connected : wellscoastink.biz
+  Connected     : wellscoastink.biz
   Connected     : weserve.world
   Connected     : wexznnplhyu.wcnv20.cn
   Connected     : w.gdown.baidu.com
@@ -3177,7 +2744,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : wicloud.pk
   Connected     : willemshoeck.nl
   Connected     : willpowerpos.co.za
-  Connected     : willtecindustrial.com.br
+  Not connected : willtecindustrial.com.br
   Connected     : winagainstebola.com
   Connected     : windowsupdate-microsoft.com
   Not connected : windupdate.serveftp.com
@@ -3197,38 +2764,38 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : wwhvcyhro.wcnv20.cn
   Connected     : a1-stays.com
   Connected     : aacademybh.com
-  Not connected : aalotv.com
+  Connected     : aalotv.com
   Not connected : aamins-notebook.com
-  Connected     : aarchtech.com
+  Not connected : aarchtech.com
   Connected     : abbymouldings.co.uk
   Connected     : abies.co.za
   Not connected : abmgroups.com.pk
-  Connected     : aboserver.xyz
-  Connected     : abradvd.com.br
+  Not connected : aboserver.xyz
+  Not connected : abradvd.com.br
   Connected     : abruzzogenealogy.com
   Not connected : abumohammed.ae
-  Connected     : accidentatworkcompensationsolicitors.co.uk
+  Not connected : accidentatworkcompensationsolicitors.co.uk
   Connected     : accountingbookshub.com
   Connected     : ace-data.com
-  Connected     : acer-parts.co.za
+  Not connected : acer-parts.co.za
   Connected     : achrock.com
   Not connected : achu.io
   Connected     : acintyaenergy.com
   Connected     : actingtheparty.co.uk
   Connected     : adamaircon.com
   Connected     : addsaintgaudens.com
-  Connected     : adiltradingco.pk
-  Connected     : adizue.com
-  Connected     : adrianjade.com
+  Not connected : adiltradingco.pk
+  Not connected : adizue.com
+  Not connected : adrianjade.com
   Connected     : adultchannelsguide.com
   Connected     : advcadsys.com
   Not connected : adwiyat.com
-  Connected     : aenon.org.pl
+  Not connected : aenon.org.pl
   Connected     : aesthetictrainingsolutions.com
   Connected     : affordablehomecare.org
-  Not connected : afikagroup.com
-  Not connected : afikapower.com
-  Not connected : afikaquadpro.com
+  Connected     : afikagroup.com
+  Connected     : afikapower.com
+  Connected     : afikaquadpro.com
   Connected     : afmedan.org
   Connected     : afpf.org.pk
   Connected     : after.vix.br
@@ -3251,7 +2818,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : albertamechanical.ca
   Connected     : albertaprimebeef.com
   Connected     : alcalumni.com
-  Connected     : alcaninsaat.com.tr
+  Not connected : alcaninsaat.com.tr
   Connected     : alessioborzuola.com
   Not connected : alestilorachel.com
   Connected     : alexanderhomestead.com
@@ -3314,7 +2881,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : aprendiendoencasa.com
   Not connected : aptibet.org
   Connected     : arabaoyunlari.org
-  Not connected : arabblower.com
+  Connected     : arabblower.com
   Not connected : arabgamenetwork.com
   Connected     : arabiccasinochoice.com
   Connected     : ariehandomri.com
@@ -3322,7 +2889,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : armateknolojimerkezi.com
   Connected     : atcouriers.co.za
   Connected     : atimuzik.com.tr
-  Connected     : a-zgrup.com
+  Not connected : a-zgrup.com
   Not connected : babarphotography.com
   Not connected : babypk.net
   Connected     : bahrialive.com
@@ -3334,10 +2901,10 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : basoglucit.com
   Connected     : baspk.com
   Connected     : batik.com.pk
-  Connected     : bazookagames.net
+  Not connected : bazookagames.net
   Not connected : bbconlinenetwork.com
   Not connected : bcdf.org.pk
-  Connected     : bcppro.com
+  Not connected : bcppro.com
   Connected     : beeground.com
   Connected     : be-indigene.be
   Connected     : berkyilmaz.com.tr
@@ -3345,10 +2912,10 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : besman.de
   Not connected : bestarticlespinnerr.com
   Not connected : bestcarpoint.com.pk
-  Not connected : bestdecorativemirrors.com
+  Connected     : bestdecorativemirrors.com
   Connected     : bestgroupqatar.com
   Not connected : bestmerchdesigns.com
-  Not connected : bgoodideas.com
+  Connected     : bgoodideas.com
   Connected     : bhakkarrishtey.com
   Connected     : bhft.org.uk
   Not connected : bhsmusic.net
@@ -3358,13 +2925,13 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : binsafa.com
   Connected     : bioforgehealth.org
   Connected     : biolifeenterprises.com
-  Not connected : biosetinlabs.com
-  Connected     : bitcoinplasma.com
+  Connected     : biosetinlabs.com
+  Not connected : bitcoinplasma.com
   Not connected : bitp.co.za
   Connected     : bitstream.pk
   Connected     : bizbranding.net
-  Not connected : bizxess.com
-  Not connected : blaahblaah.com
+  Connected     : bizxess.com
+  Connected     : blaahblaah.com
   Connected     : blackstar.com.pk
   Not connected : blackvue.com.pk
   Connected     : blattoamsterdam.com
@@ -3378,11 +2945,11 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : boardexeter.co.uk
   Connected     : bolagsregistrering.eu
   Not connected : bookrack.pk
-  Connected     : booksmart.pk
+  Not connected : booksmart.pk
   Connected     : boundmix.com
   Connected     : boutiquesxxx.com
   Not connected : boxyfast.com
-  Connected     : boybirth.com
+  Not connected : boybirth.com
   Not connected : braidhairextensions.com
   Connected     : brand-stories.gr
   Connected     : brianzashop.it
@@ -3391,10 +2958,10 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : britishasia-equip.co.uk
   Not connected : britishofficefitout.com
   Not connected : brooks.edu.pk
-  Connected     : brotherthread.com
+  Not connected : brotherthread.com
   Connected     : budgetestate.pk
   Connected     : buhlebayoacademy.com
-  Connected     : buraqlubricant.com
+  Not connected : buraqlubricant.com
   Not connected : buy4you.pk
   Not connected : buyandenjoy.pk
   Connected     : buydocumentonline.com
@@ -3405,8 +2972,8 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : cartridgecave.co.za
   Not connected : centreforgovernance.uk
   Connected     : cigercihamza.com
-  Connected     : cle.ae
-  Connected     : clearviewuae.com
+  Not connected : cle.ae
+  Not connected : clearviewuae.com
   Not connected : competitiveedoptions.com
   Not connected : cookingtrader.net
   Not connected : core.org.pk
@@ -3432,7 +2999,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : engeltjieakademie.co.za
   Not connected : enyenigelinlikmodelleri.net
   Connected     : evoko.ae
-  Connected     : execwash.ae
+  Not connected : execwash.ae
   Not connected : exomi.es
   Connected     : exuberant-group.com
   Connected     : ffc.com.pk
@@ -3451,19 +3018,19 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : goolineb2b.com
   Not connected : gooline.net
   Not connected : gooline.pk
-  Connected     : goolinespace.com
-  Not connected : gsmmid.com
+  Not connected : goolinespace.com
+  Connected     : gsmmid.com
   Connected     : gustomimarlik.com
   Connected     : handrush.com
-  Not connected : harmonyguesthouse.co.za
+  Connected     : harmonyguesthouse.co.za
   Not connected : hfhl.org.ls
   Connected     : hosthof.com
   Connected     : humorcarbons.com
   Connected     : iancullen.co.za
-  Connected     : ibadirect.com
-  Not connected : icapmecareers.com
-  Connected     : icsswaziland.com
-  Connected     : ieced.com.pk
+  Not connected : ibadirect.com
+  Connected     : icapmecareers.com
+  Not connected : icsswaziland.com
+  Not connected : ieced.com.pk
   Connected     : igo3.co.il
   Connected     : ihlosiqs-pm.co.za
   Connected     : induworld.ae
@@ -3480,11 +3047,11 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : loansonhomes.co.za
   Connected     : logicsfort.com
   Not connected : londonbeautyclinic.pk
-  Connected     : m-3.co.za
+  Not connected : m-3.co.za
   Connected     : malboer.co.za
   Not connected : mcb-law.co.il
   Connected     : mikimaths.com
-  Not connected : moboradar.com
+  Connected     : moboradar.com
   Connected     : mumtazandbrohi.com
   Connected     : mycogentrading.com
   Not connected : mzansicompanies.co.za
@@ -3493,7 +3060,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : obaidsaqerbusit.com
   Connected     : odcpkintranet.org
   Connected     : olexco.ae
-  Connected     : organisejournalise.co.za
+  Not connected : organisejournalise.co.za
   Connected     : otprema.hr
   Not connected : oursort.co.za
   Connected     : paktechinfo.com
@@ -3501,7 +3068,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : peoplealley.com
   Connected     : phoenix.zar.cc
   Connected     : popfilms.co.za
-  Not connected : printinghub.co.za
+  Connected     : printinghub.co.za
   Connected     : proplumbing.co.za
   Connected     : proxelinternational.co.za
   Connected     : qsrimages.co.za
@@ -3509,11 +3076,11 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : rcpk.co.za
   Not connected : rejoicetheatre.com
   Connected     : rjsoftware.com
-  Connected     : s5ncertificationservices.co.za
+  Not connected : s5ncertificationservices.co.za
   Not connected : www-saglikbakanligi.xyz
   Not connected : salonalara.com
   Not connected : sexualwellbeingfoundation.org
-  Not connected : shamsitech.com
+  Connected     : shamsitech.com
   Not connected : silakboevents.com
   Connected     : simpleks.co.za
   Not connected : smartoools.co.za
@@ -3531,12 +3098,12 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : thoughtsandthings.co.za
   Connected     : thusoconsulting.co.za
   Connected     : tntfire.co.za
-  Connected     : tonaro.co.za
+  Not connected : tonaro.co.za
   Not connected : triconfabrication.com
   Not connected : ultrapexsustainable.org.za
   Connected     : uniquelook.net
   Connected     : vhupo-tours.com
-  Not connected : volleybold.com
+  Connected     : volleybold.com
   Connected     : w33588.com
   Connected     : waohost.com
   Not connected : waterforevents.co.za
@@ -3547,7 +3114,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : zamilindustrial.com
   Connected     : xbxxsqmy.wcnv20.cn
   Connected     : xclusivenetwork.com
-  Connected     : xiangifu.com
+  Not connected : xiangifu.com
   Not connected : xiwayy2kn32bo3ko.onion.link
   Connected     : xkvvhypv.wcnv20.cn
   Not connected : xn--80abghbpe9aidnhd0a3ntb.xn--p1ai
@@ -3591,7 +3158,7 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Not connected : zafarhalalmeat.com.pk
   Connected     : zafarstocks.com
   Connected     : zamilindustrial.com
-  Connected     : zasamag.com
+  Not connected : zasamag.com
   Connected     : zecuqjkza.wcnv20.cn
   Not connected : zeeshanasghar.website
   Connected     : zentinalmusique.co.uk
@@ -3611,20 +3178,19 @@ Original url    : https://www.usom.gov.tr/url-list.txt
   Connected     : zzb.bz
 
 
-## All malicious ip addresses and domains blacklisted!
+## All malicious domains blacklisted!
 
-  /home/fuat/usom-blacklist/ip-blacklist.txt
-  /home/fuat/usom-blacklist/domain-blacklist.txt
+  /home/fuat/usom/domain-blacklist.txt
 
 
 ## Local blacklists created!
 
-  /home/fuat/usom-blacklist/etc-hosts.txt
-  /home/fuat/usom-blacklist/unbound-conf.txt
+  /home/fuat/usom/etc-hosts.txt
+  /home/fuat/usom/unbound-conf.txt
 
 
-End time        : 06:09:09
-Elapsed time    : 01:14:18
+End time        : 04:39:23
+Elapsed time    : 00:55:04
 
 Completed!
 
