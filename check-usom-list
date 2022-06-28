@@ -9,28 +9,7 @@ echo "Start time      : $start"
 echo "Description     : USOM malicious ip addresses and domains blacklist!"
 echo "Original url    : https://www.usom.gov.tr/url-list.txt"
 echo
-echo
-echo "## Listing all active malicious ips..."
-echo
 
-grep "/" /tmp/url-list.txt | cut -d "/" -f 1 | sort | \
-grep -oE "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b" | cut -d ":" -f 1 | uniq >/tmp/ip-blacklist.txt
-
-while read -r ip; do
-    if [ -n "$ip" ]; then
-        control=$(timeout --foreground 5s curl -Is "$ip" --connect-timeout 5 | grep "HTTP")
-        if [ -n "$control" ]; then
-            echo "$ip" >>/tmp/all-ip-blacklist.txt
-            echo "  Connected     : $ip"
-        else
-            echo "  Not connected : $ip"
-        fi
-    fi
-done <<<"$(cat /tmp/ip-blacklist.txt)"
-
-rm -f /tmp/ip-blacklist.txt
-
-echo
 echo
 echo "## Listing all active malicious domains..."
 echo
@@ -52,14 +31,12 @@ done <<<"$(cat /tmp/domain-blacklist.txt)"
 
 rm -f /tmp/domain-blacklist.txt
 
-sort /tmp/all-ip-blacklist.txt | uniq >"$(pwd)/ip-blacklist.txt"
 tr "[:upper:]" "[:lower:]" </tmp/all-domain-blacklist.txt | sort | uniq >"$(pwd)/domain-blacklist.txt"
 
 echo
 echo
-echo "## All malicious ip addresses and domains blacklisted!"
+echo "## All malicious domains blacklisted!"
 echo
-echo "  $(pwd)/ip-blacklist.txt"
 echo "  $(pwd)/domain-blacklist.txt"
 echo
 
@@ -67,7 +44,7 @@ while read -r host; do
     if [ -n "$host" ]; then
         echo -e "255.255.255.255\t\t$host" >>/tmp/etc-hosts.txt
     fi
-done <<<"$(cat /tmp/all-ip-blacklist.txt /tmp/all-domain-blacklist.txt)"
+done <<<"$(cat /tmp/all-domain-blacklist.txt)"
 
 echo "## USOM malicious ip addresses and domains blacklist!" >"$(pwd)/etc-hosts.txt"
 echo "## Original url : https://www.usom.gov.tr/url-list.txt" >>"$(pwd)/etc-hosts.txt"
@@ -95,7 +72,7 @@ echo "  $(pwd)/etc-hosts.txt"
 echo "  $(pwd)/unbound-conf.txt"
 echo
 
-rm -f /tmp/all-ip-blacklist.txt /tmp/all-domain-blacklist.txt /tmp/etc-hosts.txt /tmp/unbound-conf.txt
+rm -f /tmp/all-domain-blacklist.txt /tmp/etc-hosts.txt /tmp/unbound-conf.txt
 
 end=$(date "+%H:%M:%S")
 elapsed=$(($(date -d "$end" +%s) - $(date -d "$start" +%s)))
