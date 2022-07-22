@@ -4,9 +4,8 @@
 255.255.255.255		beacons.ai
 255.255.255.255		cloaker.click
 255.255.255.255		e-linkburada.com
-255.255.255.255		hbr.tc
 255.255.255.255		linksome.me
 255.255.255.255		many.fan
-255.255.255.255		organmelody.top
 255.255.255.255		p-aribuonlinekampa-nya.com
+255.255.255.255		systems-brew.xyz
 255.255.255.255		tek.link

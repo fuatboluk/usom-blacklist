@@ -7,15 +7,13 @@ local-zone: "cloaker.click" redirect
 local-data: "cloaker.click A 255.255.255.255"
 local-zone: "e-linkburada.com" redirect
 local-data: "e-linkburada.com A 255.255.255.255"
-local-zone: "hbr.tc" redirect
-local-data: "hbr.tc A 255.255.255.255"
 local-zone: "linksome.me" redirect
 local-data: "linksome.me A 255.255.255.255"
 local-zone: "many.fan" redirect
 local-data: "many.fan A 255.255.255.255"
-local-zone: "organmelody.top" redirect
-local-data: "organmelody.top A 255.255.255.255"
 local-zone: "p-aribuonlinekampa-nya.com" redirect
 local-data: "p-aribuonlinekampa-nya.com A 255.255.255.255"
+local-zone: "systems-brew.xyz" redirect
+local-data: "systems-brew.xyz A 255.255.255.255"
 local-zone: "tek.link" redirect
 local-data: "tek.link A 255.255.255.255"
