@@ -19,7 +19,7 @@ sed -e "s|www\.||" | cut -d ":" -f 1 | uniq | grep -v "^[0-9].*" | grep -v "^t.c
 
 while read -r domain; do
     if [ -n "$domain" ]; then
-        control=$(timeout --foreground 5s curl -Is "$domain" --connect-timeout 5 | grep "HTTP")
+        control=$(timeout --foreground 10s curl -Is "$domain" --connect-timeout 10 | grep "HTTP")
         if [ -n "$control" ]; then
             echo "$domain" >>/tmp/all-domain-blacklist.txt
             echo "  Connected     : $domain"
