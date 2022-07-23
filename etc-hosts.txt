@@ -1,11 +1,28 @@
 ## USOM malicious ip addresses and domains blacklist!
 ## Original url : https://www.usom.gov.tr/url-list.txt
 
+255.255.255.255		armtheprofileoriginals.com
 255.255.255.255		beacons.ai
+255.255.255.255		bit.ly
 255.255.255.255		cloaker.click
 255.255.255.255		e-linkburada.com
+255.255.255.255		haeundaejugong.com
+255.255.255.255		hbr.tc
+255.255.255.255		igstalk.com
+255.255.255.255		kjdnc.gp114.net
+255.255.255.255		kumdo.org
+255.255.255.255		kutt.it
 255.255.255.255		linksome.me
+255.255.255.255		luminix.kr
+255.255.255.255		luminix.openhaja.com
 255.255.255.255		many.fan
+255.255.255.255		oneway.clientresultsnow.com
+255.255.255.255		organmelody.top
 255.255.255.255		p-aribuonlinekampa-nya.com
+255.255.255.255		rebrand.ly
 255.255.255.255		systems-brew.xyz
 255.255.255.255		tek.link
+255.255.255.255		telete.in
+255.255.255.255		utka.su
+255.255.255.255		wcop.site
+255.255.255.255		ylhwcl.com

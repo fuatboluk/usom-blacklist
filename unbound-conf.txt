@@ -1,19 +1,53 @@
 ## USOM malicious ip addresses and domains blacklist!
 ## Original url : https://www.usom.gov.tr/url-list.txt
 
+local-zone: "armtheprofileoriginals.com" redirect
+local-data: "armtheprofileoriginals.com A 255.255.255.255"
 local-zone: "beacons.ai" redirect
 local-data: "beacons.ai A 255.255.255.255"
+local-zone: "bit.ly" redirect
+local-data: "bit.ly A 255.255.255.255"
 local-zone: "cloaker.click" redirect
 local-data: "cloaker.click A 255.255.255.255"
 local-zone: "e-linkburada.com" redirect
 local-data: "e-linkburada.com A 255.255.255.255"
+local-zone: "haeundaejugong.com" redirect
+local-data: "haeundaejugong.com A 255.255.255.255"
+local-zone: "hbr.tc" redirect
+local-data: "hbr.tc A 255.255.255.255"
+local-zone: "igstalk.com" redirect
+local-data: "igstalk.com A 255.255.255.255"
+local-zone: "kjdnc.gp114.net" redirect
+local-data: "kjdnc.gp114.net A 255.255.255.255"
+local-zone: "kumdo.org" redirect
+local-data: "kumdo.org A 255.255.255.255"
+local-zone: "kutt.it" redirect
+local-data: "kutt.it A 255.255.255.255"
 local-zone: "linksome.me" redirect
 local-data: "linksome.me A 255.255.255.255"
+local-zone: "luminix.kr" redirect
+local-data: "luminix.kr A 255.255.255.255"
+local-zone: "luminix.openhaja.com" redirect
+local-data: "luminix.openhaja.com A 255.255.255.255"
 local-zone: "many.fan" redirect
 local-data: "many.fan A 255.255.255.255"
+local-zone: "oneway.clientresultsnow.com" redirect
+local-data: "oneway.clientresultsnow.com A 255.255.255.255"
+local-zone: "organmelody.top" redirect
+local-data: "organmelody.top A 255.255.255.255"
 local-zone: "p-aribuonlinekampa-nya.com" redirect
 local-data: "p-aribuonlinekampa-nya.com A 255.255.255.255"
+local-zone: "rebrand.ly" redirect
+local-data: "rebrand.ly A 255.255.255.255"
 local-zone: "systems-brew.xyz" redirect
 local-data: "systems-brew.xyz A 255.255.255.255"
 local-zone: "tek.link" redirect
 local-data: "tek.link A 255.255.255.255"
+local-zone: "telete.in" redirect
+local-data: "telete.in A 255.255.255.255"
+local-zone: "utka.su" redirect
+local-data: "utka.su A 255.255.255.255"
+local-zone: "wcop.site" redirect
+local-data: "wcop.site A 255.255.255.255"
+local-zone: "ylhwcl.com" redirect
+local-data: "ylhwcl.com A 255.255.255.255"
